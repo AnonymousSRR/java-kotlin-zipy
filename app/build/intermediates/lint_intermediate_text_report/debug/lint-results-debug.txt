@@ -1,0 +1,837 @@
+/Users/sahil/Documents/Java-kotlin-test-app/app/build.gradle:13: Warning: Not targeting the latest versions of Android; compatibility modes apply. Consider testing and updating this version. Consult the android.os.Build.VERSION_CODES javadoc for details. [OldTargetApi]
+        targetSdk 34
+        ~~~~~~~~~~~~
+
+   Explanation for issues of type "OldTargetApi":
+   When your application runs on a version of Android that is more recent than
+   your targetSdkVersion specifies that it has been tested with, various
+   compatibility modes kick in. This ensures that your application continues
+   to work, but it may look out of place. For example, if the targetSdkVersion
+   is less than 14, your app may get an option button in the UI.
+
+   To fix this issue, set the targetSdkVersion to the highest available value.
+   Then test your app to make sure everything works correctly. You may want to
+   consult the compatibility notes to see what changes apply to each version
+   you are adding support for:
+   https://developer.android.com/reference/android/os/Build.VERSION_CODES.html
+   as well as follow this guide:
+   https://developer.android.com/distribute/best-practices/develop/target-sdk.
+   html
+
+   https://developer.android.com/distribute/best-practices/develop/target-sdk.html
+
+/Users/sahil/Documents/Java-kotlin-test-app/app/build.gradle:42: Warning: A newer version of androidx.core:core-ktx than 1.10.1 is available: 1.16.0 [GradleDependency]
+    implementation 'androidx.core:core-ktx:1.10.1'
+                   ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+/Users/sahil/Documents/Java-kotlin-test-app/app/build.gradle:43: Warning: A newer version of androidx.appcompat:appcompat than 1.6.1 is available: 1.7.1 [GradleDependency]
+    implementation 'androidx.appcompat:appcompat:1.6.1'
+                   ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+/Users/sahil/Documents/Java-kotlin-test-app/app/build.gradle:44: Warning: A newer version of com.google.android.material:material than 1.9.0 is available: 1.12.0 [GradleDependency]
+    implementation 'com.google.android.material:material:1.9.0'
+                   ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+/Users/sahil/Documents/Java-kotlin-test-app/app/build.gradle:45: Warning: A newer version of androidx.constraintlayout:constraintlayout than 2.1.4 is available: 2.2.1 [GradleDependency]
+    implementation 'androidx.constraintlayout:constraintlayout:2.1.4'
+                   ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+/Users/sahil/Documents/Java-kotlin-test-app/app/build.gradle:48: Warning: A newer version of com.squareup.okhttp3:okhttp than 4.11.0 is available: 4.12.0 [GradleDependency]
+    implementation 'com.squareup.okhttp3:okhttp:4.11.0'
+                   ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+/Users/sahil/Documents/Java-kotlin-test-app/app/build.gradle:55: Warning: A newer version of androidx.test.ext:junit than 1.1.5 is available: 1.2.1 [GradleDependency]
+    androidTestImplementation 'androidx.test.ext:junit:1.1.5'
+                              ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+/Users/sahil/Documents/Java-kotlin-test-app/app/build.gradle:56: Warning: A newer version of androidx.test.espresso:espresso-core than 3.5.1 is available: 3.6.1 [GradleDependency]
+    androidTestImplementation 'androidx.test.espresso:espresso-core:3.5.1'
+                              ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+
+   Explanation for issues of type "GradleDependency":
+   This detector looks for usages of libraries where the version you are using
+   is not the current stable release. Using older versions is fine, and there
+   are cases where you deliberately want to stick with an older version.
+   However, you may simply not be aware that a more recent version is
+   available, and that is what this lint check helps find.
+
+/Users/sahil/Documents/Java-kotlin-test-app/app/src/main/kotlin/com/example/helloworld/DragDropActivity.kt:75: Warning: Use AppCompatResources.getDrawable() [UseCompatLoadingForDrawables from androidx.appcompat]
+                    view.background = getDrawable(R.drawable.target_container_active)
+                                      ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+/Users/sahil/Documents/Java-kotlin-test-app/app/src/main/kotlin/com/example/helloworld/DragDropActivity.kt:75: Warning: Use AppCompatResources.getDrawable() [UseCompatLoadingForDrawables from androidx.appcompat]
+                    view.background = getDrawable(R.drawable.target_container_active)
+                                      ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+/Users/sahil/Documents/Java-kotlin-test-app/app/src/main/kotlin/com/example/helloworld/DragDropActivity.kt:80: Warning: Use AppCompatResources.getDrawable() [UseCompatLoadingForDrawables from androidx.appcompat]
+                    view.background = getDrawable(R.drawable.target_container_normal)
+                                      ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+/Users/sahil/Documents/Java-kotlin-test-app/app/src/main/kotlin/com/example/helloworld/DragDropActivity.kt:80: Warning: Use AppCompatResources.getDrawable() [UseCompatLoadingForDrawables from androidx.appcompat]
+                    view.background = getDrawable(R.drawable.target_container_normal)
+                                      ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+/Users/sahil/Documents/Java-kotlin-test-app/app/src/main/kotlin/com/example/helloworld/DragDropActivity.kt:85: Warning: Use AppCompatResources.getDrawable() [UseCompatLoadingForDrawables from androidx.appcompat]
+                    view.background = getDrawable(R.drawable.target_container_normal)
+                                      ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+/Users/sahil/Documents/Java-kotlin-test-app/app/src/main/kotlin/com/example/helloworld/DragDropActivity.kt:85: Warning: Use AppCompatResources.getDrawable() [UseCompatLoadingForDrawables from androidx.appcompat]
+                    view.background = getDrawable(R.drawable.target_container_normal)
+                                      ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+/Users/sahil/Documents/Java-kotlin-test-app/app/src/main/kotlin/com/example/helloworld/DragDropActivity.kt:97: Warning: Use AppCompatResources.getDrawable() [UseCompatLoadingForDrawables from androidx.appcompat]
+                    view.background = getDrawable(R.drawable.target_container_normal)
+                                      ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+/Users/sahil/Documents/Java-kotlin-test-app/app/src/main/kotlin/com/example/helloworld/DragDropActivity.kt:97: Warning: Use AppCompatResources.getDrawable() [UseCompatLoadingForDrawables from androidx.appcompat]
+                    view.background = getDrawable(R.drawable.target_container_normal)
+                                      ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+/Users/sahil/Documents/Java-kotlin-test-app/app/src/main/kotlin/com/example/helloworld/DragDropActivity.kt:143: Warning: Use AppCompatResources.getDrawable() [UseCompatLoadingForDrawables from androidx.appcompat]
+            background = getDrawable(R.drawable.draggable_item_background)
+                         ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+/Users/sahil/Documents/Java-kotlin-test-app/app/src/main/kotlin/com/example/helloworld/DragDropActivity.kt:143: Warning: Use AppCompatResources.getDrawable() [UseCompatLoadingForDrawables from androidx.appcompat]
+            background = getDrawable(R.drawable.draggable_item_background)
+                         ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+/Users/sahil/Documents/Java-kotlin-test-app/app/src/main/kotlin/com/example/helloworld/DragDropActivity.kt:249: Warning: Use AppCompatResources.getDrawable() [UseCompatLoadingForDrawables from androidx.appcompat]
+            background = getDrawable(R.drawable.dropped_item_background)
+                         ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+/Users/sahil/Documents/Java-kotlin-test-app/app/src/main/kotlin/com/example/helloworld/DragDropActivity.kt:249: Warning: Use AppCompatResources.getDrawable() [UseCompatLoadingForDrawables from androidx.appcompat]
+            background = getDrawable(R.drawable.dropped_item_background)
+                         ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+
+   Explanation for issues of type "UseCompatLoadingForDrawables":
+   Use Compat loading of drawables
+
+   Vendor: Android Open Source Project
+   Identifier: androidx.appcompat
+   Feedback: https://issuetracker.google.com/issues/new?component=460343
+
+/Users/sahil/Documents/Java-kotlin-test-app/app/src/main/res/values/themes.xml:13: Warning: Unnecessary; SDK_INT is always >= 21 [ObsoleteSdkInt]
+        <item name="android:statusBarColor" tools:targetApi="l">?attr/colorPrimaryVariant</item>
+                                            ~~~~~~~~~~~~~~~~~~~
+
+   Explanation for issues of type "ObsoleteSdkInt":
+   This check flags version checks that are not necessary, because the
+   minSdkVersion (or surrounding known API level) is already at least as high
+   as the version checked for.
+
+   Similarly, it also looks for resources in -vNN folders, such as values-v14
+   where the version qualifier is less than or equal to the minSdkVersion,
+   where the contents should be merged into the best folder.
+
+/Users/sahil/Documents/Java-kotlin-test-app/app/src/main/res/layout/activity_animations.xml:7: Warning: Possible overdraw: Root element paints background @color/white with a theme that also paints a background (inferred theme is @style/Theme_HelloWorld) [Overdraw]
+    android:background="@color/white"
+    ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+/Users/sahil/Documents/Java-kotlin-test-app/app/src/main/res/layout/activity_api_key.xml:8: Warning: Possible overdraw: Root element paints background @color/white with a theme that also paints a background (inferred theme is @style/Theme_HelloWorld) [Overdraw]
+    android:background="@color/white"
+    ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+/Users/sahil/Documents/Java-kotlin-test-app/app/src/main/res/layout/activity_dashboard.xml:8: Warning: Possible overdraw: Root element paints background @color/white with a theme that also paints a background (inferred theme is @style/Theme_HelloWorld) [Overdraw]
+    android:background="@color/white"
+    ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+/Users/sahil/Documents/Java-kotlin-test-app/app/src/main/res/layout/activity_drag_drop.xml:7: Warning: Possible overdraw: Root element paints background @color/white with a theme that also paints a background (inferred theme is @style/Theme_HelloWorld) [Overdraw]
+    android:background="@color/white"
+    ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+/Users/sahil/Documents/Java-kotlin-test-app/app/src/main/res/layout/activity_generate_errors.xml:7: Warning: Possible overdraw: Root element paints background @color/white with a theme that also paints a background (inferred theme is @style/Theme_HelloWorld) [Overdraw]
+    android:background="@color/white"
+    ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+/Users/sahil/Documents/Java-kotlin-test-app/app/src/main/res/layout/activity_hit_apis.xml:8: Warning: Possible overdraw: Root element paints background @color/white with a theme that also paints a background (inferred theme is @style/Theme_HelloWorld) [Overdraw]
+    android:background="@color/white"
+    ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+/Users/sahil/Documents/Java-kotlin-test-app/app/src/main/res/layout/activity_main.xml:8: Warning: Possible overdraw: Root element paints background @color/white with a theme that also paints a background (inferred theme is @style/Theme_HelloWorld) [Overdraw]
+    android:background="@color/white"
+    ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+/Users/sahil/Documents/Java-kotlin-test-app/app/src/main/res/layout/activity_profile.xml:8: Warning: Possible overdraw: Root element paints background @color/white with a theme that also paints a background (inferred theme is @style/Theme_HelloWorld) [Overdraw]
+    android:background="@color/white"
+    ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+/Users/sahil/Documents/Java-kotlin-test-app/app/src/main/res/layout/activity_scroll.xml:7: Warning: Possible overdraw: Root element paints background @color/white with a theme that also paints a background (inferred theme is @style/Theme_HelloWorld) [Overdraw]
+    android:background="@color/white"
+    ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+
+   Explanation for issues of type "Overdraw":
+   If you set a background drawable on a root view, then you should use a
+   custom theme where the theme background is null. Otherwise, the theme
+   background will be painted first, only to have your custom background
+   completely cover it; this is called "overdraw".
+
+   NOTE: This detector relies on figuring out which layouts are associated
+   with which activities based on scanning the Java code, and it's currently
+   doing that using an inexact pattern matching algorithm. Therefore, it can
+   incorrectly conclude which activity the layout is associated with and then
+   wrongly complain that a background-theme is hidden.
+
+   If you want your custom background on multiple pages, then you should
+   consider making a custom theme with your custom background and just using
+   that theme instead of a root element background.
+
+   Of course it's possible that your custom drawable is translucent and you
+   want it to be mixed with the background. However, you will get better
+   performance if you pre-mix the background with your drawable and use that
+   resulting image or color as a custom theme background instead.
+
+/Users/sahil/Documents/Java-kotlin-test-app/app/src/main/res/layout/activity_profile.xml:767: Warning: activity_profile.xml has more than 80 views, bad for performance [TooManyViews]
+                    <View
+                     ~~~~
+
+   Explanation for issues of type "TooManyViews":
+   Using too many views in a single layout is bad for performance. Consider
+   using compound drawables or other tricks for reducing the number of views
+   in this layout.
+
+   The maximum view count defaults to 80 but can be configured with the
+   environment variable ANDROID_LINT_MAX_VIEW_COUNT.
+
+/Users/sahil/Documents/Java-kotlin-test-app/app/src/main/res/layout/activity_generate_errors.xml:172: Warning: Avoid using sizes smaller than 11sp: 10sp [SmallSp]
+                            android:textSize="10sp"
+                            ~~~~~~~~~~~~~~~~~~~~~~~
+/Users/sahil/Documents/Java-kotlin-test-app/app/src/main/res/layout/activity_generate_errors.xml:184: Warning: Avoid using sizes smaller than 11sp: 10sp [SmallSp]
+                            android:textSize="10sp"
+                            ~~~~~~~~~~~~~~~~~~~~~~~
+/Users/sahil/Documents/Java-kotlin-test-app/app/src/main/res/layout/activity_generate_errors.xml:205: Warning: Avoid using sizes smaller than 11sp: 10sp [SmallSp]
+                            android:textSize="10sp"
+                            ~~~~~~~~~~~~~~~~~~~~~~~
+/Users/sahil/Documents/Java-kotlin-test-app/app/src/main/res/layout/activity_generate_errors.xml:217: Warning: Avoid using sizes smaller than 11sp: 10sp [SmallSp]
+                            android:textSize="10sp"
+                            ~~~~~~~~~~~~~~~~~~~~~~~
+/Users/sahil/Documents/Java-kotlin-test-app/app/src/main/res/layout/activity_generate_errors.xml:238: Warning: Avoid using sizes smaller than 11sp: 10sp [SmallSp]
+                            android:textSize="10sp"
+                            ~~~~~~~~~~~~~~~~~~~~~~~
+/Users/sahil/Documents/Java-kotlin-test-app/app/src/main/res/layout/activity_generate_errors.xml:250: Warning: Avoid using sizes smaller than 11sp: 10sp [SmallSp]
+                            android:textSize="10sp"
+                            ~~~~~~~~~~~~~~~~~~~~~~~
+/Users/sahil/Documents/Java-kotlin-test-app/app/src/main/res/layout/activity_generate_errors.xml:271: Warning: Avoid using sizes smaller than 11sp: 10sp [SmallSp]
+                            android:textSize="10sp"
+                            ~~~~~~~~~~~~~~~~~~~~~~~
+/Users/sahil/Documents/Java-kotlin-test-app/app/src/main/res/layout/activity_generate_errors.xml:283: Warning: Avoid using sizes smaller than 11sp: 10sp [SmallSp]
+                            android:textSize="10sp"
+                            ~~~~~~~~~~~~~~~~~~~~~~~
+/Users/sahil/Documents/Java-kotlin-test-app/app/src/main/res/layout/activity_generate_errors.xml:395: Warning: Avoid using sizes smaller than 11sp: 10sp [SmallSp]
+                            android:textSize="10sp"
+                            ~~~~~~~~~~~~~~~~~~~~~~~
+/Users/sahil/Documents/Java-kotlin-test-app/app/src/main/res/layout/activity_generate_errors.xml:407: Warning: Avoid using sizes smaller than 11sp: 10sp [SmallSp]
+                            android:textSize="10sp"
+                            ~~~~~~~~~~~~~~~~~~~~~~~
+/Users/sahil/Documents/Java-kotlin-test-app/app/src/main/res/layout/activity_generate_errors.xml:428: Warning: Avoid using sizes smaller than 11sp: 10sp [SmallSp]
+                            android:textSize="10sp"
+                            ~~~~~~~~~~~~~~~~~~~~~~~
+/Users/sahil/Documents/Java-kotlin-test-app/app/src/main/res/layout/activity_generate_errors.xml:440: Warning: Avoid using sizes smaller than 11sp: 10sp [SmallSp]
+                            android:textSize="10sp"
+                            ~~~~~~~~~~~~~~~~~~~~~~~
+/Users/sahil/Documents/Java-kotlin-test-app/app/src/main/res/layout/activity_generate_errors.xml:552: Warning: Avoid using sizes smaller than 11sp: 10sp [SmallSp]
+                            android:textSize="10sp"
+                            ~~~~~~~~~~~~~~~~~~~~~~~
+/Users/sahil/Documents/Java-kotlin-test-app/app/src/main/res/layout/activity_generate_errors.xml:564: Warning: Avoid using sizes smaller than 11sp: 10sp [SmallSp]
+                            android:textSize="10sp"
+                            ~~~~~~~~~~~~~~~~~~~~~~~
+/Users/sahil/Documents/Java-kotlin-test-app/app/src/main/res/layout/activity_generate_errors.xml:585: Warning: Avoid using sizes smaller than 11sp: 10sp [SmallSp]
+                            android:textSize="10sp"
+                            ~~~~~~~~~~~~~~~~~~~~~~~
+/Users/sahil/Documents/Java-kotlin-test-app/app/src/main/res/layout/activity_generate_errors.xml:597: Warning: Avoid using sizes smaller than 11sp: 10sp [SmallSp]
+                            android:textSize="10sp"
+                            ~~~~~~~~~~~~~~~~~~~~~~~
+/Users/sahil/Documents/Java-kotlin-test-app/app/src/main/res/layout/activity_generate_errors.xml:618: Warning: Avoid using sizes smaller than 11sp: 10sp [SmallSp]
+                            android:textSize="10sp"
+                            ~~~~~~~~~~~~~~~~~~~~~~~
+/Users/sahil/Documents/Java-kotlin-test-app/app/src/main/res/layout/activity_generate_errors.xml:630: Warning: Avoid using sizes smaller than 11sp: 10sp [SmallSp]
+                            android:textSize="10sp"
+                            ~~~~~~~~~~~~~~~~~~~~~~~
+/Users/sahil/Documents/Java-kotlin-test-app/app/src/main/res/layout/activity_generate_errors.xml:744: Warning: Avoid using sizes smaller than 11sp: 10sp [SmallSp]
+                            android:textSize="10sp"
+                            ~~~~~~~~~~~~~~~~~~~~~~~
+/Users/sahil/Documents/Java-kotlin-test-app/app/src/main/res/layout/activity_generate_errors.xml:756: Warning: Avoid using sizes smaller than 11sp: 10sp [SmallSp]
+                            android:textSize="10sp"
+                            ~~~~~~~~~~~~~~~~~~~~~~~
+/Users/sahil/Documents/Java-kotlin-test-app/app/src/main/res/layout/activity_generate_errors.xml:777: Warning: Avoid using sizes smaller than 11sp: 10sp [SmallSp]
+                            android:textSize="10sp"
+                            ~~~~~~~~~~~~~~~~~~~~~~~
+/Users/sahil/Documents/Java-kotlin-test-app/app/src/main/res/layout/activity_generate_errors.xml:789: Warning: Avoid using sizes smaller than 11sp: 10sp [SmallSp]
+                            android:textSize="10sp"
+                            ~~~~~~~~~~~~~~~~~~~~~~~
+
+   Explanation for issues of type "SmallSp":
+   Avoid using sizes smaller than 11sp.
+
+/Users/sahil/Documents/Java-kotlin-test-app/app/src/main/res/layout/activity_api_key.xml:66: Warning: Missing autofillHints attribute [Autofill]
+        <EditText
+         ~~~~~~~~
+/Users/sahil/Documents/Java-kotlin-test-app/app/src/main/res/layout/activity_main.xml:42: Warning: Missing autofillHints attribute [Autofill]
+        <EditText
+         ~~~~~~~~
+/Users/sahil/Documents/Java-kotlin-test-app/app/src/main/res/layout/activity_main.xml:69: Warning: Missing autofillHints attribute [Autofill]
+        <EditText
+         ~~~~~~~~
+/Users/sahil/Documents/Java-kotlin-test-app/app/src/main/res/layout/activity_main.xml:96: Warning: Missing autofillHints attribute [Autofill]
+        <EditText
+         ~~~~~~~~
+/Users/sahil/Documents/Java-kotlin-test-app/app/src/main/res/layout/activity_main.xml:123: Warning: Missing autofillHints attribute [Autofill]
+        <EditText
+         ~~~~~~~~
+/Users/sahil/Documents/Java-kotlin-test-app/app/src/main/res/layout/activity_main.xml:150: Warning: Missing autofillHints attribute [Autofill]
+        <EditText
+         ~~~~~~~~
+
+   Explanation for issues of type "Autofill":
+   Specify an autofillHints attribute when targeting SDK version 26 or higher
+   or explicitly specify that the view is not important for autofill. Your app
+   can help an autofill service classify the data correctly by providing the
+   meaning of each view that could be autofillable, such as views representing
+   usernames, passwords, credit card fields, email addresses, etc.
+
+   The hints can have any value, but it is recommended to use predefined
+   values like 'username' for a username or 'creditCardNumber' for a credit
+   card number. For a list of all predefined autofill hint constants, see the
+   AUTOFILL_HINT_ constants in the View reference at
+   https://developer.android.com/reference/android/view/View.html.
+
+   You can mark a view unimportant for autofill by specifying an
+   importantForAutofill attribute on that view or a parent view. See
+   https://developer.android.com/reference/android/view/View.html#setImportant
+   ForAutofill(int).
+
+   https://developer.android.com/guide/topics/text/autofill.html
+
+/Users/sahil/Documents/Java-kotlin-test-app/app/src/main/kotlin/com/example/helloworld/AnimationsActivity.kt:110: Warning: Custom view `ImageView` has setOnTouchListener called on it but does not override performClick [ClickableViewAccessibility]
+        animatedObject.setOnTouchListener { view, event ->
+        ^
+/Users/sahil/Documents/Java-kotlin-test-app/app/src/main/kotlin/com/example/helloworld/AnimationsActivity.kt:110: Warning: onTouch lambda should call View#performClick when a click is detected [ClickableViewAccessibility]
+        animatedObject.setOnTouchListener { view, event ->
+                                          ^
+/Users/sahil/Documents/Java-kotlin-test-app/app/src/main/kotlin/com/example/helloworld/DragDropActivity.kt:189: Warning: Custom view `CardView` has setOnTouchListener called on it but does not override performClick [ClickableViewAccessibility]
+        cardView.setOnTouchListener { view, event ->
+        ^
+/Users/sahil/Documents/Java-kotlin-test-app/app/src/main/kotlin/com/example/helloworld/DragDropActivity.kt:189: Warning: onTouch lambda should call View#performClick when a click is detected [ClickableViewAccessibility]
+        cardView.setOnTouchListener { view, event ->
+                                    ^
+
+   Explanation for issues of type "ClickableViewAccessibility":
+   If a View that overrides onTouchEvent or uses an OnTouchListener does not
+   also implement performClick and call it when clicks are detected, the View
+   may not handle accessibility actions properly. Logic handling the click
+   actions should ideally be placed in View#performClick as some accessibility
+   services invoke performClick when a click action should occur.
+
+/Users/sahil/Documents/Java-kotlin-test-app/app/src/main/res/layout/activity_generate_errors.xml:805: Warning: Missing contentDescription attribute on image [ContentDescription]
+    <ImageView
+     ~~~~~~~~~
+/Users/sahil/Documents/Java-kotlin-test-app/app/src/main/res/layout/activity_profile.xml:341: Warning: Missing contentDescription attribute on image [ContentDescription]
+                        <ImageView
+                         ~~~~~~~~~
+/Users/sahil/Documents/Java-kotlin-test-app/app/src/main/res/layout/activity_profile.xml:382: Warning: Missing contentDescription attribute on image [ContentDescription]
+                        <ImageView
+                         ~~~~~~~~~
+/Users/sahil/Documents/Java-kotlin-test-app/app/src/main/res/layout/activity_profile.xml:423: Warning: Missing contentDescription attribute on image [ContentDescription]
+                        <ImageView
+                         ~~~~~~~~~
+/Users/sahil/Documents/Java-kotlin-test-app/app/src/main/res/layout/activity_profile.xml:463: Warning: Missing contentDescription attribute on image [ContentDescription]
+                        <ImageView
+                         ~~~~~~~~~
+/Users/sahil/Documents/Java-kotlin-test-app/app/src/main/res/layout/activity_profile.xml:533: Warning: Missing contentDescription attribute on image [ContentDescription]
+                        <ImageView
+                         ~~~~~~~~~
+/Users/sahil/Documents/Java-kotlin-test-app/app/src/main/res/layout/activity_profile.xml:579: Warning: Missing contentDescription attribute on image [ContentDescription]
+                        <ImageView
+                         ~~~~~~~~~
+/Users/sahil/Documents/Java-kotlin-test-app/app/src/main/res/layout/activity_profile.xml:625: Warning: Missing contentDescription attribute on image [ContentDescription]
+                        <ImageView
+                         ~~~~~~~~~
+/Users/sahil/Documents/Java-kotlin-test-app/app/src/main/res/layout/activity_profile.xml:701: Warning: Missing contentDescription attribute on image [ContentDescription]
+                        <ImageView
+                         ~~~~~~~~~
+/Users/sahil/Documents/Java-kotlin-test-app/app/src/main/res/layout/activity_profile.xml:740: Warning: Missing contentDescription attribute on image [ContentDescription]
+                        <ImageView
+                         ~~~~~~~~~
+/Users/sahil/Documents/Java-kotlin-test-app/app/src/main/res/layout/activity_profile.xml:779: Warning: Missing contentDescription attribute on image [ContentDescription]
+                        <ImageView
+                         ~~~~~~~~~
+
+   Explanation for issues of type "ContentDescription":
+   Non-textual widgets like ImageViews and ImageButtons should use the
+   contentDescription attribute to specify a textual description of the widget
+   such that screen readers and other accessibility tools can adequately
+   describe the user interface.
+
+   Note that elements in application screens that are purely decorative and do
+   not provide any content or enable a user action should not have
+   accessibility content descriptions. In this case, set their descriptions to
+   @null. If your app's minSdkVersion is 16 or higher, you can instead set
+   these graphical elements' android:importantForAccessibility attributes to
+   no.
+
+   Note that for text fields, you should not set both the hint and the
+   contentDescription attributes since the hint will never be shown. Just set
+   the hint.
+
+   https://developer.android.com/guide/topics/ui/accessibility/apps#special-cases
+
+/Users/sahil/Documents/Java-kotlin-test-app/app/src/main/kotlin/com/example/helloworld/DashboardActivity.kt:29: Warning: Do not concatenate text displayed with setText. Use resource string with placeholders. [SetTextI18n]
+        userDetailsTextView.text = "Name: $fullName\nEmail: $email"
+                                   ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+/Users/sahil/Documents/Java-kotlin-test-app/app/src/main/kotlin/com/example/helloworld/DashboardActivity.kt:29: Warning: String literal in setText can not be translated. Use Android resources instead. [SetTextI18n]
+        userDetailsTextView.text = "Name: $fullName\nEmail: $email"
+                                    ~~~~~~
+/Users/sahil/Documents/Java-kotlin-test-app/app/src/main/kotlin/com/example/helloworld/DashboardActivity.kt:29: Warning: String literal in setText can not be translated. Use Android resources instead. [SetTextI18n]
+        userDetailsTextView.text = "Name: $fullName\nEmail: $email"
+                                                     ~~~~~~~
+/Users/sahil/Documents/Java-kotlin-test-app/app/src/main/kotlin/com/example/helloworld/DragDropActivity.kt:300: Warning: Do not concatenate text displayed with setText. Use resource string with placeholders. [SetTextI18n]
+        scoreTextView.text = "Score: $score"
+                             ~~~~~~~~~~~~~~~
+/Users/sahil/Documents/Java-kotlin-test-app/app/src/main/kotlin/com/example/helloworld/DragDropActivity.kt:300: Warning: String literal in setText can not be translated. Use Android resources instead. [SetTextI18n]
+        scoreTextView.text = "Score: $score"
+                              ~~~~~~~
+/Users/sahil/Documents/Java-kotlin-test-app/app/src/main/kotlin/com/example/helloworld/GenerateErrorsActivity.kt:550: Warning: Do not concatenate text displayed with setText. Use resource string with placeholders. [SetTextI18n]
+        errorCountTextView.text = "Errors Generated: $errorCount"
+                                  ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+/Users/sahil/Documents/Java-kotlin-test-app/app/src/main/kotlin/com/example/helloworld/GenerateErrorsActivity.kt:550: Warning: String literal in setText can not be translated. Use Android resources instead. [SetTextI18n]
+        errorCountTextView.text = "Errors Generated: $errorCount"
+                                   ~~~~~~~~~~~~~~~~~~
+/Users/sahil/Documents/Java-kotlin-test-app/app/src/main/kotlin/com/example/helloworld/HitApisActivity.kt:45: Warning: Do not concatenate text displayed with setText. Use resource string with placeholders. [SetTextI18n]
+        apiKeyTextView.text = "API Key: $apiKey"
+                              ~~~~~~~~~~~~~~~~~~
+/Users/sahil/Documents/Java-kotlin-test-app/app/src/main/kotlin/com/example/helloworld/HitApisActivity.kt:45: Warning: String literal in setText can not be translated. Use Android resources instead. [SetTextI18n]
+        apiKeyTextView.text = "API Key: $apiKey"
+                               ~~~~~~~~~
+/Users/sahil/Documents/Java-kotlin-test-app/app/src/main/kotlin/com/example/helloworld/ScrollActivity.kt:190: Warning: Do not concatenate text displayed with setText. Use resource string with placeholders. [SetTextI18n]
+        holder.numberTextView.text = "#${cardData.number}"
+                                     ~~~~~~~~~~~~~~~~~~~~~
+
+   Explanation for issues of type "SetTextI18n":
+   When calling TextView#setText
+   * Never call Number#toString() to format numbers; it will not handle
+   fraction separators and locale-specific digits properly. Consider using
+   String#format with proper format specifications (%d or %f) instead.
+   * Do not pass a string literal (e.g. "Hello") to display text. Hardcoded
+   text can not be properly translated to other languages. Consider using
+   Android resource strings instead.
+   * Do not build messages by concatenating text chunks. Such messages can not
+   be properly translated.
+
+   https://developer.android.com/guide/topics/resources/localization.html
+
+/Users/sahil/Documents/Java-kotlin-test-app/app/src/main/res/layout/activity_animations.xml:48: Warning: Hardcoded string "Gesture Animations", should use @string resource [HardcodedText]
+        android:text="Gesture Animations"
+        ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+/Users/sahil/Documents/Java-kotlin-test-app/app/src/main/res/layout/activity_animations.xml:65: Warning: Hardcoded string "Use your fingers to control all animations!", should use @string resource [HardcodedText]
+        android:text="Use your fingers to control all animations!"
+        ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+/Users/sahil/Documents/Java-kotlin-test-app/app/src/main/res/layout/activity_animations.xml:95: Warning: Hardcoded string "Status", should use @string resource [HardcodedText]
+                android:text="Status"
+                ~~~~~~~~~~~~~~~~~~~~~
+/Users/sahil/Documents/Java-kotlin-test-app/app/src/main/res/layout/activity_animations.xml:105: Warning: Hardcoded string "Ready for gestures! Try these:n• Pinch to zoomn• Drag to rotaten• Tap to faden• Double-tap to bouncen• Long press to pulsen• Extended long press to shaken• Swipe to slide", should use @string resource [HardcodedText]
+                android:text="Ready for gestures! Try these:\n• Pinch to zoom\n• Drag to rotate\n• Tap to fade\n• Double-tap to bounce\n• Long press to pulse\n• Extended long press to shake\n• Swipe to slide"
+                ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+/Users/sahil/Documents/Java-kotlin-test-app/app/src/main/res/layout/activity_animations.xml:119: Warning: Hardcoded string "Reset Object", should use @string resource [HardcodedText]
+        android:text="Reset Object"
+        ~~~~~~~~~~~~~~~~~~~~~~~~~~~
+/Users/sahil/Documents/Java-kotlin-test-app/app/src/main/res/layout/activity_animations.xml:155: Warning: Hardcoded string "Interactive animated object", should use @string resource [HardcodedText]
+                android:contentDescription="Interactive animated object"
+                ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+/Users/sahil/Documents/Java-kotlin-test-app/app/src/main/res/layout/activity_api_key.xml:22: Warning: Hardcoded string "App Logo", should use @string resource [HardcodedText]
+            android:contentDescription="App Logo"
+            ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+/Users/sahil/Documents/Java-kotlin-test-app/app/src/main/res/layout/activity_api_key.xml:31: Warning: Hardcoded string "Welcome to Zipy", should use @string resource [HardcodedText]
+            android:text="Welcome to Zipy"
+            ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+/Users/sahil/Documents/Java-kotlin-test-app/app/src/main/res/layout/activity_api_key.xml:45: Warning: Hardcoded string "Please enter your API Key to continue", should use @string resource [HardcodedText]
+            android:text="Please enter your API Key to continue"
+            ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+/Users/sahil/Documents/Java-kotlin-test-app/app/src/main/res/layout/activity_api_key.xml:58: Warning: Hardcoded string "API Key", should use @string resource [HardcodedText]
+            android:text="API Key"
+            ~~~~~~~~~~~~~~~~~~~~~~
+/Users/sahil/Documents/Java-kotlin-test-app/app/src/main/res/layout/activity_api_key.xml:73: Warning: Hardcoded string "Enter your API key here", should use @string resource [HardcodedText]
+            android:hint="Enter your API key here"
+            ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+/Users/sahil/Documents/Java-kotlin-test-app/app/src/main/res/layout/activity_api_key.xml:88: Warning: Hardcoded string "Next", should use @string resource [HardcodedText]
+            android:text="Next"
+            ~~~~~~~~~~~~~~~~~~~
+/Users/sahil/Documents/Java-kotlin-test-app/app/src/main/res/layout/activity_dashboard.xml:61: Warning: Hardcoded string "Name: [User Name]nEmail: [user@email.com]", should use @string resource [HardcodedText]
+            android:text="Name: [User Name]\nEmail: [user@email.com]"
+            ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+/Users/sahil/Documents/Java-kotlin-test-app/app/src/main/res/layout/activity_dashboard.xml:75: Warning: Hardcoded string "App Features", should use @string resource [HardcodedText]
+            android:text="App Features"
+            ~~~~~~~~~~~~~~~~~~~~~~~~~~~
+/Users/sahil/Documents/Java-kotlin-test-app/app/src/main/res/layout/activity_dashboard.xml:92: Warning: Hardcoded string "My Profile", should use @string resource [HardcodedText]
+            android:text="My Profile"
+            ~~~~~~~~~~~~~~~~~~~~~~~~~
+/Users/sahil/Documents/Java-kotlin-test-app/app/src/main/res/layout/activity_dashboard.xml:109: Warning: Hardcoded string "Hit APIs", should use @string resource [HardcodedText]
+            android:text="Hit APIs"
+            ~~~~~~~~~~~~~~~~~~~~~~~
+/Users/sahil/Documents/Java-kotlin-test-app/app/src/main/res/layout/activity_dashboard.xml:128: Warning: Hardcoded string "Generate Errors", should use @string resource [HardcodedText]
+            android:text="Generate Errors"
+            ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+/Users/sahil/Documents/Java-kotlin-test-app/app/src/main/res/layout/activity_dashboard.xml:145: Warning: Hardcoded string "ANR/CRASH", should use @string resource [HardcodedText]
+            android:text="ANR/CRASH"
+            ~~~~~~~~~~~~~~~~~~~~~~~~
+/Users/sahil/Documents/Java-kotlin-test-app/app/src/main/res/layout/activity_dashboard.xml:164: Warning: Hardcoded string "Scroll", should use @string resource [HardcodedText]
+            android:text="Scroll"
+            ~~~~~~~~~~~~~~~~~~~~~
+/Users/sahil/Documents/Java-kotlin-test-app/app/src/main/res/layout/activity_dashboard.xml:181: Warning: Hardcoded string "Drag and Drop", should use @string resource [HardcodedText]
+            android:text="Drag and Drop"
+            ~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+/Users/sahil/Documents/Java-kotlin-test-app/app/src/main/res/layout/activity_dashboard.xml:200: Warning: Hardcoded string "Animations", should use @string resource [HardcodedText]
+            android:text="Animations"
+            ~~~~~~~~~~~~~~~~~~~~~~~~~
+/Users/sahil/Documents/Java-kotlin-test-app/app/src/main/res/layout/activity_dashboard.xml:217: Warning: Hardcoded string "Settings", should use @string resource [HardcodedText]
+            android:text="Settings"
+            ~~~~~~~~~~~~~~~~~~~~~~~
+/Users/sahil/Documents/Java-kotlin-test-app/app/src/main/res/layout/activity_drag_drop.xml:48: Warning: Hardcoded string "Drag & Drop", should use @string resource [HardcodedText]
+        android:text="Drag &amp; Drop"
+        ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+/Users/sahil/Documents/Java-kotlin-test-app/app/src/main/res/layout/activity_drag_drop.xml:65: Warning: Hardcoded string "Score: 0", should use @string resource [HardcodedText]
+        android:text="Score: 0"
+        ~~~~~~~~~~~~~~~~~~~~~~~
+/Users/sahil/Documents/Java-kotlin-test-app/app/src/main/res/layout/activity_drag_drop.xml:96: Warning: Hardcoded string "Status", should use @string resource [HardcodedText]
+                android:text="Status"
+                ~~~~~~~~~~~~~~~~~~~~~
+/Users/sahil/Documents/Java-kotlin-test-app/app/src/main/res/layout/activity_drag_drop.xml:106: Warning: Hardcoded string "Drag items to the target area!", should use @string resource [HardcodedText]
+                android:text="Drag items to the target area!"
+                ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+/Users/sahil/Documents/Java-kotlin-test-app/app/src/main/res/layout/activity_drag_drop.xml:120: Warning: Hardcoded string "Reset Game", should use @string resource [HardcodedText]
+        android:text="Reset Game"
+        ~~~~~~~~~~~~~~~~~~~~~~~~~
+/Users/sahil/Documents/Java-kotlin-test-app/app/src/main/res/layout/activity_drag_drop.xml:153: Warning: Hardcoded string "📦 Source Items", should use @string resource [HardcodedText]
+                android:text="📦 Source Items"
+                ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+/Users/sahil/Documents/Java-kotlin-test-app/app/src/main/res/layout/activity_drag_drop.xml:200: Warning: Hardcoded string "🎯 Drop Zone", should use @string resource [HardcodedText]
+                android:text="🎯 Drop Zone"
+                ~~~~~~~~~~~~~~~~~~~~~~~~~~~
+/Users/sahil/Documents/Java-kotlin-test-app/app/src/main/res/layout/activity_generate_errors.xml:48: Warning: Hardcoded string "Generate Errors", should use @string resource [HardcodedText]
+        android:text="Generate Errors"
+        ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+/Users/sahil/Documents/Java-kotlin-test-app/app/src/main/res/layout/activity_generate_errors.xml:65: Warning: Hardcoded string "Errors Generated: 0", should use @string resource [HardcodedText]
+        android:text="Errors Generated: 0"
+        ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+/Users/sahil/Documents/Java-kotlin-test-app/app/src/main/res/layout/activity_generate_errors.xml:96: Warning: Hardcoded string "Status", should use @string resource [HardcodedText]
+                android:text="Status"
+                ~~~~~~~~~~~~~~~~~~~~~
+/Users/sahil/Documents/Java-kotlin-test-app/app/src/main/res/layout/activity_generate_errors.xml:106: Warning: Hardcoded string "Ready to generate errors", should use @string resource [HardcodedText]
+                android:text="Ready to generate errors"
+                ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+/Users/sahil/Documents/Java-kotlin-test-app/app/src/main/res/layout/activity_generate_errors.xml:135: Warning: Hardcoded string "Exception Errors", should use @string resource [HardcodedText]
+                android:text="Exception Errors"
+                ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+/Users/sahil/Documents/Java-kotlin-test-app/app/src/main/res/layout/activity_generate_errors.xml:171: Warning: Hardcoded string "NullPointer", should use @string resource [HardcodedText]
+                            android:text="NullPointer"
+                            ~~~~~~~~~~~~~~~~~~~~~~~~~~
+/Users/sahil/Documents/Java-kotlin-test-app/app/src/main/res/layout/activity_generate_errors.xml:183: Warning: Hardcoded string "ArrayIndex", should use @string resource [HardcodedText]
+                            android:text="ArrayIndex"
+                            ~~~~~~~~~~~~~~~~~~~~~~~~~
+/Users/sahil/Documents/Java-kotlin-test-app/app/src/main/res/layout/activity_generate_errors.xml:204: Warning: Hardcoded string "ClassCast", should use @string resource [HardcodedText]
+                            android:text="ClassCast"
+                            ~~~~~~~~~~~~~~~~~~~~~~~~
+/Users/sahil/Documents/Java-kotlin-test-app/app/src/main/res/layout/activity_generate_errors.xml:216: Warning: Hardcoded string "NumberFormat", should use @string resource [HardcodedText]
+                            android:text="NumberFormat"
+                            ~~~~~~~~~~~~~~~~~~~~~~~~~~~
+/Users/sahil/Documents/Java-kotlin-test-app/app/src/main/res/layout/activity_generate_errors.xml:237: Warning: Hardcoded string "IllegalArgument", should use @string resource [HardcodedText]
+                            android:text="IllegalArgument"
+                            ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+/Users/sahil/Documents/Java-kotlin-test-app/app/src/main/res/layout/activity_generate_errors.xml:249: Warning: Hardcoded string "IllegalState", should use @string resource [HardcodedText]
+                            android:text="IllegalState"
+                            ~~~~~~~~~~~~~~~~~~~~~~~~~~~
+/Users/sahil/Documents/Java-kotlin-test-app/app/src/main/res/layout/activity_generate_errors.xml:270: Warning: Hardcoded string "Security", should use @string resource [HardcodedText]
+                            android:text="Security"
+                            ~~~~~~~~~~~~~~~~~~~~~~~
+/Users/sahil/Documents/Java-kotlin-test-app/app/src/main/res/layout/activity_generate_errors.xml:282: Warning: Hardcoded string "Unsupported", should use @string resource [HardcodedText]
+                            android:text="Unsupported"
+                            ~~~~~~~~~~~~~~~~~~~~~~~~~~
+/Users/sahil/Documents/Java-kotlin-test-app/app/src/main/res/layout/activity_generate_errors.xml:300: Warning: Hardcoded string "Arithmetic Errors", should use @string resource [HardcodedText]
+                android:text="Arithmetic Errors"
+                ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+/Users/sahil/Documents/Java-kotlin-test-app/app/src/main/res/layout/activity_generate_errors.xml:330: Warning: Hardcoded string "Division by Zero", should use @string resource [HardcodedText]
+                        android:text="Division by Zero"
+                        ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+/Users/sahil/Documents/Java-kotlin-test-app/app/src/main/res/layout/activity_generate_errors.xml:342: Warning: Hardcoded string "Integer Overflow", should use @string resource [HardcodedText]
+                        android:text="Integer Overflow"
+                        ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+/Users/sahil/Documents/Java-kotlin-test-app/app/src/main/res/layout/activity_generate_errors.xml:358: Warning: Hardcoded string "Range Errors", should use @string resource [HardcodedText]
+                android:text="Range Errors"
+                ~~~~~~~~~~~~~~~~~~~~~~~~~~~
+/Users/sahil/Documents/Java-kotlin-test-app/app/src/main/res/layout/activity_generate_errors.xml:394: Warning: Hardcoded string "String Index", should use @string resource [HardcodedText]
+                            android:text="String Index"
+                            ~~~~~~~~~~~~~~~~~~~~~~~~~~~
+/Users/sahil/Documents/Java-kotlin-test-app/app/src/main/res/layout/activity_generate_errors.xml:406: Warning: Hardcoded string "Negative Array", should use @string resource [HardcodedText]
+                            android:text="Negative Array"
+                            ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+/Users/sahil/Documents/Java-kotlin-test-app/app/src/main/res/layout/activity_generate_errors.xml:427: Warning: Hardcoded string "Index Out of Bounds", should use @string resource [HardcodedText]
+                            android:text="Index Out of Bounds"
+                            ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+/Users/sahil/Documents/Java-kotlin-test-app/app/src/main/res/layout/activity_generate_errors.xml:439: Warning: Hardcoded string "Integer Underflow", should use @string resource [HardcodedText]
+                            android:text="Integer Underflow"
+                            ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+/Users/sahil/Documents/Java-kotlin-test-app/app/src/main/res/layout/activity_generate_errors.xml:457: Warning: Hardcoded string "Memory Errors", should use @string resource [HardcodedText]
+                android:text="Memory Errors"
+                ~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+/Users/sahil/Documents/Java-kotlin-test-app/app/src/main/res/layout/activity_generate_errors.xml:487: Warning: Hardcoded string "Out of Memory", should use @string resource [HardcodedText]
+                        android:text="Out of Memory"
+                        ~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+/Users/sahil/Documents/Java-kotlin-test-app/app/src/main/res/layout/activity_generate_errors.xml:499: Warning: Hardcoded string "Stack Overflow", should use @string resource [HardcodedText]
+                        android:text="Stack Overflow"
+                        ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+/Users/sahil/Documents/Java-kotlin-test-app/app/src/main/res/layout/activity_generate_errors.xml:515: Warning: Hardcoded string "Reflection Errors", should use @string resource [HardcodedText]
+                android:text="Reflection Errors"
+                ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+/Users/sahil/Documents/Java-kotlin-test-app/app/src/main/res/layout/activity_generate_errors.xml:551: Warning: Hardcoded string "Class Not Found", should use @string resource [HardcodedText]
+                            android:text="Class Not Found"
+                            ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+/Users/sahil/Documents/Java-kotlin-test-app/app/src/main/res/layout/activity_generate_errors.xml:563: Warning: Hardcoded string "No Such Method", should use @string resource [HardcodedText]
+                            android:text="No Such Method"
+                            ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+/Users/sahil/Documents/Java-kotlin-test-app/app/src/main/res/layout/activity_generate_errors.xml:584: Warning: Hardcoded string "No Such Field", should use @string resource [HardcodedText]
+                            android:text="No Such Field"
+                            ~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+/Users/sahil/Documents/Java-kotlin-test-app/app/src/main/res/layout/activity_generate_errors.xml:596: Warning: Hardcoded string "Instantiation", should use @string resource [HardcodedText]
+                            android:text="Instantiation"
+                            ~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+/Users/sahil/Documents/Java-kotlin-test-app/app/src/main/res/layout/activity_generate_errors.xml:617: Warning: Hardcoded string "Illegal Access", should use @string resource [HardcodedText]
+                            android:text="Illegal Access"
+                            ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+/Users/sahil/Documents/Java-kotlin-test-app/app/src/main/res/layout/activity_generate_errors.xml:629: Warning: Hardcoded string "Invocation Target", should use @string resource [HardcodedText]
+                            android:text="Invocation Target"
+                            ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+/Users/sahil/Documents/Java-kotlin-test-app/app/src/main/res/layout/activity_generate_errors.xml:647: Warning: Hardcoded string "File System Errors", should use @string resource [HardcodedText]
+                android:text="File System Errors"
+                ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+/Users/sahil/Documents/Java-kotlin-test-app/app/src/main/res/layout/activity_generate_errors.xml:677: Warning: Hardcoded string "File Not Found", should use @string resource [HardcodedText]
+                        android:text="File Not Found"
+                        ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+/Users/sahil/Documents/Java-kotlin-test-app/app/src/main/res/layout/activity_generate_errors.xml:689: Warning: Hardcoded string "IOException", should use @string resource [HardcodedText]
+                        android:text="IOException"
+                        ~~~~~~~~~~~~~~~~~~~~~~~~~~
+/Users/sahil/Documents/Java-kotlin-test-app/app/src/main/res/layout/activity_generate_errors.xml:705: Warning: Hardcoded string "Custom Errors", should use @string resource [HardcodedText]
+                android:text="Custom Errors"
+                ~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+/Users/sahil/Documents/Java-kotlin-test-app/app/src/main/res/layout/activity_generate_errors.xml:743: Warning: Hardcoded string "Custom Exception", should use @string resource [HardcodedText]
+                            android:text="Custom Exception"
+                            ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+/Users/sahil/Documents/Java-kotlin-test-app/app/src/main/res/layout/activity_generate_errors.xml:755: Warning: Hardcoded string "Concurrent Modification", should use @string resource [HardcodedText]
+                            android:text="Concurrent Modification"
+                            ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+/Users/sahil/Documents/Java-kotlin-test-app/app/src/main/res/layout/activity_generate_errors.xml:776: Warning: Hardcoded string "Timeout Exception", should use @string resource [HardcodedText]
+                            android:text="Timeout Exception"
+                            ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+/Users/sahil/Documents/Java-kotlin-test-app/app/src/main/res/layout/activity_generate_errors.xml:788: Warning: Hardcoded string "Network Exception", should use @string resource [HardcodedText]
+                            android:text="Network Exception"
+                            ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+/Users/sahil/Documents/Java-kotlin-test-app/app/src/main/res/layout/activity_hit_apis.xml:53: Warning: Hardcoded string "Hit APIs", should use @string resource [HardcodedText]
+            android:text="Hit APIs"
+            ~~~~~~~~~~~~~~~~~~~~~~~
+/Users/sahil/Documents/Java-kotlin-test-app/app/src/main/res/layout/activity_hit_apis.xml:70: Warning: Hardcoded string "API Key: Your API Key Here", should use @string resource [HardcodedText]
+            android:text="API Key: Your API Key Here"
+            ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+/Users/sahil/Documents/Java-kotlin-test-app/app/src/main/res/layout/activity_hit_apis.xml:100: Warning: Hardcoded string "Status", should use @string resource [HardcodedText]
+                    android:text="Status"
+                    ~~~~~~~~~~~~~~~~~~~~~
+/Users/sahil/Documents/Java-kotlin-test-app/app/src/main/res/layout/activity_hit_apis.xml:110: Warning: Hardcoded string "Ready to make API calls", should use @string resource [HardcodedText]
+                    android:text="Ready to make API calls"
+                    ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+/Users/sahil/Documents/Java-kotlin-test-app/app/src/main/res/layout/activity_hit_apis.xml:133: Warning: Hardcoded string "Dio HTTP Client", should use @string resource [HardcodedText]
+                android:text="Dio HTTP Client"
+                ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+/Users/sahil/Documents/Java-kotlin-test-app/app/src/main/res/layout/activity_hit_apis.xml:169: Warning: Hardcoded string "GET Success", should use @string resource [HardcodedText]
+                            android:text="GET Success"
+                            ~~~~~~~~~~~~~~~~~~~~~~~~~~
+/Users/sahil/Documents/Java-kotlin-test-app/app/src/main/res/layout/activity_hit_apis.xml:181: Warning: Hardcoded string "GET Fail", should use @string resource [HardcodedText]
+                            android:text="GET Fail"
+                            ~~~~~~~~~~~~~~~~~~~~~~~
+/Users/sahil/Documents/Java-kotlin-test-app/app/src/main/res/layout/activity_hit_apis.xml:202: Warning: Hardcoded string "POST Success", should use @string resource [HardcodedText]
+                            android:text="POST Success"
+                            ~~~~~~~~~~~~~~~~~~~~~~~~~~~
+/Users/sahil/Documents/Java-kotlin-test-app/app/src/main/res/layout/activity_hit_apis.xml:214: Warning: Hardcoded string "POST Fail", should use @string resource [HardcodedText]
+                            android:text="POST Fail"
+                            ~~~~~~~~~~~~~~~~~~~~~~~~
+/Users/sahil/Documents/Java-kotlin-test-app/app/src/main/res/layout/activity_hit_apis.xml:232: Warning: Hardcoded string "HTTP Client", should use @string resource [HardcodedText]
+                android:text="HTTP Client"
+                ~~~~~~~~~~~~~~~~~~~~~~~~~~
+/Users/sahil/Documents/Java-kotlin-test-app/app/src/main/res/layout/activity_hit_apis.xml:268: Warning: Hardcoded string "GET Success", should use @string resource [HardcodedText]
+                            android:text="GET Success"
+                            ~~~~~~~~~~~~~~~~~~~~~~~~~~
+/Users/sahil/Documents/Java-kotlin-test-app/app/src/main/res/layout/activity_hit_apis.xml:280: Warning: Hardcoded string "GET Fail", should use @string resource [HardcodedText]
+                            android:text="GET Fail"
+                            ~~~~~~~~~~~~~~~~~~~~~~~
+/Users/sahil/Documents/Java-kotlin-test-app/app/src/main/res/layout/activity_hit_apis.xml:301: Warning: Hardcoded string "POST Success", should use @string resource [HardcodedText]
+                            android:text="POST Success"
+                            ~~~~~~~~~~~~~~~~~~~~~~~~~~~
+/Users/sahil/Documents/Java-kotlin-test-app/app/src/main/res/layout/activity_hit_apis.xml:313: Warning: Hardcoded string "POST Fail", should use @string resource [HardcodedText]
+                            android:text="POST Fail"
+                            ~~~~~~~~~~~~~~~~~~~~~~~~
+/Users/sahil/Documents/Java-kotlin-test-app/app/src/main/res/layout/activity_hit_apis.xml:331: Warning: Hardcoded string "GraphQL", should use @string resource [HardcodedText]
+                android:text="GraphQL"
+                ~~~~~~~~~~~~~~~~~~~~~~
+/Users/sahil/Documents/Java-kotlin-test-app/app/src/main/res/layout/activity_hit_apis.xml:367: Warning: Hardcoded string "GET Success", should use @string resource [HardcodedText]
+                            android:text="GET Success"
+                            ~~~~~~~~~~~~~~~~~~~~~~~~~~
+/Users/sahil/Documents/Java-kotlin-test-app/app/src/main/res/layout/activity_hit_apis.xml:379: Warning: Hardcoded string "GET Fail", should use @string resource [HardcodedText]
+                            android:text="GET Fail"
+                            ~~~~~~~~~~~~~~~~~~~~~~~
+/Users/sahil/Documents/Java-kotlin-test-app/app/src/main/res/layout/activity_hit_apis.xml:400: Warning: Hardcoded string "POST Success", should use @string resource [HardcodedText]
+                            android:text="POST Success"
+                            ~~~~~~~~~~~~~~~~~~~~~~~~~~~
+/Users/sahil/Documents/Java-kotlin-test-app/app/src/main/res/layout/activity_hit_apis.xml:412: Warning: Hardcoded string "POST Fail", should use @string resource [HardcodedText]
+                            android:text="POST Fail"
+                            ~~~~~~~~~~~~~~~~~~~~~~~~
+/Users/sahil/Documents/Java-kotlin-test-app/app/src/main/res/layout/activity_hit_apis.xml:430: Warning: Hardcoded string "Multipart Form", should use @string resource [HardcodedText]
+                android:text="Multipart Form"
+                ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+/Users/sahil/Documents/Java-kotlin-test-app/app/src/main/res/layout/activity_hit_apis.xml:468: Warning: Hardcoded string "GET Success", should use @string resource [HardcodedText]
+                            android:text="GET Success"
+                            ~~~~~~~~~~~~~~~~~~~~~~~~~~
+/Users/sahil/Documents/Java-kotlin-test-app/app/src/main/res/layout/activity_hit_apis.xml:480: Warning: Hardcoded string "GET Fail", should use @string resource [HardcodedText]
+                            android:text="GET Fail"
+                            ~~~~~~~~~~~~~~~~~~~~~~~
+/Users/sahil/Documents/Java-kotlin-test-app/app/src/main/res/layout/activity_hit_apis.xml:501: Warning: Hardcoded string "POST Success", should use @string resource [HardcodedText]
+                            android:text="POST Success"
+                            ~~~~~~~~~~~~~~~~~~~~~~~~~~~
+/Users/sahil/Documents/Java-kotlin-test-app/app/src/main/res/layout/activity_hit_apis.xml:513: Warning: Hardcoded string "POST Fail", should use @string resource [HardcodedText]
+                            android:text="POST Fail"
+                            ~~~~~~~~~~~~~~~~~~~~~~~~
+/Users/sahil/Documents/Java-kotlin-test-app/app/src/main/res/layout/activity_main.xml:49: Warning: Hardcoded string "Enter first name", should use @string resource [HardcodedText]
+            android:hint="Enter first name"
+            ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+/Users/sahil/Documents/Java-kotlin-test-app/app/src/main/res/layout/activity_main.xml:76: Warning: Hardcoded string "Enter last name", should use @string resource [HardcodedText]
+            android:hint="Enter last name"
+            ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+/Users/sahil/Documents/Java-kotlin-test-app/app/src/main/res/layout/activity_main.xml:103: Warning: Hardcoded string "Enter email", should use @string resource [HardcodedText]
+            android:hint="Enter email"
+            ~~~~~~~~~~~~~~~~~~~~~~~~~~
+/Users/sahil/Documents/Java-kotlin-test-app/app/src/main/res/layout/activity_main.xml:130: Warning: Hardcoded string "Enter password", should use @string resource [HardcodedText]
+            android:hint="Enter password"
+            ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+/Users/sahil/Documents/Java-kotlin-test-app/app/src/main/res/layout/activity_main.xml:157: Warning: Hardcoded string "Confirm password", should use @string resource [HardcodedText]
+            android:hint="Confirm password"
+            ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+/Users/sahil/Documents/Java-kotlin-test-app/app/src/main/res/layout/activity_profile.xml:60: Warning: Hardcoded string "Profile Picture", should use @string resource [HardcodedText]
+                android:contentDescription="Profile Picture"
+                ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+/Users/sahil/Documents/Java-kotlin-test-app/app/src/main/res/layout/activity_profile.xml:74: Warning: Hardcoded string "John Doe", should use @string resource [HardcodedText]
+            android:text="John Doe"
+            ~~~~~~~~~~~~~~~~~~~~~~~
+/Users/sahil/Documents/Java-kotlin-test-app/app/src/main/res/layout/activity_profile.xml:91: Warning: Hardcoded string "john.doe@example.com", should use @string resource [HardcodedText]
+            android:text="john.doe@example.com"
+            ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+/Users/sahil/Documents/Java-kotlin-test-app/app/src/main/res/layout/activity_profile.xml:118: Warning: Hardcoded string "Member since January 2024", should use @string resource [HardcodedText]
+                android:text="Member since January 2024"
+                ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+/Users/sahil/Documents/Java-kotlin-test-app/app/src/main/res/layout/activity_profile.xml:140: Warning: Hardcoded string "Profile Statistics", should use @string resource [HardcodedText]
+                android:text="Profile Statistics"
+                ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+/Users/sahil/Documents/Java-kotlin-test-app/app/src/main/res/layout/activity_profile.xml:170: Warning: Hardcoded string "1,247", should use @string resource [HardcodedText]
+                        android:text="1,247"
+                        ~~~~~~~~~~~~~~~~~~~~
+/Users/sahil/Documents/Java-kotlin-test-app/app/src/main/res/layout/activity_profile.xml:179: Warning: Hardcoded string "API Calls", should use @string resource [HardcodedText]
+                        android:text="API Calls"
+                        ~~~~~~~~~~~~~~~~~~~~~~~~
+/Users/sahil/Documents/Java-kotlin-test-app/app/src/main/res/layout/activity_profile.xml:208: Warning: Hardcoded string "23", should use @string resource [HardcodedText]
+                        android:text="23"
+                        ~~~~~~~~~~~~~~~~~
+/Users/sahil/Documents/Java-kotlin-test-app/app/src/main/res/layout/activity_profile.xml:217: Warning: Hardcoded string "Errors", should use @string resource [HardcodedText]
+                        android:text="Errors"
+                        ~~~~~~~~~~~~~~~~~~~~~
+/Users/sahil/Documents/Java-kotlin-test-app/app/src/main/res/layout/activity_profile.xml:248: Warning: Hardcoded string "156", should use @string resource [HardcodedText]
+                        android:text="156"
+                        ~~~~~~~~~~~~~~~~~~
+/Users/sahil/Documents/Java-kotlin-test-app/app/src/main/res/layout/activity_profile.xml:257: Warning: Hardcoded string "Sessions", should use @string resource [HardcodedText]
+                        android:text="Sessions"
+                        ~~~~~~~~~~~~~~~~~~~~~~~
+/Users/sahil/Documents/Java-kotlin-test-app/app/src/main/res/layout/activity_profile.xml:286: Warning: Hardcoded string "99.8%", should use @string resource [HardcodedText]
+                        android:text="99.8%"
+                        ~~~~~~~~~~~~~~~~~~~~
+/Users/sahil/Documents/Java-kotlin-test-app/app/src/main/res/layout/activity_profile.xml:295: Warning: Hardcoded string "Uptime", should use @string resource [HardcodedText]
+                        android:text="Uptime"
+                        ~~~~~~~~~~~~~~~~~~~~~
+/Users/sahil/Documents/Java-kotlin-test-app/app/src/main/res/layout/activity_profile.xml:309: Warning: Hardcoded string "Personal Information", should use @string resource [HardcodedText]
+                android:text="Personal Information"
+                ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+/Users/sahil/Documents/Java-kotlin-test-app/app/src/main/res/layout/activity_profile.xml:354: Warning: Hardcoded string "Full Name", should use @string resource [HardcodedText]
+                            android:text="Full Name"
+                            ~~~~~~~~~~~~~~~~~~~~~~~~
+/Users/sahil/Documents/Java-kotlin-test-app/app/src/main/res/layout/activity_profile.xml:364: Warning: Hardcoded string "John Doe", should use @string resource [HardcodedText]
+                            android:text="John Doe"
+                            ~~~~~~~~~~~~~~~~~~~~~~~
+/Users/sahil/Documents/Java-kotlin-test-app/app/src/main/res/layout/activity_profile.xml:395: Warning: Hardcoded string "Email Address", should use @string resource [HardcodedText]
+                            android:text="Email Address"
+                            ~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+/Users/sahil/Documents/Java-kotlin-test-app/app/src/main/res/layout/activity_profile.xml:405: Warning: Hardcoded string "john.doe@example.com", should use @string resource [HardcodedText]
+                            android:text="john.doe@example.com"
+                            ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+/Users/sahil/Documents/Java-kotlin-test-app/app/src/main/res/layout/activity_profile.xml:436: Warning: Hardcoded string "Phone Number", should use @string resource [HardcodedText]
+                            android:text="Phone Number"
+                            ~~~~~~~~~~~~~~~~~~~~~~~~~~~
+/Users/sahil/Documents/Java-kotlin-test-app/app/src/main/res/layout/activity_profile.xml:445: Warning: Hardcoded string "+1 (555) 123-4567", should use @string resource [HardcodedText]
+                            android:text="+1 (555) 123-4567"
+                            ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+/Users/sahil/Documents/Java-kotlin-test-app/app/src/main/res/layout/activity_profile.xml:476: Warning: Hardcoded string "Location", should use @string resource [HardcodedText]
+                            android:text="Location"
+                            ~~~~~~~~~~~~~~~~~~~~~~~
+/Users/sahil/Documents/Java-kotlin-test-app/app/src/main/res/layout/activity_profile.xml:485: Warning: Hardcoded string "San Francisco, CA", should use @string resource [HardcodedText]
+                            android:text="San Francisco, CA"
+                            ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+/Users/sahil/Documents/Java-kotlin-test-app/app/src/main/res/layout/activity_profile.xml:501: Warning: Hardcoded string "Account Settings", should use @string resource [HardcodedText]
+                android:text="Account Settings"
+                ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+/Users/sahil/Documents/Java-kotlin-test-app/app/src/main/res/layout/activity_profile.xml:546: Warning: Hardcoded string "Account Status", should use @string resource [HardcodedText]
+                            android:text="Account Status"
+                            ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+/Users/sahil/Documents/Java-kotlin-test-app/app/src/main/res/layout/activity_profile.xml:560: Warning: Hardcoded string "Active", should use @string resource [HardcodedText]
+                            android:text="Active"
+                            ~~~~~~~~~~~~~~~~~~~~~
+/Users/sahil/Documents/Java-kotlin-test-app/app/src/main/res/layout/activity_profile.xml:592: Warning: Hardcoded string "Subscription Plan", should use @string resource [HardcodedText]
+                            android:text="Subscription Plan"
+                            ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+/Users/sahil/Documents/Java-kotlin-test-app/app/src/main/res/layout/activity_profile.xml:606: Warning: Hardcoded string "Premium", should use @string resource [HardcodedText]
+                            android:text="Premium"
+                            ~~~~~~~~~~~~~~~~~~~~~~
+/Users/sahil/Documents/Java-kotlin-test-app/app/src/main/res/layout/activity_profile.xml:638: Warning: Hardcoded string "API Key Status", should use @string resource [HardcodedText]
+                            android:text="API Key Status"
+                            ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+/Users/sahil/Documents/Java-kotlin-test-app/app/src/main/res/layout/activity_profile.xml:652: Warning: Hardcoded string "Valid", should use @string resource [HardcodedText]
+                            android:text="Valid"
+                            ~~~~~~~~~~~~~~~~~~~~
+/Users/sahil/Documents/Java-kotlin-test-app/app/src/main/res/layout/activity_profile.xml:669: Warning: Hardcoded string "Recent Activity", should use @string resource [HardcodedText]
+                android:text="Recent Activity"
+                ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+/Users/sahil/Documents/Java-kotlin-test-app/app/src/main/res/layout/activity_profile.xml:714: Warning: Hardcoded string "API call to /users endpoint", should use @string resource [HardcodedText]
+                            android:text="API call to /users endpoint"
+                            ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+/Users/sahil/Documents/Java-kotlin-test-app/app/src/main/res/layout/activity_profile.xml:722: Warning: Hardcoded string "2 min ago", should use @string resource [HardcodedText]
+                            android:text="2 min ago"
+                            ~~~~~~~~~~~~~~~~~~~~~~~~
+/Users/sahil/Documents/Java-kotlin-test-app/app/src/main/res/layout/activity_profile.xml:753: Warning: Hardcoded string "Error logged: Network timeout", should use @string resource [HardcodedText]
+                            android:text="Error logged: Network timeout"
+                            ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+/Users/sahil/Documents/Java-kotlin-test-app/app/src/main/res/layout/activity_profile.xml:761: Warning: Hardcoded string "15 min ago", should use @string resource [HardcodedText]
+                            android:text="15 min ago"
+                            ~~~~~~~~~~~~~~~~~~~~~~~~~
+/Users/sahil/Documents/Java-kotlin-test-app/app/src/main/res/layout/activity_profile.xml:792: Warning: Hardcoded string "User session started", should use @string resource [HardcodedText]
+                            android:text="User session started"
+                            ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+/Users/sahil/Documents/Java-kotlin-test-app/app/src/main/res/layout/activity_profile.xml:800: Warning: Hardcoded string "1 hour ago", should use @string resource [HardcodedText]
+                            android:text="1 hour ago"
+                            ~~~~~~~~~~~~~~~~~~~~~~~~~
+/Users/sahil/Documents/Java-kotlin-test-app/app/src/main/res/layout/activity_profile.xml:816: Warning: Hardcoded string "Quick Actions", should use @string resource [HardcodedText]
+                android:text="Quick Actions"
+                ~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+/Users/sahil/Documents/Java-kotlin-test-app/app/src/main/res/layout/activity_profile.xml:840: Warning: Hardcoded string "Edit Profile", should use @string resource [HardcodedText]
+                    android:text="Edit Profile"
+                    ~~~~~~~~~~~~~~~~~~~~~~~~~~~
+/Users/sahil/Documents/Java-kotlin-test-app/app/src/main/res/layout/activity_profile.xml:852: Warning: Hardcoded string "Change Password", should use @string resource [HardcodedText]
+                    android:text="Change Password"
+                    ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+/Users/sahil/Documents/Java-kotlin-test-app/app/src/main/res/layout/activity_scroll.xml:48: Warning: Hardcoded string "Infinite Scroll", should use @string resource [HardcodedText]
+        android:text="Infinite Scroll"
+        ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+/Users/sahil/Documents/Java-kotlin-test-app/app/src/main/res/layout/activity_scroll.xml:65: Warning: Hardcoded string "Scroll vertically and horizontally through 1000+ cards", should use @string resource [HardcodedText]
+        android:text="Scroll vertically and horizontally through 1000+ cards"
+        ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+/Users/sahil/Documents/Java-kotlin-test-app/app/src/main/res/layout/item_scroll_card.xml:43: Warning: Hardcoded string "#1", should use @string resource [HardcodedText]
+                android:text="#1"
+                ~~~~~~~~~~~~~~~~~
+/Users/sahil/Documents/Java-kotlin-test-app/app/src/main/res/layout/item_scroll_card.xml:54: Warning: Hardcoded string "Card Title", should use @string resource [HardcodedText]
+                android:text="Card Title"
+                ~~~~~~~~~~~~~~~~~~~~~~~~~
+/Users/sahil/Documents/Java-kotlin-test-app/app/src/main/res/layout/item_scroll_card.xml:65: Warning: Hardcoded string "This is a sample card description with some content to show how the card looks with text.", should use @string resource [HardcodedText]
+                android:text="This is a sample card description with some content to show how the card looks with text."
+                ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+/Users/sahil/Documents/Java-kotlin-test-app/app/src/main/res/layout/item_scroll_card.xml:81: Warning: Hardcoded string "Action", should use @string resource [HardcodedText]
+                android:text="Action"
+                ~~~~~~~~~~~~~~~~~~~~~
+
+   Explanation for issues of type "HardcodedText":
+   Hardcoding text attributes directly in layout files is bad for several
+   reasons:
+
+   * When creating configuration variations (for example for landscape or
+   portrait) you have to repeat the actual text (and keep it up to date when
+   making changes)
+
+   * The application cannot be translated to other languages by just adding
+   new translations for existing string resources.
+
+   There are quickfixes to automatically extract this hardcoded string into a
+   resource lookup.
+
+0 errors, 226 warnings

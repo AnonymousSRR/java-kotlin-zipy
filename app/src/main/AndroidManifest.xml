@@ -1,0 +1,80 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools">
+
+    <uses-permission android:name="android.permission.INTERNET" />
+
+    <application
+        android:allowBackup="true"
+        android:dataExtractionRules="@xml/data_extraction_rules"
+        android:fullBackupContent="@xml/backup_rules"
+        android:icon="@drawable/ic_launcher"
+        android:label="@string/app_name"
+        android:roundIcon="@drawable/ic_launcher"
+        android:supportsRtl="true"
+        android:theme="@style/Theme.HelloWorld"
+        tools:targetApi="31">
+        <activity
+            android:name=".ApiKeyActivity"
+            android:exported="true"
+            android:theme="@style/Theme.HelloWorld">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+        <activity
+            android:name=".MainActivity"
+            android:exported="false"
+            android:theme="@style/Theme.HelloWorld" />
+        <activity
+            android:name=".DashboardActivity"
+            android:exported="false"
+            android:theme="@style/Theme.HelloWorld" />
+        <activity
+            android:name=".ProfileActivity"
+            android:exported="false"
+            android:theme="@style/Theme.HelloWorld" />
+        <activity
+            android:name=".HitApisActivity"
+            android:exported="false"
+            android:theme="@style/Theme.HelloWorld" />
+        <activity
+            android:name=".GenerateErrorsActivity"
+            android:exported="false"
+            android:theme="@style/Theme.HelloWorld" />
+        <activity
+            android:name=".ScrollActivity"
+            android:exported="false"
+            android:theme="@style/Theme.HelloWorld" />
+        <activity
+            android:name=".DragDropActivity"
+            android:exported="false"
+            android:theme="@style/Theme.HelloWorld" />
+        <activity
+            android:name=".AnimationsActivity"
+            android:exported="false"
+            android:theme="@style/Theme.HelloWorld" />
+        <activity
+            android:name=".CrashAnrActivity"
+            android:exported="false"
+            android:theme="@style/Theme.HelloWorld" />
+        <activity
+            android:name=".ControlsActivity"
+            android:exported="false"
+            android:theme="@style/Theme.HelloWorld" />
+        <activity
+            android:name=".SettingsActivity"
+            android:exported="false"
+            android:theme="@style/Theme.HelloWorld" />
+        <activity
+            android:name=".PayActivity"
+            android:exported="false"
+            android:theme="@style/Theme.HelloWorld" />
+        <activity
+            android:name=".MiniGameActivity"
+            android:exported="false"
+            android:theme="@style/Theme.HelloWorld" />
+    </application>
+
+</manifest> 

@@ -1,0 +1,157 @@
+1<?xml version="1.0" encoding="utf-8"?>
+2<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+3    package="com.example.helloworld"
+4    android:versionCode="1"
+5    android:versionName="1.0" >
+6
+7    <uses-sdk
+8        android:minSdkVersion="24"
+8-->/Users/sahil/Documents/Java-kotlin-test-app/app/src/main/AndroidManifest.xml
+9        android:targetSdkVersion="34" />
+9-->/Users/sahil/Documents/Java-kotlin-test-app/app/src/main/AndroidManifest.xml
+10
+11    <uses-permission android:name="android.permission.INTERNET" />
+11-->/Users/sahil/Documents/Java-kotlin-test-app/app/src/main/AndroidManifest.xml:5:5-67
+11-->/Users/sahil/Documents/Java-kotlin-test-app/app/src/main/AndroidManifest.xml:5:22-64
+12
+13    <permission
+13-->[androidx.core:core:1.10.1] /Users/sahil/.gradle/caches/transforms-3/48c65ad55af798bb83b4aeb6b0dadfeb/transformed/core-1.10.1/AndroidManifest.xml:22:5-24:47
+14        android:name="com.example.helloworld.DYNAMIC_RECEIVER_NOT_EXPORTED_PERMISSION"
+14-->[androidx.core:core:1.10.1] /Users/sahil/.gradle/caches/transforms-3/48c65ad55af798bb83b4aeb6b0dadfeb/transformed/core-1.10.1/AndroidManifest.xml:23:9-81
+15        android:protectionLevel="signature" />
+15-->[androidx.core:core:1.10.1] /Users/sahil/.gradle/caches/transforms-3/48c65ad55af798bb83b4aeb6b0dadfeb/transformed/core-1.10.1/AndroidManifest.xml:24:9-44
+16
+17    <uses-permission android:name="com.example.helloworld.DYNAMIC_RECEIVER_NOT_EXPORTED_PERMISSION" />
+17-->[androidx.core:core:1.10.1] /Users/sahil/.gradle/caches/transforms-3/48c65ad55af798bb83b4aeb6b0dadfeb/transformed/core-1.10.1/AndroidManifest.xml:26:5-97
+17-->[androidx.core:core:1.10.1] /Users/sahil/.gradle/caches/transforms-3/48c65ad55af798bb83b4aeb6b0dadfeb/transformed/core-1.10.1/AndroidManifest.xml:26:22-94
+18
+19    <application
+19-->/Users/sahil/Documents/Java-kotlin-test-app/app/src/main/AndroidManifest.xml:7:5-58:19
+20        android:allowBackup="true"
+20-->/Users/sahil/Documents/Java-kotlin-test-app/app/src/main/AndroidManifest.xml:8:9-35
+21        android:appComponentFactory="androidx.core.app.CoreComponentFactory"
+21-->[androidx.core:core:1.10.1] /Users/sahil/.gradle/caches/transforms-3/48c65ad55af798bb83b4aeb6b0dadfeb/transformed/core-1.10.1/AndroidManifest.xml:28:18-86
+22        android:dataExtractionRules="@xml/data_extraction_rules"
+22-->/Users/sahil/Documents/Java-kotlin-test-app/app/src/main/AndroidManifest.xml:9:9-65
+23        android:debuggable="true"
+24        android:extractNativeLibs="false"
+25        android:fullBackupContent="@xml/backup_rules"
+25-->/Users/sahil/Documents/Java-kotlin-test-app/app/src/main/AndroidManifest.xml:10:9-54
+26        android:icon="@drawable/ic_launcher"
+26-->/Users/sahil/Documents/Java-kotlin-test-app/app/src/main/AndroidManifest.xml:11:9-45
+27        android:label="@string/app_name"
+27-->/Users/sahil/Documents/Java-kotlin-test-app/app/src/main/AndroidManifest.xml:12:9-41
+28        android:roundIcon="@drawable/ic_launcher"
+28-->/Users/sahil/Documents/Java-kotlin-test-app/app/src/main/AndroidManifest.xml:13:9-50
+29        android:supportsRtl="true"
+29-->/Users/sahil/Documents/Java-kotlin-test-app/app/src/main/AndroidManifest.xml:14:9-35
+30        android:theme="@style/Theme.HelloWorld" >
+30-->/Users/sahil/Documents/Java-kotlin-test-app/app/src/main/AndroidManifest.xml:15:9-48
+31        <activity
+31-->/Users/sahil/Documents/Java-kotlin-test-app/app/src/main/AndroidManifest.xml:17:9-25:20
+32            android:name="com.example.helloworld.ApiKeyActivity"
+32-->/Users/sahil/Documents/Java-kotlin-test-app/app/src/main/AndroidManifest.xml:18:13-43
+33            android:exported="true"
+33-->/Users/sahil/Documents/Java-kotlin-test-app/app/src/main/AndroidManifest.xml:19:13-36
+34            android:theme="@style/Theme.HelloWorld" >
+34-->/Users/sahil/Documents/Java-kotlin-test-app/app/src/main/AndroidManifest.xml:20:13-52
+35            <intent-filter>
+35-->/Users/sahil/Documents/Java-kotlin-test-app/app/src/main/AndroidManifest.xml:21:13-24:29
+36                <action android:name="android.intent.action.MAIN" />
+36-->/Users/sahil/Documents/Java-kotlin-test-app/app/src/main/AndroidManifest.xml:22:17-69
+36-->/Users/sahil/Documents/Java-kotlin-test-app/app/src/main/AndroidManifest.xml:22:25-66
+37
+38                <category android:name="android.intent.category.LAUNCHER" />
+38-->/Users/sahil/Documents/Java-kotlin-test-app/app/src/main/AndroidManifest.xml:23:17-77
+38-->/Users/sahil/Documents/Java-kotlin-test-app/app/src/main/AndroidManifest.xml:23:27-74
+39            </intent-filter>
+40        </activity>
+41        <activity
+41-->/Users/sahil/Documents/Java-kotlin-test-app/app/src/main/AndroidManifest.xml:26:9-29:55
+42            android:name="com.example.helloworld.MainActivity"
+42-->/Users/sahil/Documents/Java-kotlin-test-app/app/src/main/AndroidManifest.xml:27:13-41
+43            android:exported="false"
+43-->/Users/sahil/Documents/Java-kotlin-test-app/app/src/main/AndroidManifest.xml:28:13-37
+44            android:theme="@style/Theme.HelloWorld" />
+44-->/Users/sahil/Documents/Java-kotlin-test-app/app/src/main/AndroidManifest.xml:29:13-52
+45        <activity
+45-->/Users/sahil/Documents/Java-kotlin-test-app/app/src/main/AndroidManifest.xml:30:9-33:55
+46            android:name="com.example.helloworld.DashboardActivity"
+46-->/Users/sahil/Documents/Java-kotlin-test-app/app/src/main/AndroidManifest.xml:31:13-46
+47            android:exported="false"
+47-->/Users/sahil/Documents/Java-kotlin-test-app/app/src/main/AndroidManifest.xml:32:13-37
+48            android:theme="@style/Theme.HelloWorld" />
+48-->/Users/sahil/Documents/Java-kotlin-test-app/app/src/main/AndroidManifest.xml:33:13-52
+49        <activity
+49-->/Users/sahil/Documents/Java-kotlin-test-app/app/src/main/AndroidManifest.xml:34:9-37:55
+50            android:name="com.example.helloworld.ProfileActivity"
+50-->/Users/sahil/Documents/Java-kotlin-test-app/app/src/main/AndroidManifest.xml:35:13-44
+51            android:exported="false"
+51-->/Users/sahil/Documents/Java-kotlin-test-app/app/src/main/AndroidManifest.xml:36:13-37
+52            android:theme="@style/Theme.HelloWorld" />
+52-->/Users/sahil/Documents/Java-kotlin-test-app/app/src/main/AndroidManifest.xml:37:13-52
+53        <activity
+53-->/Users/sahil/Documents/Java-kotlin-test-app/app/src/main/AndroidManifest.xml:38:9-41:55
+54            android:name="com.example.helloworld.HitApisActivity"
+54-->/Users/sahil/Documents/Java-kotlin-test-app/app/src/main/AndroidManifest.xml:39:13-44
+55            android:exported="false"
+55-->/Users/sahil/Documents/Java-kotlin-test-app/app/src/main/AndroidManifest.xml:40:13-37
+56            android:theme="@style/Theme.HelloWorld" />
+56-->/Users/sahil/Documents/Java-kotlin-test-app/app/src/main/AndroidManifest.xml:41:13-52
+57        <activity
+57-->/Users/sahil/Documents/Java-kotlin-test-app/app/src/main/AndroidManifest.xml:42:9-45:55
+58            android:name="com.example.helloworld.GenerateErrorsActivity"
+58-->/Users/sahil/Documents/Java-kotlin-test-app/app/src/main/AndroidManifest.xml:43:13-51
+59            android:exported="false"
+59-->/Users/sahil/Documents/Java-kotlin-test-app/app/src/main/AndroidManifest.xml:44:13-37
+60            android:theme="@style/Theme.HelloWorld" />
+60-->/Users/sahil/Documents/Java-kotlin-test-app/app/src/main/AndroidManifest.xml:45:13-52
+61        <activity
+61-->/Users/sahil/Documents/Java-kotlin-test-app/app/src/main/AndroidManifest.xml:46:9-49:55
+62            android:name="com.example.helloworld.ScrollActivity"
+62-->/Users/sahil/Documents/Java-kotlin-test-app/app/src/main/AndroidManifest.xml:47:13-43
+63            android:exported="false"
+63-->/Users/sahil/Documents/Java-kotlin-test-app/app/src/main/AndroidManifest.xml:48:13-37
+64            android:theme="@style/Theme.HelloWorld" />
+64-->/Users/sahil/Documents/Java-kotlin-test-app/app/src/main/AndroidManifest.xml:49:13-52
+65        <activity
+65-->/Users/sahil/Documents/Java-kotlin-test-app/app/src/main/AndroidManifest.xml:50:9-53:55
+66            android:name="com.example.helloworld.DragDropActivity"
+66-->/Users/sahil/Documents/Java-kotlin-test-app/app/src/main/AndroidManifest.xml:51:13-45
+67            android:exported="false"
+67-->/Users/sahil/Documents/Java-kotlin-test-app/app/src/main/AndroidManifest.xml:52:13-37
+68            android:theme="@style/Theme.HelloWorld" />
+68-->/Users/sahil/Documents/Java-kotlin-test-app/app/src/main/AndroidManifest.xml:53:13-52
+69        <activity
+69-->/Users/sahil/Documents/Java-kotlin-test-app/app/src/main/AndroidManifest.xml:54:9-57:55
+70            android:name="com.example.helloworld.AnimationsActivity"
+70-->/Users/sahil/Documents/Java-kotlin-test-app/app/src/main/AndroidManifest.xml:55:13-47
+71            android:exported="false"
+71-->/Users/sahil/Documents/Java-kotlin-test-app/app/src/main/AndroidManifest.xml:56:13-37
+72            android:theme="@style/Theme.HelloWorld" />
+72-->/Users/sahil/Documents/Java-kotlin-test-app/app/src/main/AndroidManifest.xml:57:13-52
+73
+74        <provider
+74-->[androidx.emoji2:emoji2:1.2.0] /Users/sahil/.gradle/caches/transforms-3/ed5c533cc70e7b3b025c1d493dfcade0/transformed/emoji2-1.2.0/AndroidManifest.xml:24:9-32:20
+75            android:name="androidx.startup.InitializationProvider"
+75-->[androidx.emoji2:emoji2:1.2.0] /Users/sahil/.gradle/caches/transforms-3/ed5c533cc70e7b3b025c1d493dfcade0/transformed/emoji2-1.2.0/AndroidManifest.xml:25:13-67
+76            android:authorities="com.example.helloworld.androidx-startup"
+76-->[androidx.emoji2:emoji2:1.2.0] /Users/sahil/.gradle/caches/transforms-3/ed5c533cc70e7b3b025c1d493dfcade0/transformed/emoji2-1.2.0/AndroidManifest.xml:26:13-68
+77            android:exported="false" >
+77-->[androidx.emoji2:emoji2:1.2.0] /Users/sahil/.gradle/caches/transforms-3/ed5c533cc70e7b3b025c1d493dfcade0/transformed/emoji2-1.2.0/AndroidManifest.xml:27:13-37
+78            <meta-data
+78-->[androidx.emoji2:emoji2:1.2.0] /Users/sahil/.gradle/caches/transforms-3/ed5c533cc70e7b3b025c1d493dfcade0/transformed/emoji2-1.2.0/AndroidManifest.xml:29:13-31:52
+79                android:name="androidx.emoji2.text.EmojiCompatInitializer"
+79-->[androidx.emoji2:emoji2:1.2.0] /Users/sahil/.gradle/caches/transforms-3/ed5c533cc70e7b3b025c1d493dfcade0/transformed/emoji2-1.2.0/AndroidManifest.xml:30:17-75
+80                android:value="androidx.startup" />
+80-->[androidx.emoji2:emoji2:1.2.0] /Users/sahil/.gradle/caches/transforms-3/ed5c533cc70e7b3b025c1d493dfcade0/transformed/emoji2-1.2.0/AndroidManifest.xml:31:17-49
+81            <meta-data
+81-->[androidx.lifecycle:lifecycle-process:2.4.1] /Users/sahil/.gradle/caches/transforms-3/41ce1ad912a5e3041715fcd6269c5d09/transformed/lifecycle-process-2.4.1/AndroidManifest.xml:31:13-33:52
+82                android:name="androidx.lifecycle.ProcessLifecycleInitializer"
+82-->[androidx.lifecycle:lifecycle-process:2.4.1] /Users/sahil/.gradle/caches/transforms-3/41ce1ad912a5e3041715fcd6269c5d09/transformed/lifecycle-process-2.4.1/AndroidManifest.xml:32:17-78
+83                android:value="androidx.startup" />
+83-->[androidx.lifecycle:lifecycle-process:2.4.1] /Users/sahil/.gradle/caches/transforms-3/41ce1ad912a5e3041715fcd6269c5d09/transformed/lifecycle-process-2.4.1/AndroidManifest.xml:33:17-49
+84        </provider>
+85    </application>
+86
+87</manifest>

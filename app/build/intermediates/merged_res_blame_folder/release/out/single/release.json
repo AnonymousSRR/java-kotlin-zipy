@@ -1,0 +1,194 @@
+[
+    {
+        "merged": "/Users/sahil/.gradle/daemon/8.0/com.example.helloworld.app-merged_res-28:/layout_activity_mini_game.xml.flat",
+        "source": "/Users/sahil/.gradle/daemon/8.0/com.example.helloworld.app-main-29:/layout/activity_mini_game.xml"
+    },
+    {
+        "merged": "/Users/sahil/.gradle/daemon/8.0/com.example.helloworld.app-merged_res-28:/xml_data_extraction_rules.xml.flat",
+        "source": "/Users/sahil/.gradle/daemon/8.0/com.example.helloworld.app-main-29:/xml/data_extraction_rules.xml"
+    },
+    {
+        "merged": "/Users/sahil/.gradle/daemon/8.0/com.example.helloworld.app-merged_res-28:/drawable_edit_text_background.xml.flat",
+        "source": "/Users/sahil/.gradle/daemon/8.0/com.example.helloworld.app-main-29:/drawable/edit_text_background.xml"
+    },
+    {
+        "merged": "/Users/sahil/.gradle/daemon/8.0/com.example.helloworld.app-merged_res-28:/drawable_status_active_background.xml.flat",
+        "source": "/Users/sahil/.gradle/daemon/8.0/com.example.helloworld.app-main-29:/drawable/status_active_background.xml"
+    },
+    {
+        "merged": "/Users/sahil/.gradle/daemon/8.0/com.example.helloworld.app-merged_res-28:/anim_drop_success.xml.flat",
+        "source": "/Users/sahil/.gradle/daemon/8.0/com.example.helloworld.app-main-29:/anim/drop_success.xml"
+    },
+    {
+        "merged": "com.example.helloworld.app-merged_res-28:/layout_activity_mini_game.xml.flat",
+        "source": "com.example.helloworld.app-main-29:/layout/activity_mini_game.xml"
+    },
+    {
+        "merged": "/Users/sahil/.gradle/daemon/8.0/com.example.helloworld.app-merged_res-28:/drawable_dropped_item_background.xml.flat",
+        "source": "/Users/sahil/.gradle/daemon/8.0/com.example.helloworld.app-main-29:/drawable/dropped_item_background.xml"
+    },
+    {
+        "merged": "/Users/sahil/.gradle/daemon/8.0/com.example.helloworld.app-merged_res-28:/drawable_ic_flame.xml.flat",
+        "source": "/Users/sahil/.gradle/daemon/8.0/com.example.helloworld.app-main-29:/drawable/ic_flame.xml"
+    },
+    {
+        "merged": "/Users/sahil/.gradle/daemon/8.0/com.example.helloworld.app-merged_res-28:/layout_activity_drag_drop.xml.flat",
+        "source": "/Users/sahil/.gradle/daemon/8.0/com.example.helloworld.app-main-29:/layout/activity_drag_drop.xml"
+    },
+    {
+        "merged": "/Users/sahil/.gradle/daemon/8.0/com.example.helloworld.app-merged_res-28:/layout_activity_dashboard.xml.flat",
+        "source": "/Users/sahil/.gradle/daemon/8.0/com.example.helloworld.app-main-29:/layout/activity_dashboard.xml"
+    },
+    {
+        "merged": "/Users/sahil/.gradle/daemon/8.0/com.example.helloworld.app-merged_res-28:/anim_flame_animation.xml.flat",
+        "source": "/Users/sahil/.gradle/daemon/8.0/com.example.helloworld.app-main-29:/anim/flame_animation.xml"
+    },
+    {
+        "merged": "/Users/sahil/.gradle/daemon/8.0/com.example.helloworld.app-merged_res-28:/layout_activity_hit_apis.xml.flat",
+        "source": "/Users/sahil/.gradle/daemon/8.0/com.example.helloworld.app-main-29:/layout/activity_hit_apis.xml"
+    },
+    {
+        "merged": "/Users/sahil/.gradle/daemon/8.0/com.example.helloworld.app-merged_res-28:/anim_shake_animation.xml.flat",
+        "source": "/Users/sahil/.gradle/daemon/8.0/com.example.helloworld.app-main-29:/anim/shake_animation.xml"
+    },
+    {
+        "merged": "/Users/sahil/.gradle/daemon/8.0/com.example.helloworld.app-merged_res-28:/xml_backup_rules.xml.flat",
+        "source": "/Users/sahil/.gradle/daemon/8.0/com.example.helloworld.app-main-29:/xml/backup_rules.xml"
+    },
+    {
+        "merged": "/Users/sahil/.gradle/daemon/8.0/com.example.helloworld.app-merged_res-28:/drawable_credit_card_gradient.xml.flat",
+        "source": "/Users/sahil/.gradle/daemon/8.0/com.example.helloworld.app-main-29:/drawable/credit_card_gradient.xml"
+    },
+    {
+        "merged": "/Users/sahil/.gradle/daemon/8.0/com.example.helloworld.app-merged_res-28:/drawable_profile_header_gradient.xml.flat",
+        "source": "/Users/sahil/.gradle/daemon/8.0/com.example.helloworld.app-main-29:/drawable/profile_header_gradient.xml"
+    },
+    {
+        "merged": "/Users/sahil/.gradle/daemon/8.0/com.example.helloworld.app-merged_res-28:/drawable_spinner_background.xml.flat",
+        "source": "/Users/sahil/.gradle/daemon/8.0/com.example.helloworld.app-main-29:/drawable/spinner_background.xml"
+    },
+    {
+        "merged": "/Users/sahil/.gradle/daemon/8.0/com.example.helloworld.app-merged_res-28:/layout_activity_pay.xml.flat",
+        "source": "/Users/sahil/.gradle/daemon/8.0/com.example.helloworld.app-main-29:/layout/activity_pay.xml"
+    },
+    {
+        "merged": "/Users/sahil/.gradle/daemon/8.0/com.example.helloworld.app-merged_res-28:/drawable_draggable_item_background.xml.flat",
+        "source": "/Users/sahil/.gradle/daemon/8.0/com.example.helloworld.app-main-29:/drawable/draggable_item_background.xml"
+    },
+    {
+        "merged": "/Users/sahil/.gradle/daemon/8.0/com.example.helloworld.app-merged_res-28:/drawable_ic_profile_avatar.xml.flat",
+        "source": "/Users/sahil/.gradle/daemon/8.0/com.example.helloworld.app-main-29:/drawable/ic_profile_avatar.xml"
+    },
+    {
+        "merged": "/Users/sahil/.gradle/daemon/8.0/com.example.helloworld.app-merged_res-28:/drawable_ic_animated_star.xml.flat",
+        "source": "/Users/sahil/.gradle/daemon/8.0/com.example.helloworld.app-main-29:/drawable/ic_animated_star.xml"
+    },
+    {
+        "merged": "/Users/sahil/.gradle/daemon/8.0/com.example.helloworld.app-merged_res-28:/drawable_floating_bar_background.xml.flat",
+        "source": "/Users/sahil/.gradle/daemon/8.0/com.example.helloworld.app-main-29:/drawable/floating_bar_background.xml"
+    },
+    {
+        "merged": "/Users/sahil/.gradle/daemon/8.0/com.example.helloworld.app-merged_res-28:/anim_pulse_animation.xml.flat",
+        "source": "/Users/sahil/.gradle/daemon/8.0/com.example.helloworld.app-main-29:/anim/pulse_animation.xml"
+    },
+    {
+        "merged": "/Users/sahil/.gradle/daemon/8.0/com.example.helloworld.app-merged_res-28:/drawable_ic_launcher.xml.flat",
+        "source": "/Users/sahil/.gradle/daemon/8.0/com.example.helloworld.app-main-29:/drawable/ic_launcher.xml"
+    },
+    {
+        "merged": "/Users/sahil/.gradle/daemon/8.0/com.example.helloworld.app-merged_res-28:/drawable_target_container_normal.xml.flat",
+        "source": "/Users/sahil/.gradle/daemon/8.0/com.example.helloworld.app-main-29:/drawable/target_container_normal.xml"
+    },
+    {
+        "merged": "/Users/sahil/.gradle/daemon/8.0/com.example.helloworld.app-merged_res-28:/layout_activity_main.xml.flat",
+        "source": "/Users/sahil/.gradle/daemon/8.0/com.example.helloworld.app-main-29:/layout/activity_main.xml"
+    },
+    {
+        "merged": "/Users/sahil/.gradle/daemon/8.0/com.example.helloworld.app-merged_res-28:/layout_activity_scroll.xml.flat",
+        "source": "/Users/sahil/.gradle/daemon/8.0/com.example.helloworld.app-main-29:/layout/activity_scroll.xml"
+    },
+    {
+        "merged": "/Users/sahil/.gradle/daemon/8.0/com.example.helloworld.app-merged_res-28:/drawable_animated_object_background.xml.flat",
+        "source": "/Users/sahil/.gradle/daemon/8.0/com.example.helloworld.app-main-29:/drawable/animated_object_background.xml"
+    },
+    {
+        "merged": "/Users/sahil/.gradle/daemon/8.0/com.example.helloworld.app-merged_res-28:/layout_item_scroll_row.xml.flat",
+        "source": "/Users/sahil/.gradle/daemon/8.0/com.example.helloworld.app-main-29:/layout/item_scroll_row.xml"
+    },
+    {
+        "merged": "/Users/sahil/.gradle/daemon/8.0/com.example.helloworld.app-merged_res-28:/layout_activity_profile.xml.flat",
+        "source": "/Users/sahil/.gradle/daemon/8.0/com.example.helloworld.app-main-29:/layout/activity_profile.xml"
+    },
+    {
+        "merged": "/Users/sahil/.gradle/daemon/8.0/com.example.helloworld.app-merged_res-28:/layout_activity_controls.xml.flat",
+        "source": "/Users/sahil/.gradle/daemon/8.0/com.example.helloworld.app-main-29:/layout/activity_controls.xml"
+    },
+    {
+        "merged": "/Users/sahil/.gradle/daemon/8.0/com.example.helloworld.app-merged_res-28:/drawable_premium_plan_background.xml.flat",
+        "source": "/Users/sahil/.gradle/daemon/8.0/com.example.helloworld.app-main-29:/drawable/premium_plan_background.xml"
+    },
+    {
+        "merged": "/Users/sahil/.gradle/daemon/8.0/com.example.helloworld.app-merged_res-28:/drawable_profile_picture_background.xml.flat",
+        "source": "/Users/sahil/.gradle/daemon/8.0/com.example.helloworld.app-main-29:/drawable/profile_picture_background.xml"
+    },
+    {
+        "merged": "/Users/sahil/.gradle/daemon/8.0/com.example.helloworld.app-merged_res-28:/drawable_settings_item_background.xml.flat",
+        "source": "/Users/sahil/.gradle/daemon/8.0/com.example.helloworld.app-main-29:/drawable/settings_item_background.xml"
+    },
+    {
+        "merged": "/Users/sahil/.gradle/daemon/8.0/com.example.helloworld.app-merged_res-28:/layout_activity_generate_errors.xml.flat",
+        "source": "/Users/sahil/.gradle/daemon/8.0/com.example.helloworld.app-main-29:/layout/activity_generate_errors.xml"
+    },
+    {
+        "merged": "/Users/sahil/.gradle/daemon/8.0/com.example.helloworld.app-merged_res-28:/layout_floating_control_bar.xml.flat",
+        "source": "/Users/sahil/.gradle/daemon/8.0/com.example.helloworld.app-main-29:/layout/floating_control_bar.xml"
+    },
+    {
+        "merged": "/Users/sahil/.gradle/daemon/8.0/com.example.helloworld.app-merged_res-28:/anim_bounce_animation.xml.flat",
+        "source": "/Users/sahil/.gradle/daemon/8.0/com.example.helloworld.app-main-29:/anim/bounce_animation.xml"
+    },
+    {
+        "merged": "/Users/sahil/.gradle/daemon/8.0/com.example.helloworld.app-merged_res-28:/layout_activity_settings.xml.flat",
+        "source": "/Users/sahil/.gradle/daemon/8.0/com.example.helloworld.app-main-29:/layout/activity_settings.xml"
+    },
+    {
+        "merged": "/Users/sahil/.gradle/daemon/8.0/com.example.helloworld.app-merged_res-28:/layout_activity_api_key.xml.flat",
+        "source": "/Users/sahil/.gradle/daemon/8.0/com.example.helloworld.app-main-29:/layout/activity_api_key.xml"
+    },
+    {
+        "merged": "/Users/sahil/.gradle/daemon/8.0/com.example.helloworld.app-merged_res-28:/layout_activity_animations.xml.flat",
+        "source": "/Users/sahil/.gradle/daemon/8.0/com.example.helloworld.app-main-29:/layout/activity_animations.xml"
+    },
+    {
+        "merged": "/Users/sahil/.gradle/daemon/8.0/com.example.helloworld.app-merged_res-28:/anim_flip_animation.xml.flat",
+        "source": "/Users/sahil/.gradle/daemon/8.0/com.example.helloworld.app-main-29:/anim/flip_animation.xml"
+    },
+    {
+        "merged": "/Users/sahil/.gradle/daemon/8.0/com.example.helloworld.app-merged_res-28:/drawable_number_badge_background.xml.flat",
+        "source": "/Users/sahil/.gradle/daemon/8.0/com.example.helloworld.app-main-29:/drawable/number_badge_background.xml"
+    },
+    {
+        "merged": "/Users/sahil/.gradle/daemon/8.0/com.example.helloworld.app-merged_res-28:/anim_enhance_animation.xml.flat",
+        "source": "/Users/sahil/.gradle/daemon/8.0/com.example.helloworld.app-main-29:/anim/enhance_animation.xml"
+    },
+    {
+        "merged": "/Users/sahil/.gradle/daemon/8.0/com.example.helloworld.app-merged_res-28:/layout_item_scroll_card.xml.flat",
+        "source": "/Users/sahil/.gradle/daemon/8.0/com.example.helloworld.app-main-29:/layout/item_scroll_card.xml"
+    },
+    {
+        "merged": "/Users/sahil/.gradle/daemon/8.0/com.example.helloworld.app-merged_res-28:/drawable_target_container_active.xml.flat",
+        "source": "/Users/sahil/.gradle/daemon/8.0/com.example.helloworld.app-main-29:/drawable/target_container_active.xml"
+    },
+    {
+        "merged": "/Users/sahil/.gradle/daemon/8.0/com.example.helloworld.app-merged_res-28:/drawable_ic_credit_card.xml.flat",
+        "source": "/Users/sahil/.gradle/daemon/8.0/com.example.helloworld.app-main-29:/drawable/ic_credit_card.xml"
+    },
+    {
+        "merged": "/Users/sahil/.gradle/daemon/8.0/com.example.helloworld.app-merged_res-28:/layout_activity_crash_anr.xml.flat",
+        "source": "/Users/sahil/.gradle/daemon/8.0/com.example.helloworld.app-main-29:/layout/activity_crash_anr.xml"
+    },
+    {
+        "merged": "/Users/sahil/.gradle/daemon/8.0/com.example.helloworld.app-merged_res-28:/drawable_object_container_background.xml.flat",
+        "source": "/Users/sahil/.gradle/daemon/8.0/com.example.helloworld.app-main-29:/drawable/object_container_background.xml"
+    }
+]

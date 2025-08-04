@@ -1,0 +1,3431 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<incidents format="6" by="lint 8.0.2" type="incidents">
+
+    <incident
+        id="HardcodedText"
+        severity="warning"
+        message="Hardcoded string &quot;Gesture Animations&quot;, should use `@string` resource">
+        <location
+            file="${:app*debug*sourceProvider*0*resDir*0}/layout/activity_animations.xml"
+            line="48"
+            column="9"
+            startOffset="1843"
+            endLine="48"
+            endColumn="42"
+            endOffset="1876"/>
+    </incident>
+
+    <incident
+        id="HardcodedText"
+        severity="warning"
+        message="Hardcoded string &quot;Use your fingers to control all animations!&quot;, should use `@string` resource">
+        <location
+            file="${:app*debug*sourceProvider*0*resDir*0}/layout/activity_animations.xml"
+            line="65"
+            column="9"
+            startOffset="2462"
+            endLine="65"
+            endColumn="67"
+            endOffset="2520"/>
+    </incident>
+
+    <incident
+        id="HardcodedText"
+        severity="warning"
+        message="Hardcoded string &quot;Status&quot;, should use `@string` resource">
+        <location
+            file="${:app*debug*sourceProvider*0*resDir*0}/layout/activity_animations.xml"
+            line="95"
+            column="17"
+            startOffset="3670"
+            endLine="95"
+            endColumn="38"
+            endOffset="3691"/>
+    </incident>
+
+    <incident
+        id="HardcodedText"
+        severity="warning"
+        message="Hardcoded string &quot;Ready for gestures! Try these:\n• Pinch to zoom\n• Drag to rotate\n• Tap to fade\n• Double-tap to bounce\n• Long press to pulse\n• Extended long press to shake\n• Swipe to slide&quot;, should use `@string` resource">
+        <location
+            file="${:app*debug*sourceProvider*0*resDir*0}/layout/activity_animations.xml"
+            line="105"
+            column="17"
+            startOffset="4070"
+            endLine="105"
+            endColumn="209"
+            endOffset="4262"/>
+    </incident>
+
+    <incident
+        id="HardcodedText"
+        severity="warning"
+        message="Hardcoded string &quot;Reset Object&quot;, should use `@string` resource">
+        <location
+            file="${:app*debug*sourceProvider*0*resDir*0}/layout/activity_animations.xml"
+            line="119"
+            column="9"
+            startOffset="4695"
+            endLine="119"
+            endColumn="36"
+            endOffset="4722"/>
+    </incident>
+
+    <incident
+        id="HardcodedText"
+        severity="warning"
+        message="Hardcoded string &quot;Interactive animated object&quot;, should use `@string` resource">
+        <location
+            file="${:app*debug*sourceProvider*0*resDir*0}/layout/activity_animations.xml"
+            line="155"
+            column="17"
+            startOffset="6185"
+            endLine="155"
+            endColumn="73"
+            endOffset="6241"/>
+    </incident>
+
+    <incident
+        id="HardcodedText"
+        severity="warning"
+        message="Hardcoded string &quot;App Logo&quot;, should use `@string` resource">
+        <location
+            file="${:app*debug*sourceProvider*0*resDir*0}/layout/activity_api_key.xml"
+            line="22"
+            column="13"
+            startOffset="833"
+            endLine="22"
+            endColumn="50"
+            endOffset="870"/>
+    </incident>
+
+    <incident
+        id="HardcodedText"
+        severity="warning"
+        message="Hardcoded string &quot;Welcome to Zipy&quot;, should use `@string` resource">
+        <location
+            file="${:app*debug*sourceProvider*0*resDir*0}/layout/activity_api_key.xml"
+            line="31"
+            column="13"
+            startOffset="1210"
+            endLine="31"
+            endColumn="43"
+            endOffset="1240"/>
+    </incident>
+
+    <incident
+        id="HardcodedText"
+        severity="warning"
+        message="Hardcoded string &quot;Please enter your API Key to continue&quot;, should use `@string` resource">
+        <location
+            file="${:app*debug*sourceProvider*0*resDir*0}/layout/activity_api_key.xml"
+            line="45"
+            column="13"
+            startOffset="1795"
+            endLine="45"
+            endColumn="65"
+            endOffset="1847"/>
+    </incident>
+
+    <incident
+        id="HardcodedText"
+        severity="warning"
+        message="Hardcoded string &quot;API Key&quot;, should use `@string` resource">
+        <location
+            file="${:app*debug*sourceProvider*0*resDir*0}/layout/activity_api_key.xml"
+            line="58"
+            column="13"
+            startOffset="2371"
+            endLine="58"
+            endColumn="35"
+            endOffset="2393"/>
+    </incident>
+
+    <incident
+        id="Autofill"
+        severity="warning"
+        message="Missing `autofillHints` attribute">
+        <fix-alternatives>
+            <fix-attribute
+                description="Set autofillHints"
+                namespace="http://schemas.android.com/apk/res/android"
+                attribute="autofillHints"
+                value=""
+                dot="0"
+                mark="0"/>
+            <fix-attribute
+                description="Set importantForAutofill=&quot;no&quot;"
+                namespace="http://schemas.android.com/apk/res/android"
+                attribute="importantForAutofill"
+                value="no"/>
+        </fix-alternatives>
+        <location
+            file="${:app*debug*sourceProvider*0*resDir*0}/layout/activity_api_key.xml"
+            line="66"
+            column="10"
+            startOffset="2704"
+            endLine="66"
+            endColumn="18"
+            endOffset="2712"/>
+    </incident>
+
+    <incident
+        id="HardcodedText"
+        severity="warning"
+        message="Hardcoded string &quot;Enter your API key here&quot;, should use `@string` resource">
+        <location
+            file="${:app*debug*sourceProvider*0*resDir*0}/layout/activity_api_key.xml"
+            line="73"
+            column="13"
+            startOffset="3000"
+            endLine="73"
+            endColumn="51"
+            endOffset="3038"/>
+    </incident>
+
+    <incident
+        id="HardcodedText"
+        severity="warning"
+        message="Hardcoded string &quot;Next&quot;, should use `@string` resource">
+        <location
+            file="${:app*debug*sourceProvider*0*resDir*0}/layout/activity_api_key.xml"
+            line="88"
+            column="13"
+            startOffset="3692"
+            endLine="88"
+            endColumn="32"
+            endOffset="3711"/>
+    </incident>
+
+    <incident
+        id="HardcodedText"
+        severity="warning"
+        message="Hardcoded string &quot;Name: [User Name]\nEmail: [user@email.com]&quot;, should use `@string` resource">
+        <location
+            file="${:app*debug*sourceProvider*0*resDir*0}/layout/activity_dashboard.xml"
+            line="61"
+            column="13"
+            startOffset="2492"
+            endLine="61"
+            endColumn="70"
+            endOffset="2549"/>
+    </incident>
+
+    <incident
+        id="HardcodedText"
+        severity="warning"
+        message="Hardcoded string &quot;App Features&quot;, should use `@string` resource">
+        <location
+            file="${:app*debug*sourceProvider*0*resDir*0}/layout/activity_dashboard.xml"
+            line="75"
+            column="13"
+            startOffset="3113"
+            endLine="75"
+            endColumn="40"
+            endOffset="3140"/>
+    </incident>
+
+    <incident
+        id="HardcodedText"
+        severity="warning"
+        message="Hardcoded string &quot;My Profile&quot;, should use `@string` resource">
+        <location
+            file="${:app*debug*sourceProvider*0*resDir*0}/layout/activity_dashboard.xml"
+            line="92"
+            column="13"
+            startOffset="3865"
+            endLine="92"
+            endColumn="38"
+            endOffset="3890"/>
+    </incident>
+
+    <incident
+        id="HardcodedText"
+        severity="warning"
+        message="Hardcoded string &quot;Hit APIs&quot;, should use `@string` resource">
+        <location
+            file="${:app*debug*sourceProvider*0*resDir*0}/layout/activity_dashboard.xml"
+            line="109"
+            column="13"
+            startOffset="4630"
+            endLine="109"
+            endColumn="36"
+            endOffset="4653"/>
+    </incident>
+
+    <incident
+        id="HardcodedText"
+        severity="warning"
+        message="Hardcoded string &quot;Generate Errors&quot;, should use `@string` resource">
+        <location
+            file="${:app*debug*sourceProvider*0*resDir*0}/layout/activity_dashboard.xml"
+            line="128"
+            column="13"
+            startOffset="5476"
+            endLine="128"
+            endColumn="43"
+            endOffset="5506"/>
+    </incident>
+
+    <incident
+        id="HardcodedText"
+        severity="warning"
+        message="Hardcoded string &quot;ANR/CRASH&quot;, should use `@string` resource">
+        <location
+            file="${:app*debug*sourceProvider*0*resDir*0}/layout/activity_dashboard.xml"
+            line="145"
+            column="13"
+            startOffset="6239"
+            endLine="145"
+            endColumn="37"
+            endOffset="6263"/>
+    </incident>
+
+    <incident
+        id="HardcodedText"
+        severity="warning"
+        message="Hardcoded string &quot;Scroll&quot;, should use `@string` resource">
+        <location
+            file="${:app*debug*sourceProvider*0*resDir*0}/layout/activity_dashboard.xml"
+            line="164"
+            column="13"
+            startOffset="7087"
+            endLine="164"
+            endColumn="34"
+            endOffset="7108"/>
+    </incident>
+
+    <incident
+        id="HardcodedText"
+        severity="warning"
+        message="Hardcoded string &quot;Drag and Drop&quot;, should use `@string` resource">
+        <location
+            file="${:app*debug*sourceProvider*0*resDir*0}/layout/activity_dashboard.xml"
+            line="181"
+            column="13"
+            startOffset="7845"
+            endLine="181"
+            endColumn="41"
+            endOffset="7873"/>
+    </incident>
+
+    <incident
+        id="HardcodedText"
+        severity="warning"
+        message="Hardcoded string &quot;Animations&quot;, should use `@string` resource">
+        <location
+            file="${:app*debug*sourceProvider*0*resDir*0}/layout/activity_dashboard.xml"
+            line="200"
+            column="13"
+            startOffset="8682"
+            endLine="200"
+            endColumn="38"
+            endOffset="8707"/>
+    </incident>
+
+    <incident
+        id="HardcodedText"
+        severity="warning"
+        message="Hardcoded string &quot;Settings&quot;, should use `@string` resource">
+        <location
+            file="${:app*debug*sourceProvider*0*resDir*0}/layout/activity_dashboard.xml"
+            line="217"
+            column="13"
+            startOffset="9434"
+            endLine="217"
+            endColumn="36"
+            endOffset="9457"/>
+    </incident>
+
+    <incident
+        id="HardcodedText"
+        severity="warning"
+        message="Hardcoded string &quot;Drag &amp; Drop&quot;, should use `@string` resource">
+        <location
+            file="${:app*debug*sourceProvider*0*resDir*0}/layout/activity_drag_drop.xml"
+            line="48"
+            column="9"
+            startOffset="1841"
+            endLine="48"
+            endColumn="39"
+            endOffset="1871"/>
+    </incident>
+
+    <incident
+        id="HardcodedText"
+        severity="warning"
+        message="Hardcoded string &quot;Score: 0&quot;, should use `@string` resource">
+        <location
+            file="${:app*debug*sourceProvider*0*resDir*0}/layout/activity_drag_drop.xml"
+            line="65"
+            column="9"
+            startOffset="2459"
+            endLine="65"
+            endColumn="32"
+            endOffset="2482"/>
+    </incident>
+
+    <incident
+        id="HardcodedText"
+        severity="warning"
+        message="Hardcoded string &quot;Status&quot;, should use `@string` resource">
+        <location
+            file="${:app*debug*sourceProvider*0*resDir*0}/layout/activity_drag_drop.xml"
+            line="96"
+            column="17"
+            startOffset="3665"
+            endLine="96"
+            endColumn="38"
+            endOffset="3686"/>
+    </incident>
+
+    <incident
+        id="HardcodedText"
+        severity="warning"
+        message="Hardcoded string &quot;Drag items to the target area!&quot;, should use `@string` resource">
+        <location
+            file="${:app*debug*sourceProvider*0*resDir*0}/layout/activity_drag_drop.xml"
+            line="106"
+            column="17"
+            startOffset="4065"
+            endLine="106"
+            endColumn="62"
+            endOffset="4110"/>
+    </incident>
+
+    <incident
+        id="HardcodedText"
+        severity="warning"
+        message="Hardcoded string &quot;Reset Game&quot;, should use `@string` resource">
+        <location
+            file="${:app*debug*sourceProvider*0*resDir*0}/layout/activity_drag_drop.xml"
+            line="120"
+            column="9"
+            startOffset="4543"
+            endLine="120"
+            endColumn="34"
+            endOffset="4568"/>
+    </incident>
+
+    <incident
+        id="HardcodedText"
+        severity="warning"
+        message="Hardcoded string &quot;📦 Source Items&quot;, should use `@string` resource">
+        <location
+            file="${:app*debug*sourceProvider*0*resDir*0}/layout/activity_drag_drop.xml"
+            line="153"
+            column="17"
+            startOffset="5846"
+            endLine="153"
+            endColumn="47"
+            endOffset="5876"/>
+    </incident>
+
+    <incident
+        id="HardcodedText"
+        severity="warning"
+        message="Hardcoded string &quot;🎯 Drop Zone&quot;, should use `@string` resource">
+        <location
+            file="${:app*debug*sourceProvider*0*resDir*0}/layout/activity_drag_drop.xml"
+            line="200"
+            column="17"
+            startOffset="7562"
+            endLine="200"
+            endColumn="44"
+            endOffset="7589"/>
+    </incident>
+
+    <incident
+        id="HardcodedText"
+        severity="warning"
+        message="Hardcoded string &quot;Generate Errors&quot;, should use `@string` resource">
+        <location
+            file="${:app*debug*sourceProvider*0*resDir*0}/layout/activity_generate_errors.xml"
+            line="48"
+            column="9"
+            startOffset="1847"
+            endLine="48"
+            endColumn="39"
+            endOffset="1877"/>
+    </incident>
+
+    <incident
+        id="HardcodedText"
+        severity="warning"
+        message="Hardcoded string &quot;Errors Generated: 0&quot;, should use `@string` resource">
+        <location
+            file="${:app*debug*sourceProvider*0*resDir*0}/layout/activity_generate_errors.xml"
+            line="65"
+            column="9"
+            startOffset="2476"
+            endLine="65"
+            endColumn="43"
+            endOffset="2510"/>
+    </incident>
+
+    <incident
+        id="HardcodedText"
+        severity="warning"
+        message="Hardcoded string &quot;Status&quot;, should use `@string` resource">
+        <location
+            file="${:app*debug*sourceProvider*0*resDir*0}/layout/activity_generate_errors.xml"
+            line="96"
+            column="17"
+            startOffset="3696"
+            endLine="96"
+            endColumn="38"
+            endOffset="3717"/>
+    </incident>
+
+    <incident
+        id="HardcodedText"
+        severity="warning"
+        message="Hardcoded string &quot;Ready to generate errors&quot;, should use `@string` resource">
+        <location
+            file="${:app*debug*sourceProvider*0*resDir*0}/layout/activity_generate_errors.xml"
+            line="106"
+            column="17"
+            startOffset="4096"
+            endLine="106"
+            endColumn="56"
+            endOffset="4135"/>
+    </incident>
+
+    <incident
+        id="HardcodedText"
+        severity="warning"
+        message="Hardcoded string &quot;Exception Errors&quot;, should use `@string` resource">
+        <location
+            file="${:app*debug*sourceProvider*0*resDir*0}/layout/activity_generate_errors.xml"
+            line="135"
+            column="17"
+            startOffset="5174"
+            endLine="135"
+            endColumn="48"
+            endOffset="5205"/>
+    </incident>
+
+    <incident
+        id="HardcodedText"
+        severity="warning"
+        message="Hardcoded string &quot;NullPointer&quot;, should use `@string` resource">
+        <location
+            file="${:app*debug*sourceProvider*0*resDir*0}/layout/activity_generate_errors.xml"
+            line="171"
+            column="29"
+            startOffset="6895"
+            endLine="171"
+            endColumn="55"
+            endOffset="6921"/>
+    </incident>
+
+    <incident
+        id="SmallSp"
+        severity="warning"
+        message="Avoid using sizes smaller than `11sp`: `10sp`">
+        <location
+            file="${:app*debug*sourceProvider*0*resDir*0}/layout/activity_generate_errors.xml"
+            line="172"
+            column="29"
+            startOffset="6950"
+            endLine="172"
+            endColumn="52"
+            endOffset="6973"/>
+    </incident>
+
+    <incident
+        id="HardcodedText"
+        severity="warning"
+        message="Hardcoded string &quot;ArrayIndex&quot;, should use `@string` resource">
+        <location
+            file="${:app*debug*sourceProvider*0*resDir*0}/layout/activity_generate_errors.xml"
+            line="183"
+            column="29"
+            startOffset="7551"
+            endLine="183"
+            endColumn="54"
+            endOffset="7576"/>
+    </incident>
+
+    <incident
+        id="SmallSp"
+        severity="warning"
+        message="Avoid using sizes smaller than `11sp`: `10sp`">
+        <location
+            file="${:app*debug*sourceProvider*0*resDir*0}/layout/activity_generate_errors.xml"
+            line="184"
+            column="29"
+            startOffset="7605"
+            endLine="184"
+            endColumn="52"
+            endOffset="7628"/>
+    </incident>
+
+    <incident
+        id="HardcodedText"
+        severity="warning"
+        message="Hardcoded string &quot;ClassCast&quot;, should use `@string` resource">
+        <location
+            file="${:app*debug*sourceProvider*0*resDir*0}/layout/activity_generate_errors.xml"
+            line="204"
+            column="29"
+            startOffset="8544"
+            endLine="204"
+            endColumn="53"
+            endOffset="8568"/>
+    </incident>
+
+    <incident
+        id="SmallSp"
+        severity="warning"
+        message="Avoid using sizes smaller than `11sp`: `10sp`">
+        <location
+            file="${:app*debug*sourceProvider*0*resDir*0}/layout/activity_generate_errors.xml"
+            line="205"
+            column="29"
+            startOffset="8597"
+            endLine="205"
+            endColumn="52"
+            endOffset="8620"/>
+    </incident>
+
+    <incident
+        id="HardcodedText"
+        severity="warning"
+        message="Hardcoded string &quot;NumberFormat&quot;, should use `@string` resource">
+        <location
+            file="${:app*debug*sourceProvider*0*resDir*0}/layout/activity_generate_errors.xml"
+            line="216"
+            column="29"
+            startOffset="9200"
+            endLine="216"
+            endColumn="56"
+            endOffset="9227"/>
+    </incident>
+
+    <incident
+        id="SmallSp"
+        severity="warning"
+        message="Avoid using sizes smaller than `11sp`: `10sp`">
+        <location
+            file="${:app*debug*sourceProvider*0*resDir*0}/layout/activity_generate_errors.xml"
+            line="217"
+            column="29"
+            startOffset="9256"
+            endLine="217"
+            endColumn="52"
+            endOffset="9279"/>
+    </incident>
+
+    <incident
+        id="HardcodedText"
+        severity="warning"
+        message="Hardcoded string &quot;IllegalArgument&quot;, should use `@string` resource">
+        <location
+            file="${:app*debug*sourceProvider*0*resDir*0}/layout/activity_generate_errors.xml"
+            line="237"
+            column="29"
+            startOffset="10201"
+            endLine="237"
+            endColumn="59"
+            endOffset="10231"/>
+    </incident>
+
+    <incident
+        id="SmallSp"
+        severity="warning"
+        message="Avoid using sizes smaller than `11sp`: `10sp`">
+        <location
+            file="${:app*debug*sourceProvider*0*resDir*0}/layout/activity_generate_errors.xml"
+            line="238"
+            column="29"
+            startOffset="10260"
+            endLine="238"
+            endColumn="52"
+            endOffset="10283"/>
+    </incident>
+
+    <incident
+        id="HardcodedText"
+        severity="warning"
+        message="Hardcoded string &quot;IllegalState&quot;, should use `@string` resource">
+        <location
+            file="${:app*debug*sourceProvider*0*resDir*0}/layout/activity_generate_errors.xml"
+            line="249"
+            column="29"
+            startOffset="10863"
+            endLine="249"
+            endColumn="56"
+            endOffset="10890"/>
+    </incident>
+
+    <incident
+        id="SmallSp"
+        severity="warning"
+        message="Avoid using sizes smaller than `11sp`: `10sp`">
+        <location
+            file="${:app*debug*sourceProvider*0*resDir*0}/layout/activity_generate_errors.xml"
+            line="250"
+            column="29"
+            startOffset="10919"
+            endLine="250"
+            endColumn="52"
+            endOffset="10942"/>
+    </incident>
+
+    <incident
+        id="HardcodedText"
+        severity="warning"
+        message="Hardcoded string &quot;Security&quot;, should use `@string` resource">
+        <location
+            file="${:app*debug*sourceProvider*0*resDir*0}/layout/activity_generate_errors.xml"
+            line="270"
+            column="29"
+            startOffset="11866"
+            endLine="270"
+            endColumn="52"
+            endOffset="11889"/>
+    </incident>
+
+    <incident
+        id="SmallSp"
+        severity="warning"
+        message="Avoid using sizes smaller than `11sp`: `10sp`">
+        <location
+            file="${:app*debug*sourceProvider*0*resDir*0}/layout/activity_generate_errors.xml"
+            line="271"
+            column="29"
+            startOffset="11918"
+            endLine="271"
+            endColumn="52"
+            endOffset="11941"/>
+    </incident>
+
+    <incident
+        id="HardcodedText"
+        severity="warning"
+        message="Hardcoded string &quot;Unsupported&quot;, should use `@string` resource">
+        <location
+            file="${:app*debug*sourceProvider*0*resDir*0}/layout/activity_generate_errors.xml"
+            line="282"
+            column="29"
+            startOffset="12529"
+            endLine="282"
+            endColumn="55"
+            endOffset="12555"/>
+    </incident>
+
+    <incident
+        id="SmallSp"
+        severity="warning"
+        message="Avoid using sizes smaller than `11sp`: `10sp`">
+        <location
+            file="${:app*debug*sourceProvider*0*resDir*0}/layout/activity_generate_errors.xml"
+            line="283"
+            column="29"
+            startOffset="12584"
+            endLine="283"
+            endColumn="52"
+            endOffset="12607"/>
+    </incident>
+
+    <incident
+        id="HardcodedText"
+        severity="warning"
+        message="Hardcoded string &quot;Arithmetic Errors&quot;, should use `@string` resource">
+        <location
+            file="${:app*debug*sourceProvider*0*resDir*0}/layout/activity_generate_errors.xml"
+            line="300"
+            column="17"
+            startOffset="13215"
+            endLine="300"
+            endColumn="49"
+            endOffset="13247"/>
+    </incident>
+
+    <incident
+        id="HardcodedText"
+        severity="warning"
+        message="Hardcoded string &quot;Division by Zero&quot;, should use `@string` resource">
+        <location
+            file="${:app*debug*sourceProvider*0*resDir*0}/layout/activity_generate_errors.xml"
+            line="330"
+            column="25"
+            startOffset="14682"
+            endLine="330"
+            endColumn="56"
+            endOffset="14713"/>
+    </incident>
+
+    <incident
+        id="HardcodedText"
+        severity="warning"
+        message="Hardcoded string &quot;Integer Overflow&quot;, should use `@string` resource">
+        <location
+            file="${:app*debug*sourceProvider*0*resDir*0}/layout/activity_generate_errors.xml"
+            line="342"
+            column="25"
+            startOffset="15297"
+            endLine="342"
+            endColumn="56"
+            endOffset="15328"/>
+    </incident>
+
+    <incident
+        id="HardcodedText"
+        severity="warning"
+        message="Hardcoded string &quot;Range Errors&quot;, should use `@string` resource">
+        <location
+            file="${:app*debug*sourceProvider*0*resDir*0}/layout/activity_generate_errors.xml"
+            line="358"
+            column="17"
+            startOffset="15925"
+            endLine="358"
+            endColumn="44"
+            endOffset="15952"/>
+    </incident>
+
+    <incident
+        id="HardcodedText"
+        severity="warning"
+        message="Hardcoded string &quot;String Index&quot;, should use `@string` resource">
+        <location
+            file="${:app*debug*sourceProvider*0*resDir*0}/layout/activity_generate_errors.xml"
+            line="394"
+            column="29"
+            startOffset="17650"
+            endLine="394"
+            endColumn="56"
+            endOffset="17677"/>
+    </incident>
+
+    <incident
+        id="SmallSp"
+        severity="warning"
+        message="Avoid using sizes smaller than `11sp`: `10sp`">
+        <location
+            file="${:app*debug*sourceProvider*0*resDir*0}/layout/activity_generate_errors.xml"
+            line="395"
+            column="29"
+            startOffset="17706"
+            endLine="395"
+            endColumn="52"
+            endOffset="17729"/>
+    </incident>
+
+    <incident
+        id="HardcodedText"
+        severity="warning"
+        message="Hardcoded string &quot;Negative Array&quot;, should use `@string` resource">
+        <location
+            file="${:app*debug*sourceProvider*0*resDir*0}/layout/activity_generate_errors.xml"
+            line="406"
+            column="29"
+            startOffset="18310"
+            endLine="406"
+            endColumn="58"
+            endOffset="18339"/>
+    </incident>
+
+    <incident
+        id="SmallSp"
+        severity="warning"
+        message="Avoid using sizes smaller than `11sp`: `10sp`">
+        <location
+            file="${:app*debug*sourceProvider*0*resDir*0}/layout/activity_generate_errors.xml"
+            line="407"
+            column="29"
+            startOffset="18368"
+            endLine="407"
+            endColumn="52"
+            endOffset="18391"/>
+    </incident>
+
+    <incident
+        id="HardcodedText"
+        severity="warning"
+        message="Hardcoded string &quot;Index Out of Bounds&quot;, should use `@string` resource">
+        <location
+            file="${:app*debug*sourceProvider*0*resDir*0}/layout/activity_generate_errors.xml"
+            line="427"
+            column="29"
+            startOffset="19314"
+            endLine="427"
+            endColumn="63"
+            endOffset="19348"/>
+    </incident>
+
+    <incident
+        id="SmallSp"
+        severity="warning"
+        message="Avoid using sizes smaller than `11sp`: `10sp`">
+        <location
+            file="${:app*debug*sourceProvider*0*resDir*0}/layout/activity_generate_errors.xml"
+            line="428"
+            column="29"
+            startOffset="19377"
+            endLine="428"
+            endColumn="52"
+            endOffset="19400"/>
+    </incident>
+
+    <incident
+        id="HardcodedText"
+        severity="warning"
+        message="Hardcoded string &quot;Integer Underflow&quot;, should use `@string` resource">
+        <location
+            file="${:app*debug*sourceProvider*0*resDir*0}/layout/activity_generate_errors.xml"
+            line="439"
+            column="29"
+            startOffset="19977"
+            endLine="439"
+            endColumn="61"
+            endOffset="20009"/>
+    </incident>
+
+    <incident
+        id="SmallSp"
+        severity="warning"
+        message="Avoid using sizes smaller than `11sp`: `10sp`">
+        <location
+            file="${:app*debug*sourceProvider*0*resDir*0}/layout/activity_generate_errors.xml"
+            line="440"
+            column="29"
+            startOffset="20038"
+            endLine="440"
+            endColumn="52"
+            endOffset="20061"/>
+    </incident>
+
+    <incident
+        id="HardcodedText"
+        severity="warning"
+        message="Hardcoded string &quot;Memory Errors&quot;, should use `@string` resource">
+        <location
+            file="${:app*debug*sourceProvider*0*resDir*0}/layout/activity_generate_errors.xml"
+            line="457"
+            column="17"
+            startOffset="20661"
+            endLine="457"
+            endColumn="45"
+            endOffset="20689"/>
+    </incident>
+
+    <incident
+        id="HardcodedText"
+        severity="warning"
+        message="Hardcoded string &quot;Out of Memory&quot;, should use `@string` resource">
+        <location
+            file="${:app*debug*sourceProvider*0*resDir*0}/layout/activity_generate_errors.xml"
+            line="487"
+            column="25"
+            startOffset="22109"
+            endLine="487"
+            endColumn="53"
+            endOffset="22137"/>
+    </incident>
+
+    <incident
+        id="HardcodedText"
+        severity="warning"
+        message="Hardcoded string &quot;Stack Overflow&quot;, should use `@string` resource">
+        <location
+            file="${:app*debug*sourceProvider*0*resDir*0}/layout/activity_generate_errors.xml"
+            line="499"
+            column="25"
+            startOffset="22726"
+            endLine="499"
+            endColumn="54"
+            endOffset="22755"/>
+    </incident>
+
+    <incident
+        id="HardcodedText"
+        severity="warning"
+        message="Hardcoded string &quot;Reflection Errors&quot;, should use `@string` resource">
+        <location
+            file="${:app*debug*sourceProvider*0*resDir*0}/layout/activity_generate_errors.xml"
+            line="515"
+            column="17"
+            startOffset="23362"
+            endLine="515"
+            endColumn="49"
+            endOffset="23394"/>
+    </incident>
+
+    <incident
+        id="HardcodedText"
+        severity="warning"
+        message="Hardcoded string &quot;Class Not Found&quot;, should use `@string` resource">
+        <location
+            file="${:app*debug*sourceProvider*0*resDir*0}/layout/activity_generate_errors.xml"
+            line="551"
+            column="29"
+            startOffset="25100"
+            endLine="551"
+            endColumn="59"
+            endOffset="25130"/>
+    </incident>
+
+    <incident
+        id="SmallSp"
+        severity="warning"
+        message="Avoid using sizes smaller than `11sp`: `10sp`">
+        <location
+            file="${:app*debug*sourceProvider*0*resDir*0}/layout/activity_generate_errors.xml"
+            line="552"
+            column="29"
+            startOffset="25159"
+            endLine="552"
+            endColumn="52"
+            endOffset="25182"/>
+    </incident>
+
+    <incident
+        id="HardcodedText"
+        severity="warning"
+        message="Hardcoded string &quot;No Such Method&quot;, should use `@string` resource">
+        <location
+            file="${:app*debug*sourceProvider*0*resDir*0}/layout/activity_generate_errors.xml"
+            line="563"
+            column="29"
+            startOffset="25762"
+            endLine="563"
+            endColumn="58"
+            endOffset="25791"/>
+    </incident>
+
+    <incident
+        id="SmallSp"
+        severity="warning"
+        message="Avoid using sizes smaller than `11sp`: `10sp`">
+        <location
+            file="${:app*debug*sourceProvider*0*resDir*0}/layout/activity_generate_errors.xml"
+            line="564"
+            column="29"
+            startOffset="25820"
+            endLine="564"
+            endColumn="52"
+            endOffset="25843"/>
+    </incident>
+
+    <incident
+        id="HardcodedText"
+        severity="warning"
+        message="Hardcoded string &quot;No Such Field&quot;, should use `@string` resource">
+        <location
+            file="${:app*debug*sourceProvider*0*resDir*0}/layout/activity_generate_errors.xml"
+            line="584"
+            column="29"
+            startOffset="26761"
+            endLine="584"
+            endColumn="57"
+            endOffset="26789"/>
+    </incident>
+
+    <incident
+        id="SmallSp"
+        severity="warning"
+        message="Avoid using sizes smaller than `11sp`: `10sp`">
+        <location
+            file="${:app*debug*sourceProvider*0*resDir*0}/layout/activity_generate_errors.xml"
+            line="585"
+            column="29"
+            startOffset="26818"
+            endLine="585"
+            endColumn="52"
+            endOffset="26841"/>
+    </incident>
+
+    <incident
+        id="HardcodedText"
+        severity="warning"
+        message="Hardcoded string &quot;Instantiation&quot;, should use `@string` resource">
+        <location
+            file="${:app*debug*sourceProvider*0*resDir*0}/layout/activity_generate_errors.xml"
+            line="596"
+            column="29"
+            startOffset="27422"
+            endLine="596"
+            endColumn="57"
+            endOffset="27450"/>
+    </incident>
+
+    <incident
+        id="SmallSp"
+        severity="warning"
+        message="Avoid using sizes smaller than `11sp`: `10sp`">
+        <location
+            file="${:app*debug*sourceProvider*0*resDir*0}/layout/activity_generate_errors.xml"
+            line="597"
+            column="29"
+            startOffset="27479"
+            endLine="597"
+            endColumn="52"
+            endOffset="27502"/>
+    </incident>
+
+    <incident
+        id="HardcodedText"
+        severity="warning"
+        message="Hardcoded string &quot;Illegal Access&quot;, should use `@string` resource">
+        <location
+            file="${:app*debug*sourceProvider*0*resDir*0}/layout/activity_generate_errors.xml"
+            line="617"
+            column="29"
+            startOffset="28422"
+            endLine="617"
+            endColumn="58"
+            endOffset="28451"/>
+    </incident>
+
+    <incident
+        id="SmallSp"
+        severity="warning"
+        message="Avoid using sizes smaller than `11sp`: `10sp`">
+        <location
+            file="${:app*debug*sourceProvider*0*resDir*0}/layout/activity_generate_errors.xml"
+            line="618"
+            column="29"
+            startOffset="28480"
+            endLine="618"
+            endColumn="52"
+            endOffset="28503"/>
+    </incident>
+
+    <incident
+        id="HardcodedText"
+        severity="warning"
+        message="Hardcoded string &quot;Invocation Target&quot;, should use `@string` resource">
+        <location
+            file="${:app*debug*sourceProvider*0*resDir*0}/layout/activity_generate_errors.xml"
+            line="629"
+            column="29"
+            startOffset="29087"
+            endLine="629"
+            endColumn="61"
+            endOffset="29119"/>
+    </incident>
+
+    <incident
+        id="SmallSp"
+        severity="warning"
+        message="Avoid using sizes smaller than `11sp`: `10sp`">
+        <location
+            file="${:app*debug*sourceProvider*0*resDir*0}/layout/activity_generate_errors.xml"
+            line="630"
+            column="29"
+            startOffset="29148"
+            endLine="630"
+            endColumn="52"
+            endOffset="29171"/>
+    </incident>
+
+    <incident
+        id="HardcodedText"
+        severity="warning"
+        message="Hardcoded string &quot;File System Errors&quot;, should use `@string` resource">
+        <location
+            file="${:app*debug*sourceProvider*0*resDir*0}/layout/activity_generate_errors.xml"
+            line="647"
+            column="17"
+            startOffset="29780"
+            endLine="647"
+            endColumn="50"
+            endOffset="29813"/>
+    </incident>
+
+    <incident
+        id="HardcodedText"
+        severity="warning"
+        message="Hardcoded string &quot;File Not Found&quot;, should use `@string` resource">
+        <location
+            file="${:app*debug*sourceProvider*0*resDir*0}/layout/activity_generate_errors.xml"
+            line="677"
+            column="25"
+            startOffset="31247"
+            endLine="677"
+            endColumn="54"
+            endOffset="31276"/>
+    </incident>
+
+    <incident
+        id="HardcodedText"
+        severity="warning"
+        message="Hardcoded string &quot;IOException&quot;, should use `@string` resource">
+        <location
+            file="${:app*debug*sourceProvider*0*resDir*0}/layout/activity_generate_errors.xml"
+            line="689"
+            column="25"
+            startOffset="31863"
+            endLine="689"
+            endColumn="51"
+            endOffset="31889"/>
+    </incident>
+
+    <incident
+        id="HardcodedText"
+        severity="warning"
+        message="Hardcoded string &quot;Custom Errors&quot;, should use `@string` resource">
+        <location
+            file="${:app*debug*sourceProvider*0*resDir*0}/layout/activity_generate_errors.xml"
+            line="705"
+            column="17"
+            startOffset="32488"
+            endLine="705"
+            endColumn="45"
+            endOffset="32516"/>
+    </incident>
+
+    <incident
+        id="HardcodedText"
+        severity="warning"
+        message="Hardcoded string &quot;Custom Exception&quot;, should use `@string` resource">
+        <location
+            file="${:app*debug*sourceProvider*0*resDir*0}/layout/activity_generate_errors.xml"
+            line="743"
+            column="29"
+            startOffset="34335"
+            endLine="743"
+            endColumn="60"
+            endOffset="34366"/>
+    </incident>
+
+    <incident
+        id="SmallSp"
+        severity="warning"
+        message="Avoid using sizes smaller than `11sp`: `10sp`">
+        <location
+            file="${:app*debug*sourceProvider*0*resDir*0}/layout/activity_generate_errors.xml"
+            line="744"
+            column="29"
+            startOffset="34395"
+            endLine="744"
+            endColumn="52"
+            endOffset="34418"/>
+    </incident>
+
+    <incident
+        id="HardcodedText"
+        severity="warning"
+        message="Hardcoded string &quot;Concurrent Modification&quot;, should use `@string` resource">
+        <location
+            file="${:app*debug*sourceProvider*0*resDir*0}/layout/activity_generate_errors.xml"
+            line="755"
+            column="29"
+            startOffset="35008"
+            endLine="755"
+            endColumn="67"
+            endOffset="35046"/>
+    </incident>
+
+    <incident
+        id="SmallSp"
+        severity="warning"
+        message="Avoid using sizes smaller than `11sp`: `10sp`">
+        <location
+            file="${:app*debug*sourceProvider*0*resDir*0}/layout/activity_generate_errors.xml"
+            line="756"
+            column="29"
+            startOffset="35075"
+            endLine="756"
+            endColumn="52"
+            endOffset="35098"/>
+    </incident>
+
+    <incident
+        id="HardcodedText"
+        severity="warning"
+        message="Hardcoded string &quot;Timeout Exception&quot;, should use `@string` resource">
+        <location
+            file="${:app*debug*sourceProvider*0*resDir*0}/layout/activity_generate_errors.xml"
+            line="776"
+            column="29"
+            startOffset="36021"
+            endLine="776"
+            endColumn="61"
+            endOffset="36053"/>
+    </incident>
+
+    <incident
+        id="SmallSp"
+        severity="warning"
+        message="Avoid using sizes smaller than `11sp`: `10sp`">
+        <location
+            file="${:app*debug*sourceProvider*0*resDir*0}/layout/activity_generate_errors.xml"
+            line="777"
+            column="29"
+            startOffset="36082"
+            endLine="777"
+            endColumn="52"
+            endOffset="36105"/>
+    </incident>
+
+    <incident
+        id="HardcodedText"
+        severity="warning"
+        message="Hardcoded string &quot;Network Exception&quot;, should use `@string` resource">
+        <location
+            file="${:app*debug*sourceProvider*0*resDir*0}/layout/activity_generate_errors.xml"
+            line="788"
+            column="29"
+            startOffset="36689"
+            endLine="788"
+            endColumn="61"
+            endOffset="36721"/>
+    </incident>
+
+    <incident
+        id="SmallSp"
+        severity="warning"
+        message="Avoid using sizes smaller than `11sp`: `10sp`">
+        <location
+            file="${:app*debug*sourceProvider*0*resDir*0}/layout/activity_generate_errors.xml"
+            line="789"
+            column="29"
+            startOffset="36750"
+            endLine="789"
+            endColumn="52"
+            endOffset="36773"/>
+    </incident>
+
+    <incident
+        id="ContentDescription"
+        severity="warning"
+        message="Missing `contentDescription` attribute on image">
+        <fix-alternatives>
+            <fix-attribute
+                description="Set contentDescription"
+                namespace="http://schemas.android.com/apk/res/android"
+                attribute="contentDescription"
+                value="TODO"
+                dot="4"
+                mark="0"/>
+            <fix-attribute
+                description="Set importantForAccessibility=&quot;no&quot;"
+                namespace="http://schemas.android.com/apk/res/android"
+                attribute="importantForAccessibility"
+                value="no"/>
+        </fix-alternatives>
+        <location
+            file="${:app*debug*sourceProvider*0*resDir*0}/layout/activity_generate_errors.xml"
+            line="805"
+            column="6"
+            startOffset="37239"
+            endLine="805"
+            endColumn="15"
+            endOffset="37248"/>
+    </incident>
+
+    <incident
+        id="HardcodedText"
+        severity="warning"
+        message="Hardcoded string &quot;Hit APIs&quot;, should use `@string` resource">
+        <location
+            file="${:app*debug*sourceProvider*0*resDir*0}/layout/activity_hit_apis.xml"
+            line="53"
+            column="13"
+            startOffset="2127"
+            endLine="53"
+            endColumn="36"
+            endOffset="2150"/>
+    </incident>
+
+    <incident
+        id="HardcodedText"
+        severity="warning"
+        message="Hardcoded string &quot;API Key: Your API Key Here&quot;, should use `@string` resource">
+        <location
+            file="${:app*debug*sourceProvider*0*resDir*0}/layout/activity_hit_apis.xml"
+            line="70"
+            column="13"
+            startOffset="2805"
+            endLine="70"
+            endColumn="54"
+            endOffset="2846"/>
+    </incident>
+
+    <incident
+        id="HardcodedText"
+        severity="warning"
+        message="Hardcoded string &quot;Status&quot;, should use `@string` resource">
+        <location
+            file="${:app*debug*sourceProvider*0*resDir*0}/layout/activity_hit_apis.xml"
+            line="100"
+            column="21"
+            startOffset="4107"
+            endLine="100"
+            endColumn="42"
+            endOffset="4128"/>
+    </incident>
+
+    <incident
+        id="HardcodedText"
+        severity="warning"
+        message="Hardcoded string &quot;Ready to make API calls&quot;, should use `@string` resource">
+        <location
+            file="${:app*debug*sourceProvider*0*resDir*0}/layout/activity_hit_apis.xml"
+            line="110"
+            column="21"
+            startOffset="4543"
+            endLine="110"
+            endColumn="59"
+            endOffset="4581"/>
+    </incident>
+
+    <incident
+        id="HardcodedText"
+        severity="warning"
+        message="Hardcoded string &quot;Dio HTTP Client&quot;, should use `@string` resource">
+        <location
+            file="${:app*debug*sourceProvider*0*resDir*0}/layout/activity_hit_apis.xml"
+            line="133"
+            column="17"
+            startOffset="5436"
+            endLine="133"
+            endColumn="47"
+            endOffset="5466"/>
+    </incident>
+
+    <incident
+        id="HardcodedText"
+        severity="warning"
+        message="Hardcoded string &quot;GET Success&quot;, should use `@string` resource">
+        <location
+            file="${:app*debug*sourceProvider*0*resDir*0}/layout/activity_hit_apis.xml"
+            line="169"
+            column="29"
+            startOffset="7156"
+            endLine="169"
+            endColumn="55"
+            endOffset="7182"/>
+    </incident>
+
+    <incident
+        id="HardcodedText"
+        severity="warning"
+        message="Hardcoded string &quot;GET Fail&quot;, should use `@string` resource">
+        <location
+            file="${:app*debug*sourceProvider*0*resDir*0}/layout/activity_hit_apis.xml"
+            line="181"
+            column="29"
+            startOffset="7809"
+            endLine="181"
+            endColumn="52"
+            endOffset="7832"/>
+    </incident>
+
+    <incident
+        id="HardcodedText"
+        severity="warning"
+        message="Hardcoded string &quot;POST Success&quot;, should use `@string` resource">
+        <location
+            file="${:app*debug*sourceProvider*0*resDir*0}/layout/activity_hit_apis.xml"
+            line="202"
+            column="29"
+            startOffset="8817"
+            endLine="202"
+            endColumn="56"
+            endOffset="8844"/>
+    </incident>
+
+    <incident
+        id="HardcodedText"
+        severity="warning"
+        message="Hardcoded string &quot;POST Fail&quot;, should use `@string` resource">
+        <location
+            file="${:app*debug*sourceProvider*0*resDir*0}/layout/activity_hit_apis.xml"
+            line="214"
+            column="29"
+            startOffset="9472"
+            endLine="214"
+            endColumn="53"
+            endOffset="9496"/>
+    </incident>
+
+    <incident
+        id="HardcodedText"
+        severity="warning"
+        message="Hardcoded string &quot;HTTP Client&quot;, should use `@string` resource">
+        <location
+            file="${:app*debug*sourceProvider*0*resDir*0}/layout/activity_hit_apis.xml"
+            line="232"
+            column="17"
+            startOffset="10137"
+            endLine="232"
+            endColumn="43"
+            endOffset="10163"/>
+    </incident>
+
+    <incident
+        id="HardcodedText"
+        severity="warning"
+        message="Hardcoded string &quot;GET Success&quot;, should use `@string` resource">
+        <location
+            file="${:app*debug*sourceProvider*0*resDir*0}/layout/activity_hit_apis.xml"
+            line="268"
+            column="29"
+            startOffset="11866"
+            endLine="268"
+            endColumn="55"
+            endOffset="11892"/>
+    </incident>
+
+    <incident
+        id="HardcodedText"
+        severity="warning"
+        message="Hardcoded string &quot;GET Fail&quot;, should use `@string` resource">
+        <location
+            file="${:app*debug*sourceProvider*0*resDir*0}/layout/activity_hit_apis.xml"
+            line="280"
+            column="29"
+            startOffset="12520"
+            endLine="280"
+            endColumn="52"
+            endOffset="12543"/>
+    </incident>
+
+    <incident
+        id="HardcodedText"
+        severity="warning"
+        message="Hardcoded string &quot;POST Success&quot;, should use `@string` resource">
+        <location
+            file="${:app*debug*sourceProvider*0*resDir*0}/layout/activity_hit_apis.xml"
+            line="301"
+            column="29"
+            startOffset="13530"
+            endLine="301"
+            endColumn="56"
+            endOffset="13557"/>
+    </incident>
+
+    <incident
+        id="HardcodedText"
+        severity="warning"
+        message="Hardcoded string &quot;POST Fail&quot;, should use `@string` resource">
+        <location
+            file="${:app*debug*sourceProvider*0*resDir*0}/layout/activity_hit_apis.xml"
+            line="313"
+            column="29"
+            startOffset="14186"
+            endLine="313"
+            endColumn="53"
+            endOffset="14210"/>
+    </incident>
+
+    <incident
+        id="HardcodedText"
+        severity="warning"
+        message="Hardcoded string &quot;GraphQL&quot;, should use `@string` resource">
+        <location
+            file="${:app*debug*sourceProvider*0*resDir*0}/layout/activity_hit_apis.xml"
+            line="331"
+            column="17"
+            startOffset="14857"
+            endLine="331"
+            endColumn="39"
+            endOffset="14879"/>
+    </incident>
+
+    <incident
+        id="HardcodedText"
+        severity="warning"
+        message="Hardcoded string &quot;GET Success&quot;, should use `@string` resource">
+        <location
+            file="${:app*debug*sourceProvider*0*resDir*0}/layout/activity_hit_apis.xml"
+            line="367"
+            column="29"
+            startOffset="16595"
+            endLine="367"
+            endColumn="55"
+            endOffset="16621"/>
+    </incident>
+
+    <incident
+        id="HardcodedText"
+        severity="warning"
+        message="Hardcoded string &quot;GET Fail&quot;, should use `@string` resource">
+        <location
+            file="${:app*debug*sourceProvider*0*resDir*0}/layout/activity_hit_apis.xml"
+            line="379"
+            column="29"
+            startOffset="17252"
+            endLine="379"
+            endColumn="52"
+            endOffset="17275"/>
+    </incident>
+
+    <incident
+        id="HardcodedText"
+        severity="warning"
+        message="Hardcoded string &quot;POST Success&quot;, should use `@string` resource">
+        <location
+            file="${:app*debug*sourceProvider*0*resDir*0}/layout/activity_hit_apis.xml"
+            line="400"
+            column="29"
+            startOffset="18268"
+            endLine="400"
+            endColumn="56"
+            endOffset="18295"/>
+    </incident>
+
+    <incident
+        id="HardcodedText"
+        severity="warning"
+        message="Hardcoded string &quot;POST Fail&quot;, should use `@string` resource">
+        <location
+            file="${:app*debug*sourceProvider*0*resDir*0}/layout/activity_hit_apis.xml"
+            line="412"
+            column="29"
+            startOffset="18927"
+            endLine="412"
+            endColumn="53"
+            endOffset="18951"/>
+    </incident>
+
+    <incident
+        id="HardcodedText"
+        severity="warning"
+        message="Hardcoded string &quot;Multipart Form&quot;, should use `@string` resource">
+        <location
+            file="${:app*debug*sourceProvider*0*resDir*0}/layout/activity_hit_apis.xml"
+            line="430"
+            column="17"
+            startOffset="19607"
+            endLine="430"
+            endColumn="46"
+            endOffset="19636"/>
+    </incident>
+
+    <incident
+        id="HardcodedText"
+        severity="warning"
+        message="Hardcoded string &quot;GET Success&quot;, should use `@string` resource">
+        <location
+            file="${:app*debug*sourceProvider*0*resDir*0}/layout/activity_hit_apis.xml"
+            line="468"
+            column="29"
+            startOffset="21478"
+            endLine="468"
+            endColumn="55"
+            endOffset="21504"/>
+    </incident>
+
+    <incident
+        id="HardcodedText"
+        severity="warning"
+        message="Hardcoded string &quot;GET Fail&quot;, should use `@string` resource">
+        <location
+            file="${:app*debug*sourceProvider*0*resDir*0}/layout/activity_hit_apis.xml"
+            line="480"
+            column="29"
+            startOffset="22137"
+            endLine="480"
+            endColumn="52"
+            endOffset="22160"/>
+    </incident>
+
+    <incident
+        id="HardcodedText"
+        severity="warning"
+        message="Hardcoded string &quot;POST Success&quot;, should use `@string` resource">
+        <location
+            file="${:app*debug*sourceProvider*0*resDir*0}/layout/activity_hit_apis.xml"
+            line="501"
+            column="29"
+            startOffset="23157"
+            endLine="501"
+            endColumn="56"
+            endOffset="23184"/>
+    </incident>
+
+    <incident
+        id="HardcodedText"
+        severity="warning"
+        message="Hardcoded string &quot;POST Fail&quot;, should use `@string` resource">
+        <location
+            file="${:app*debug*sourceProvider*0*resDir*0}/layout/activity_hit_apis.xml"
+            line="513"
+            column="29"
+            startOffset="23818"
+            endLine="513"
+            endColumn="53"
+            endOffset="23842"/>
+    </incident>
+
+    <incident
+        id="Autofill"
+        severity="warning"
+        message="Missing `autofillHints` attribute">
+        <fix-alternatives>
+            <fix-attribute
+                description="Set autofillHints"
+                namespace="http://schemas.android.com/apk/res/android"
+                attribute="autofillHints"
+                value=""
+                dot="0"
+                mark="0"/>
+            <fix-attribute
+                description="Set importantForAutofill=&quot;no&quot;"
+                namespace="http://schemas.android.com/apk/res/android"
+                attribute="importantForAutofill"
+                value="no"/>
+        </fix-alternatives>
+        <location
+            file="${:app*debug*sourceProvider*0*resDir*0}/layout/activity_main.xml"
+            line="42"
+            column="10"
+            startOffset="1668"
+            endLine="42"
+            endColumn="18"
+            endOffset="1676"/>
+    </incident>
+
+    <incident
+        id="HardcodedText"
+        severity="warning"
+        message="Hardcoded string &quot;Enter first name&quot;, should use `@string` resource">
+        <location
+            file="${:app*debug*sourceProvider*0*resDir*0}/layout/activity_main.xml"
+            line="49"
+            column="13"
+            startOffset="1967"
+            endLine="49"
+            endColumn="44"
+            endOffset="1998"/>
+    </incident>
+
+    <incident
+        id="Autofill"
+        severity="warning"
+        message="Missing `autofillHints` attribute">
+        <fix-alternatives>
+            <fix-attribute
+                description="Set autofillHints"
+                namespace="http://schemas.android.com/apk/res/android"
+                attribute="autofillHints"
+                value=""
+                dot="0"
+                mark="0"/>
+            <fix-attribute
+                description="Set importantForAutofill=&quot;no&quot;"
+                namespace="http://schemas.android.com/apk/res/android"
+                attribute="importantForAutofill"
+                value="no"/>
+        </fix-alternatives>
+        <location
+            file="${:app*debug*sourceProvider*0*resDir*0}/layout/activity_main.xml"
+            line="69"
+            column="10"
+            startOffset="2846"
+            endLine="69"
+            endColumn="18"
+            endOffset="2854"/>
+    </incident>
+
+    <incident
+        id="HardcodedText"
+        severity="warning"
+        message="Hardcoded string &quot;Enter last name&quot;, should use `@string` resource">
+        <location
+            file="${:app*debug*sourceProvider*0*resDir*0}/layout/activity_main.xml"
+            line="76"
+            column="13"
+            startOffset="3144"
+            endLine="76"
+            endColumn="43"
+            endOffset="3174"/>
+    </incident>
+
+    <incident
+        id="Autofill"
+        severity="warning"
+        message="Missing `autofillHints` attribute">
+        <fix-alternatives>
+            <fix-attribute
+                description="Set autofillHints"
+                namespace="http://schemas.android.com/apk/res/android"
+                attribute="autofillHints"
+                value=""
+                dot="0"
+                mark="0"/>
+            <fix-attribute
+                description="Set importantForAutofill=&quot;no&quot;"
+                namespace="http://schemas.android.com/apk/res/android"
+                attribute="importantForAutofill"
+                value="no"/>
+        </fix-alternatives>
+        <location
+            file="${:app*debug*sourceProvider*0*resDir*0}/layout/activity_main.xml"
+            line="96"
+            column="10"
+            startOffset="4013"
+            endLine="96"
+            endColumn="18"
+            endOffset="4021"/>
+    </incident>
+
+    <incident
+        id="HardcodedText"
+        severity="warning"
+        message="Hardcoded string &quot;Enter email&quot;, should use `@string` resource">
+        <location
+            file="${:app*debug*sourceProvider*0*resDir*0}/layout/activity_main.xml"
+            line="103"
+            column="13"
+            startOffset="4308"
+            endLine="103"
+            endColumn="39"
+            endOffset="4334"/>
+    </incident>
+
+    <incident
+        id="Autofill"
+        severity="warning"
+        message="Missing `autofillHints` attribute">
+        <fix-alternatives>
+            <fix-attribute
+                description="Set autofillHints"
+                namespace="http://schemas.android.com/apk/res/android"
+                attribute="autofillHints"
+                value=""
+                dot="0"
+                mark="0"/>
+            <fix-attribute
+                description="Set importantForAutofill=&quot;no&quot;"
+                namespace="http://schemas.android.com/apk/res/android"
+                attribute="importantForAutofill"
+                value="no"/>
+        </fix-alternatives>
+        <location
+            file="${:app*debug*sourceProvider*0*resDir*0}/layout/activity_main.xml"
+            line="123"
+            column="10"
+            startOffset="5175"
+            endLine="123"
+            endColumn="18"
+            endOffset="5183"/>
+    </incident>
+
+    <incident
+        id="HardcodedText"
+        severity="warning"
+        message="Hardcoded string &quot;Enter password&quot;, should use `@string` resource">
+        <location
+            file="${:app*debug*sourceProvider*0*resDir*0}/layout/activity_main.xml"
+            line="130"
+            column="13"
+            startOffset="5473"
+            endLine="130"
+            endColumn="42"
+            endOffset="5502"/>
+    </incident>
+
+    <incident
+        id="Autofill"
+        severity="warning"
+        message="Missing `autofillHints` attribute">
+        <fix-alternatives>
+            <fix-attribute
+                description="Set autofillHints"
+                namespace="http://schemas.android.com/apk/res/android"
+                attribute="autofillHints"
+                value=""
+                dot="0"
+                mark="0"/>
+            <fix-attribute
+                description="Set importantForAutofill=&quot;no&quot;"
+                namespace="http://schemas.android.com/apk/res/android"
+                attribute="importantForAutofill"
+                value="no"/>
+        </fix-alternatives>
+        <location
+            file="${:app*debug*sourceProvider*0*resDir*0}/layout/activity_main.xml"
+            line="150"
+            column="10"
+            startOffset="6360"
+            endLine="150"
+            endColumn="18"
+            endOffset="6368"/>
+    </incident>
+
+    <incident
+        id="HardcodedText"
+        severity="warning"
+        message="Hardcoded string &quot;Confirm password&quot;, should use `@string` resource">
+        <location
+            file="${:app*debug*sourceProvider*0*resDir*0}/layout/activity_main.xml"
+            line="157"
+            column="13"
+            startOffset="6665"
+            endLine="157"
+            endColumn="44"
+            endOffset="6696"/>
+    </incident>
+
+    <incident
+        id="HardcodedText"
+        severity="warning"
+        message="Hardcoded string &quot;Profile Picture&quot;, should use `@string` resource">
+        <location
+            file="${:app*debug*sourceProvider*0*resDir*0}/layout/activity_profile.xml"
+            line="60"
+            column="17"
+            startOffset="2526"
+            endLine="60"
+            endColumn="61"
+            endOffset="2570"/>
+    </incident>
+
+    <incident
+        id="HardcodedText"
+        severity="warning"
+        message="Hardcoded string &quot;John Doe&quot;, should use `@string` resource">
+        <location
+            file="${:app*debug*sourceProvider*0*resDir*0}/layout/activity_profile.xml"
+            line="74"
+            column="13"
+            startOffset="3064"
+            endLine="74"
+            endColumn="36"
+            endOffset="3087"/>
+    </incident>
+
+    <incident
+        id="HardcodedText"
+        severity="warning"
+        message="Hardcoded string &quot;john.doe@example.com&quot;, should use `@string` resource">
+        <location
+            file="${:app*debug*sourceProvider*0*resDir*0}/layout/activity_profile.xml"
+            line="91"
+            column="13"
+            startOffset="3766"
+            endLine="91"
+            endColumn="48"
+            endOffset="3801"/>
+    </incident>
+
+    <incident
+        id="HardcodedText"
+        severity="warning"
+        message="Hardcoded string &quot;Member since January 2024&quot;, should use `@string` resource">
+        <location
+            file="${:app*debug*sourceProvider*0*resDir*0}/layout/activity_profile.xml"
+            line="118"
+            column="17"
+            startOffset="5007"
+            endLine="118"
+            endColumn="57"
+            endOffset="5047"/>
+    </incident>
+
+    <incident
+        id="HardcodedText"
+        severity="warning"
+        message="Hardcoded string &quot;Profile Statistics&quot;, should use `@string` resource">
+        <location
+            file="${:app*debug*sourceProvider*0*resDir*0}/layout/activity_profile.xml"
+            line="140"
+            column="17"
+            startOffset="5935"
+            endLine="140"
+            endColumn="50"
+            endOffset="5968"/>
+    </incident>
+
+    <incident
+        id="HardcodedText"
+        severity="warning"
+        message="Hardcoded string &quot;1,247&quot;, should use `@string` resource">
+        <location
+            file="${:app*debug*sourceProvider*0*resDir*0}/layout/activity_profile.xml"
+            line="170"
+            column="25"
+            startOffset="7324"
+            endLine="170"
+            endColumn="45"
+            endOffset="7344"/>
+    </incident>
+
+    <incident
+        id="HardcodedText"
+        severity="warning"
+        message="Hardcoded string &quot;API Calls&quot;, should use `@string` resource">
+        <location
+            file="${:app*debug*sourceProvider*0*resDir*0}/layout/activity_profile.xml"
+            line="179"
+            column="25"
+            startOffset="7738"
+            endLine="179"
+            endColumn="49"
+            endOffset="7762"/>
+    </incident>
+
+    <incident
+        id="HardcodedText"
+        severity="warning"
+        message="Hardcoded string &quot;23&quot;, should use `@string` resource">
+        <location
+            file="${:app*debug*sourceProvider*0*resDir*0}/layout/activity_profile.xml"
+            line="208"
+            column="25"
+            startOffset="8967"
+            endLine="208"
+            endColumn="42"
+            endOffset="8984"/>
+    </incident>
+
+    <incident
+        id="HardcodedText"
+        severity="warning"
+        message="Hardcoded string &quot;Errors&quot;, should use `@string` resource">
+        <location
+            file="${:app*debug*sourceProvider*0*resDir*0}/layout/activity_profile.xml"
+            line="217"
+            column="25"
+            startOffset="9378"
+            endLine="217"
+            endColumn="46"
+            endOffset="9399"/>
+    </incident>
+
+    <incident
+        id="HardcodedText"
+        severity="warning"
+        message="Hardcoded string &quot;156&quot;, should use `@string` resource">
+        <location
+            file="${:app*debug*sourceProvider*0*resDir*0}/layout/activity_profile.xml"
+            line="248"
+            column="25"
+            startOffset="10701"
+            endLine="248"
+            endColumn="43"
+            endOffset="10719"/>
+    </incident>
+
+    <incident
+        id="HardcodedText"
+        severity="warning"
+        message="Hardcoded string &quot;Sessions&quot;, should use `@string` resource">
+        <location
+            file="${:app*debug*sourceProvider*0*resDir*0}/layout/activity_profile.xml"
+            line="257"
+            column="25"
+            startOffset="11113"
+            endLine="257"
+            endColumn="48"
+            endOffset="11136"/>
+    </incident>
+
+    <incident
+        id="HardcodedText"
+        severity="warning"
+        message="Hardcoded string &quot;99.8%&quot;, should use `@string` resource">
+        <location
+            file="${:app*debug*sourceProvider*0*resDir*0}/layout/activity_profile.xml"
+            line="286"
+            column="25"
+            startOffset="12341"
+            endLine="286"
+            endColumn="45"
+            endOffset="12361"/>
+    </incident>
+
+    <incident
+        id="HardcodedText"
+        severity="warning"
+        message="Hardcoded string &quot;Uptime&quot;, should use `@string` resource">
+        <location
+            file="${:app*debug*sourceProvider*0*resDir*0}/layout/activity_profile.xml"
+            line="295"
+            column="25"
+            startOffset="12755"
+            endLine="295"
+            endColumn="46"
+            endOffset="12776"/>
+    </incident>
+
+    <incident
+        id="HardcodedText"
+        severity="warning"
+        message="Hardcoded string &quot;Personal Information&quot;, should use `@string` resource">
+        <location
+            file="${:app*debug*sourceProvider*0*resDir*0}/layout/activity_profile.xml"
+            line="309"
+            column="17"
+            startOffset="13278"
+            endLine="309"
+            endColumn="52"
+            endOffset="13313"/>
+    </incident>
+
+    <incident
+        id="ContentDescription"
+        severity="warning"
+        message="Missing `contentDescription` attribute on image">
+        <fix-alternatives>
+            <fix-attribute
+                description="Set contentDescription"
+                namespace="http://schemas.android.com/apk/res/android"
+                attribute="contentDescription"
+                value="TODO"
+                dot="4"
+                mark="0"/>
+            <fix-attribute
+                description="Set importantForAccessibility=&quot;no&quot;"
+                namespace="http://schemas.android.com/apk/res/android"
+                attribute="importantForAccessibility"
+                value="no"/>
+        </fix-alternatives>
+        <location
+            file="${:app*debug*sourceProvider*0*resDir*0}/layout/activity_profile.xml"
+            line="341"
+            column="26"
+            startOffset="14732"
+            endLine="341"
+            endColumn="35"
+            endOffset="14741"/>
+    </incident>
+
+    <incident
+        id="HardcodedText"
+        severity="warning"
+        message="Hardcoded string &quot;Full Name&quot;, should use `@string` resource">
+        <location
+            file="${:app*debug*sourceProvider*0*resDir*0}/layout/activity_profile.xml"
+            line="354"
+            column="29"
+            startOffset="15429"
+            endLine="354"
+            endColumn="53"
+            endOffset="15453"/>
+    </incident>
+
+    <incident
+        id="HardcodedText"
+        severity="warning"
+        message="Hardcoded string &quot;John Doe&quot;, should use `@string` resource">
+        <location
+            file="${:app*debug*sourceProvider*0*resDir*0}/layout/activity_profile.xml"
+            line="364"
+            column="29"
+            startOffset="15944"
+            endLine="364"
+            endColumn="52"
+            endOffset="15967"/>
+    </incident>
+
+    <incident
+        id="ContentDescription"
+        severity="warning"
+        message="Missing `contentDescription` attribute on image">
+        <fix-alternatives>
+            <fix-attribute
+                description="Set contentDescription"
+                namespace="http://schemas.android.com/apk/res/android"
+                attribute="contentDescription"
+                value="TODO"
+                dot="4"
+                mark="0"/>
+            <fix-attribute
+                description="Set importantForAccessibility=&quot;no&quot;"
+                namespace="http://schemas.android.com/apk/res/android"
+                attribute="importantForAccessibility"
+                value="no"/>
+        </fix-alternatives>
+        <location
+            file="${:app*debug*sourceProvider*0*resDir*0}/layout/activity_profile.xml"
+            line="382"
+            column="26"
+            startOffset="16653"
+            endLine="382"
+            endColumn="35"
+            endOffset="16662"/>
+    </incident>
+
+    <incident
+        id="HardcodedText"
+        severity="warning"
+        message="Hardcoded string &quot;Email Address&quot;, should use `@string` resource">
+        <location
+            file="${:app*debug*sourceProvider*0*resDir*0}/layout/activity_profile.xml"
+            line="395"
+            column="29"
+            startOffset="17349"
+            endLine="395"
+            endColumn="57"
+            endOffset="17377"/>
+    </incident>
+
+    <incident
+        id="HardcodedText"
+        severity="warning"
+        message="Hardcoded string &quot;john.doe@example.com&quot;, should use `@string` resource">
+        <location
+            file="${:app*debug*sourceProvider*0*resDir*0}/layout/activity_profile.xml"
+            line="405"
+            column="29"
+            startOffset="17865"
+            endLine="405"
+            endColumn="64"
+            endOffset="17900"/>
+    </incident>
+
+    <incident
+        id="ContentDescription"
+        severity="warning"
+        message="Missing `contentDescription` attribute on image">
+        <fix-alternatives>
+            <fix-attribute
+                description="Set contentDescription"
+                namespace="http://schemas.android.com/apk/res/android"
+                attribute="contentDescription"
+                value="TODO"
+                dot="4"
+                mark="0"/>
+            <fix-attribute
+                description="Set importantForAccessibility=&quot;no&quot;"
+                namespace="http://schemas.android.com/apk/res/android"
+                attribute="importantForAccessibility"
+                value="no"/>
+        </fix-alternatives>
+        <location
+            file="${:app*debug*sourceProvider*0*resDir*0}/layout/activity_profile.xml"
+            line="423"
+            column="26"
+            startOffset="18586"
+            endLine="423"
+            endColumn="35"
+            endOffset="18595"/>
+    </incident>
+
+    <incident
+        id="HardcodedText"
+        severity="warning"
+        message="Hardcoded string &quot;Phone Number&quot;, should use `@string` resource">
+        <location
+            file="${:app*debug*sourceProvider*0*resDir*0}/layout/activity_profile.xml"
+            line="436"
+            column="29"
+            startOffset="19279"
+            endLine="436"
+            endColumn="56"
+            endOffset="19306"/>
+    </incident>
+
+    <incident
+        id="HardcodedText"
+        severity="warning"
+        message="Hardcoded string &quot;+1 (555) 123-4567&quot;, should use `@string` resource">
+        <location
+            file="${:app*debug*sourceProvider*0*resDir*0}/layout/activity_profile.xml"
+            line="445"
+            column="29"
+            startOffset="19737"
+            endLine="445"
+            endColumn="61"
+            endOffset="19769"/>
+    </incident>
+
+    <incident
+        id="ContentDescription"
+        severity="warning"
+        message="Missing `contentDescription` attribute on image">
+        <fix-alternatives>
+            <fix-attribute
+                description="Set contentDescription"
+                namespace="http://schemas.android.com/apk/res/android"
+                attribute="contentDescription"
+                value="TODO"
+                dot="4"
+                mark="0"/>
+            <fix-attribute
+                description="Set importantForAccessibility=&quot;no&quot;"
+                namespace="http://schemas.android.com/apk/res/android"
+                attribute="importantForAccessibility"
+                value="no"/>
+        </fix-alternatives>
+        <location
+            file="${:app*debug*sourceProvider*0*resDir*0}/layout/activity_profile.xml"
+            line="463"
+            column="26"
+            startOffset="20458"
+            endLine="463"
+            endColumn="35"
+            endOffset="20467"/>
+    </incident>
+
+    <incident
+        id="HardcodedText"
+        severity="warning"
+        message="Hardcoded string &quot;Location&quot;, should use `@string` resource">
+        <location
+            file="${:app*debug*sourceProvider*0*resDir*0}/layout/activity_profile.xml"
+            line="476"
+            column="29"
+            startOffset="21157"
+            endLine="476"
+            endColumn="52"
+            endOffset="21180"/>
+    </incident>
+
+    <incident
+        id="HardcodedText"
+        severity="warning"
+        message="Hardcoded string &quot;San Francisco, CA&quot;, should use `@string` resource">
+        <location
+            file="${:app*debug*sourceProvider*0*resDir*0}/layout/activity_profile.xml"
+            line="485"
+            column="29"
+            startOffset="21611"
+            endLine="485"
+            endColumn="61"
+            endOffset="21643"/>
+    </incident>
+
+    <incident
+        id="HardcodedText"
+        severity="warning"
+        message="Hardcoded string &quot;Account Settings&quot;, should use `@string` resource">
+        <location
+            file="${:app*debug*sourceProvider*0*resDir*0}/layout/activity_profile.xml"
+            line="501"
+            column="17"
+            startOffset="22194"
+            endLine="501"
+            endColumn="48"
+            endOffset="22225"/>
+    </incident>
+
+    <incident
+        id="ContentDescription"
+        severity="warning"
+        message="Missing `contentDescription` attribute on image">
+        <fix-alternatives>
+            <fix-attribute
+                description="Set contentDescription"
+                namespace="http://schemas.android.com/apk/res/android"
+                attribute="contentDescription"
+                value="TODO"
+                dot="4"
+                mark="0"/>
+            <fix-attribute
+                description="Set importantForAccessibility=&quot;no&quot;"
+                namespace="http://schemas.android.com/apk/res/android"
+                attribute="importantForAccessibility"
+                value="no"/>
+        </fix-alternatives>
+        <location
+            file="${:app*debug*sourceProvider*0*resDir*0}/layout/activity_profile.xml"
+            line="533"
+            column="26"
+            startOffset="23662"
+            endLine="533"
+            endColumn="35"
+            endOffset="23671"/>
+    </incident>
+
+    <incident
+        id="HardcodedText"
+        severity="warning"
+        message="Hardcoded string &quot;Account Status&quot;, should use `@string` resource">
+        <location
+            file="${:app*debug*sourceProvider*0*resDir*0}/layout/activity_profile.xml"
+            line="546"
+            column="29"
+            startOffset="24359"
+            endLine="546"
+            endColumn="58"
+            endOffset="24388"/>
+    </incident>
+
+    <incident
+        id="HardcodedText"
+        severity="warning"
+        message="Hardcoded string &quot;Active&quot;, should use `@string` resource">
+        <location
+            file="${:app*debug*sourceProvider*0*resDir*0}/layout/activity_profile.xml"
+            line="560"
+            column="29"
+            startOffset="25122"
+            endLine="560"
+            endColumn="50"
+            endOffset="25143"/>
+    </incident>
+
+    <incident
+        id="ContentDescription"
+        severity="warning"
+        message="Missing `contentDescription` attribute on image">
+        <fix-alternatives>
+            <fix-attribute
+                description="Set contentDescription"
+                namespace="http://schemas.android.com/apk/res/android"
+                attribute="contentDescription"
+                value="TODO"
+                dot="4"
+                mark="0"/>
+            <fix-attribute
+                description="Set importantForAccessibility=&quot;no&quot;"
+                namespace="http://schemas.android.com/apk/res/android"
+                attribute="importantForAccessibility"
+                value="no"/>
+        </fix-alternatives>
+        <location
+            file="${:app*debug*sourceProvider*0*resDir*0}/layout/activity_profile.xml"
+            line="579"
+            column="26"
+            startOffset="25889"
+            endLine="579"
+            endColumn="35"
+            endOffset="25898"/>
+    </incident>
+
+    <incident
+        id="HardcodedText"
+        severity="warning"
+        message="Hardcoded string &quot;Subscription Plan&quot;, should use `@string` resource">
+        <location
+            file="${:app*debug*sourceProvider*0*resDir*0}/layout/activity_profile.xml"
+            line="592"
+            column="29"
+            startOffset="26584"
+            endLine="592"
+            endColumn="61"
+            endOffset="26616"/>
+    </incident>
+
+    <incident
+        id="HardcodedText"
+        severity="warning"
+        message="Hardcoded string &quot;Premium&quot;, should use `@string` resource">
+        <location
+            file="${:app*debug*sourceProvider*0*resDir*0}/layout/activity_profile.xml"
+            line="606"
+            column="29"
+            startOffset="27349"
+            endLine="606"
+            endColumn="51"
+            endOffset="27371"/>
+    </incident>
+
+    <incident
+        id="ContentDescription"
+        severity="warning"
+        message="Missing `contentDescription` attribute on image">
+        <fix-alternatives>
+            <fix-attribute
+                description="Set contentDescription"
+                namespace="http://schemas.android.com/apk/res/android"
+                attribute="contentDescription"
+                value="TODO"
+                dot="4"
+                mark="0"/>
+            <fix-attribute
+                description="Set importantForAccessibility=&quot;no&quot;"
+                namespace="http://schemas.android.com/apk/res/android"
+                attribute="importantForAccessibility"
+                value="no"/>
+        </fix-alternatives>
+        <location
+            file="${:app*debug*sourceProvider*0*resDir*0}/layout/activity_profile.xml"
+            line="625"
+            column="26"
+            startOffset="28114"
+            endLine="625"
+            endColumn="35"
+            endOffset="28123"/>
+    </incident>
+
+    <incident
+        id="HardcodedText"
+        severity="warning"
+        message="Hardcoded string &quot;API Key Status&quot;, should use `@string` resource">
+        <location
+            file="${:app*debug*sourceProvider*0*resDir*0}/layout/activity_profile.xml"
+            line="638"
+            column="29"
+            startOffset="28807"
+            endLine="638"
+            endColumn="58"
+            endOffset="28836"/>
+    </incident>
+
+    <incident
+        id="HardcodedText"
+        severity="warning"
+        message="Hardcoded string &quot;Valid&quot;, should use `@string` resource">
+        <location
+            file="${:app*debug*sourceProvider*0*resDir*0}/layout/activity_profile.xml"
+            line="652"
+            column="29"
+            startOffset="29570"
+            endLine="652"
+            endColumn="49"
+            endOffset="29590"/>
+    </incident>
+
+    <incident
+        id="HardcodedText"
+        severity="warning"
+        message="Hardcoded string &quot;Recent Activity&quot;, should use `@string` resource">
+        <location
+            file="${:app*debug*sourceProvider*0*resDir*0}/layout/activity_profile.xml"
+            line="669"
+            column="17"
+            startOffset="30187"
+            endLine="669"
+            endColumn="47"
+            endOffset="30217"/>
+    </incident>
+
+    <incident
+        id="ContentDescription"
+        severity="warning"
+        message="Missing `contentDescription` attribute on image">
+        <fix-alternatives>
+            <fix-attribute
+                description="Set contentDescription"
+                namespace="http://schemas.android.com/apk/res/android"
+                attribute="contentDescription"
+                value="TODO"
+                dot="4"
+                mark="0"/>
+            <fix-attribute
+                description="Set importantForAccessibility=&quot;no&quot;"
+                namespace="http://schemas.android.com/apk/res/android"
+                attribute="importantForAccessibility"
+                value="no"/>
+        </fix-alternatives>
+        <location
+            file="${:app*debug*sourceProvider*0*resDir*0}/layout/activity_profile.xml"
+            line="701"
+            column="26"
+            startOffset="31655"
+            endLine="701"
+            endColumn="35"
+            endOffset="31664"/>
+    </incident>
+
+    <incident
+        id="HardcodedText"
+        severity="warning"
+        message="Hardcoded string &quot;API call to /users endpoint&quot;, should use `@string` resource">
+        <location
+            file="${:app*debug*sourceProvider*0*resDir*0}/layout/activity_profile.xml"
+            line="714"
+            column="29"
+            startOffset="32346"
+            endLine="714"
+            endColumn="71"
+            endOffset="32388"/>
+    </incident>
+
+    <incident
+        id="HardcodedText"
+        severity="warning"
+        message="Hardcoded string &quot;2 min ago&quot;, should use `@string` resource">
+        <location
+            file="${:app*debug*sourceProvider*0*resDir*0}/layout/activity_profile.xml"
+            line="722"
+            column="29"
+            startOffset="32766"
+            endLine="722"
+            endColumn="53"
+            endOffset="32790"/>
+    </incident>
+
+    <incident
+        id="ContentDescription"
+        severity="warning"
+        message="Missing `contentDescription` attribute on image">
+        <fix-alternatives>
+            <fix-attribute
+                description="Set contentDescription"
+                namespace="http://schemas.android.com/apk/res/android"
+                attribute="contentDescription"
+                value="TODO"
+                dot="4"
+                mark="0"/>
+            <fix-attribute
+                description="Set importantForAccessibility=&quot;no&quot;"
+                namespace="http://schemas.android.com/apk/res/android"
+                attribute="importantForAccessibility"
+                value="no"/>
+        </fix-alternatives>
+        <location
+            file="${:app*debug*sourceProvider*0*resDir*0}/layout/activity_profile.xml"
+            line="740"
+            column="26"
+            startOffset="33486"
+            endLine="740"
+            endColumn="35"
+            endOffset="33495"/>
+    </incident>
+
+    <incident
+        id="HardcodedText"
+        severity="warning"
+        message="Hardcoded string &quot;Error logged: Network timeout&quot;, should use `@string` resource">
+        <location
+            file="${:app*debug*sourceProvider*0*resDir*0}/layout/activity_profile.xml"
+            line="753"
+            column="29"
+            startOffset="34182"
+            endLine="753"
+            endColumn="73"
+            endOffset="34226"/>
+    </incident>
+
+    <incident
+        id="HardcodedText"
+        severity="warning"
+        message="Hardcoded string &quot;15 min ago&quot;, should use `@string` resource">
+        <location
+            file="${:app*debug*sourceProvider*0*resDir*0}/layout/activity_profile.xml"
+            line="761"
+            column="29"
+            startOffset="34604"
+            endLine="761"
+            endColumn="54"
+            endOffset="34629"/>
+    </incident>
+
+    <incident
+        id="TooManyViews"
+        severity="warning"
+        message="`activity_profile.xml` has more than 80 views, bad for performance">
+        <location
+            file="${:app*debug*sourceProvider*0*resDir*0}/layout/activity_profile.xml"
+            line="767"
+            column="22"
+            startOffset="34810"
+            endLine="767"
+            endColumn="26"
+            endOffset="34814"/>
+    </incident>
+
+    <incident
+        id="ContentDescription"
+        severity="warning"
+        message="Missing `contentDescription` attribute on image">
+        <fix-alternatives>
+            <fix-attribute
+                description="Set contentDescription"
+                namespace="http://schemas.android.com/apk/res/android"
+                attribute="contentDescription"
+                value="TODO"
+                dot="4"
+                mark="0"/>
+            <fix-attribute
+                description="Set importantForAccessibility=&quot;no&quot;"
+                namespace="http://schemas.android.com/apk/res/android"
+                attribute="importantForAccessibility"
+                value="no"/>
+        </fix-alternatives>
+        <location
+            file="${:app*debug*sourceProvider*0*resDir*0}/layout/activity_profile.xml"
+            line="779"
+            column="26"
+            startOffset="35325"
+            endLine="779"
+            endColumn="35"
+            endOffset="35334"/>
+    </incident>
+
+    <incident
+        id="HardcodedText"
+        severity="warning"
+        message="Hardcoded string &quot;User session started&quot;, should use `@string` resource">
+        <location
+            file="${:app*debug*sourceProvider*0*resDir*0}/layout/activity_profile.xml"
+            line="792"
+            column="29"
+            startOffset="36016"
+            endLine="792"
+            endColumn="64"
+            endOffset="36051"/>
+    </incident>
+
+    <incident
+        id="HardcodedText"
+        severity="warning"
+        message="Hardcoded string &quot;1 hour ago&quot;, should use `@string` resource">
+        <location
+            file="${:app*debug*sourceProvider*0*resDir*0}/layout/activity_profile.xml"
+            line="800"
+            column="29"
+            startOffset="36429"
+            endLine="800"
+            endColumn="54"
+            endOffset="36454"/>
+    </incident>
+
+    <incident
+        id="HardcodedText"
+        severity="warning"
+        message="Hardcoded string &quot;Quick Actions&quot;, should use `@string` resource">
+        <location
+            file="${:app*debug*sourceProvider*0*resDir*0}/layout/activity_profile.xml"
+            line="816"
+            column="17"
+            startOffset="36999"
+            endLine="816"
+            endColumn="45"
+            endOffset="37027"/>
+    </incident>
+
+    <incident
+        id="HardcodedText"
+        severity="warning"
+        message="Hardcoded string &quot;Edit Profile&quot;, should use `@string` resource">
+        <location
+            file="${:app*debug*sourceProvider*0*resDir*0}/layout/activity_profile.xml"
+            line="840"
+            column="21"
+            startOffset="38165"
+            endLine="840"
+            endColumn="48"
+            endOffset="38192"/>
+    </incident>
+
+    <incident
+        id="HardcodedText"
+        severity="warning"
+        message="Hardcoded string &quot;Change Password&quot;, should use `@string` resource">
+        <location
+            file="${:app*debug*sourceProvider*0*resDir*0}/layout/activity_profile.xml"
+            line="852"
+            column="21"
+            startOffset="38735"
+            endLine="852"
+            endColumn="51"
+            endOffset="38765"/>
+    </incident>
+
+    <incident
+        id="HardcodedText"
+        severity="warning"
+        message="Hardcoded string &quot;Infinite Scroll&quot;, should use `@string` resource">
+        <location
+            file="${:app*debug*sourceProvider*0*resDir*0}/layout/activity_scroll.xml"
+            line="48"
+            column="9"
+            startOffset="1839"
+            endLine="48"
+            endColumn="39"
+            endOffset="1869"/>
+    </incident>
+
+    <incident
+        id="HardcodedText"
+        severity="warning"
+        message="Hardcoded string &quot;Scroll vertically and horizontally through 1000+ cards&quot;, should use `@string` resource">
+        <location
+            file="${:app*debug*sourceProvider*0*resDir*0}/layout/activity_scroll.xml"
+            line="65"
+            column="9"
+            startOffset="2455"
+            endLine="65"
+            endColumn="78"
+            endOffset="2524"/>
+    </incident>
+
+    <incident
+        id="HardcodedText"
+        severity="warning"
+        message="Hardcoded string &quot;#1&quot;, should use `@string` resource">
+        <location
+            file="${:app*debug*sourceProvider*0*resDir*0}/layout/item_scroll_card.xml"
+            line="43"
+            column="17"
+            startOffset="1570"
+            endLine="43"
+            endColumn="34"
+            endOffset="1587"/>
+    </incident>
+
+    <incident
+        id="HardcodedText"
+        severity="warning"
+        message="Hardcoded string &quot;Card Title&quot;, should use `@string` resource">
+        <location
+            file="${:app*debug*sourceProvider*0*resDir*0}/layout/item_scroll_card.xml"
+            line="54"
+            column="17"
+            startOffset="1988"
+            endLine="54"
+            endColumn="42"
+            endOffset="2013"/>
+    </incident>
+
+    <incident
+        id="HardcodedText"
+        severity="warning"
+        message="Hardcoded string &quot;This is a sample card description with some content to show how the card looks with text.&quot;, should use `@string` resource">
+        <location
+            file="${:app*debug*sourceProvider*0*resDir*0}/layout/item_scroll_card.xml"
+            line="65"
+            column="17"
+            startOffset="2425"
+            endLine="65"
+            endColumn="121"
+            endOffset="2529"/>
+    </incident>
+
+    <incident
+        id="HardcodedText"
+        severity="warning"
+        message="Hardcoded string &quot;Action&quot;, should use `@string` resource">
+        <location
+            file="${:app*debug*sourceProvider*0*resDir*0}/layout/item_scroll_card.xml"
+            line="81"
+            column="17"
+            startOffset="3146"
+            endLine="81"
+            endColumn="38"
+            endOffset="3167"/>
+    </incident>
+
+    <incident
+        id="ClickableViewAccessibility"
+        severity="warning"
+        message="`onTouch` lambda should call `View#performClick` when a click is detected">
+        <location
+            file="${:app*debug*sourceProvider*0*javaDir*2}/com/example/helloworld/AnimationsActivity.kt"
+            line="110"
+            column="43"
+            startOffset="3771"
+            endLine="175"
+            endColumn="10"
+            endOffset="6574"/>
+    </incident>
+
+    <incident
+        id="ClickableViewAccessibility"
+        severity="warning"
+        message="Custom view ``ImageView`` has `setOnTouchListener` called on it but does not override `performClick`">
+        <location
+            file="${:app*debug*sourceProvider*0*javaDir*2}/com/example/helloworld/AnimationsActivity.kt"
+            line="110"
+            column="9"
+            startOffset="3737"
+            endLine="175"
+            endColumn="10"
+            endOffset="6574"/>
+    </incident>
+
+    <incident
+        id="SetTextI18n"
+        severity="warning"
+        message="Do not concatenate text displayed with `setText`. Use resource string with placeholders.">
+        <location
+            file="${:app*debug*sourceProvider*0*javaDir*2}/com/example/helloworld/DashboardActivity.kt"
+            line="29"
+            column="36"
+            startOffset="1061"
+            endLine="29"
+            endColumn="68"
+            endOffset="1093"/>
+    </incident>
+
+    <incident
+        id="SetTextI18n"
+        severity="warning"
+        message="String literal in `setText` can not be translated. Use Android resources instead.">
+        <location
+            file="${:app*debug*sourceProvider*0*javaDir*2}/com/example/helloworld/DashboardActivity.kt"
+            line="29"
+            column="37"
+            startOffset="1062"
+            endLine="29"
+            endColumn="43"
+            endOffset="1068"/>
+    </incident>
+
+    <incident
+        id="SetTextI18n"
+        severity="warning"
+        message="String literal in `setText` can not be translated. Use Android resources instead.">
+        <location
+            file="${:app*debug*sourceProvider*0*javaDir*2}/com/example/helloworld/DashboardActivity.kt"
+            line="29"
+            column="54"
+            startOffset="1079"
+            endLine="29"
+            endColumn="61"
+            endOffset="1086"/>
+    </incident>
+
+    <incident
+        id="ClickableViewAccessibility"
+        severity="warning"
+        message="`onTouch` lambda should call `View#performClick` when a click is detected">
+        <location
+            file="${:app*debug*sourceProvider*0*javaDir*2}/com/example/helloworld/DragDropActivity.kt"
+            line="189"
+            column="37"
+            startOffset="7028"
+            endLine="203"
+            endColumn="10"
+            endOffset="7523"/>
+    </incident>
+
+    <incident
+        id="UseCompatLoadingForDrawables"
+        severity="warning"
+        message="Use `AppCompatResources.getDrawable()`">
+        <location
+            file="${:app*debug*sourceProvider*0*javaDir*2}/com/example/helloworld/DragDropActivity.kt"
+            line="75"
+            column="39"
+            startOffset="2564"
+            endLine="75"
+            endColumn="86"
+            endOffset="2611"/>
+    </incident>
+
+    <incident
+        id="UseCompatLoadingForDrawables"
+        severity="warning"
+        message="Use `AppCompatResources.getDrawable()`">
+        <location
+            file="${:app*debug*sourceProvider*0*javaDir*2}/com/example/helloworld/DragDropActivity.kt"
+            line="75"
+            column="39"
+            startOffset="2564"
+            endLine="75"
+            endColumn="86"
+            endOffset="2611"/>
+    </incident>
+
+    <incident
+        id="UseCompatLoadingForDrawables"
+        severity="warning"
+        message="Use `AppCompatResources.getDrawable()`">
+        <location
+            file="${:app*debug*sourceProvider*0*javaDir*2}/com/example/helloworld/DragDropActivity.kt"
+            line="80"
+            column="39"
+            startOffset="2781"
+            endLine="80"
+            endColumn="86"
+            endOffset="2828"/>
+    </incident>
+
+    <incident
+        id="UseCompatLoadingForDrawables"
+        severity="warning"
+        message="Use `AppCompatResources.getDrawable()`">
+        <location
+            file="${:app*debug*sourceProvider*0*javaDir*2}/com/example/helloworld/DragDropActivity.kt"
+            line="80"
+            column="39"
+            startOffset="2781"
+            endLine="80"
+            endColumn="86"
+            endOffset="2828"/>
+    </incident>
+
+    <incident
+        id="UseCompatLoadingForDrawables"
+        severity="warning"
+        message="Use `AppCompatResources.getDrawable()`">
+        <location
+            file="${:app*debug*sourceProvider*0*javaDir*2}/com/example/helloworld/DragDropActivity.kt"
+            line="85"
+            column="39"
+            startOffset="2991"
+            endLine="85"
+            endColumn="86"
+            endOffset="3038"/>
+    </incident>
+
+    <incident
+        id="UseCompatLoadingForDrawables"
+        severity="warning"
+        message="Use `AppCompatResources.getDrawable()`">
+        <location
+            file="${:app*debug*sourceProvider*0*javaDir*2}/com/example/helloworld/DragDropActivity.kt"
+            line="85"
+            column="39"
+            startOffset="2991"
+            endLine="85"
+            endColumn="86"
+            endOffset="3038"/>
+    </incident>
+
+    <incident
+        id="UseCompatLoadingForDrawables"
+        severity="warning"
+        message="Use `AppCompatResources.getDrawable()`">
+        <location
+            file="${:app*debug*sourceProvider*0*javaDir*2}/com/example/helloworld/DragDropActivity.kt"
+            line="97"
+            column="39"
+            startOffset="3514"
+            endLine="97"
+            endColumn="86"
+            endOffset="3561"/>
+    </incident>
+
+    <incident
+        id="UseCompatLoadingForDrawables"
+        severity="warning"
+        message="Use `AppCompatResources.getDrawable()`">
+        <location
+            file="${:app*debug*sourceProvider*0*javaDir*2}/com/example/helloworld/DragDropActivity.kt"
+            line="97"
+            column="39"
+            startOffset="3514"
+            endLine="97"
+            endColumn="86"
+            endOffset="3561"/>
+    </incident>
+
+    <incident
+        id="UseCompatLoadingForDrawables"
+        severity="warning"
+        message="Use `AppCompatResources.getDrawable()`">
+        <location
+            file="${:app*debug*sourceProvider*0*javaDir*2}/com/example/helloworld/DragDropActivity.kt"
+            line="143"
+            column="26"
+            startOffset="5383"
+            endLine="143"
+            endColumn="75"
+            endOffset="5432"/>
+    </incident>
+
+    <incident
+        id="UseCompatLoadingForDrawables"
+        severity="warning"
+        message="Use `AppCompatResources.getDrawable()`">
+        <location
+            file="${:app*debug*sourceProvider*0*javaDir*2}/com/example/helloworld/DragDropActivity.kt"
+            line="143"
+            column="26"
+            startOffset="5383"
+            endLine="143"
+            endColumn="75"
+            endOffset="5432"/>
+    </incident>
+
+    <incident
+        id="ClickableViewAccessibility"
+        severity="warning"
+        message="Custom view ``CardView`` has `setOnTouchListener` called on it but does not override `performClick`">
+        <location
+            file="${:app*debug*sourceProvider*0*javaDir*2}/com/example/helloworld/DragDropActivity.kt"
+            line="189"
+            column="9"
+            startOffset="7000"
+            endLine="203"
+            endColumn="10"
+            endOffset="7523"/>
+    </incident>
+
+    <incident
+        id="UseCompatLoadingForDrawables"
+        severity="warning"
+        message="Use `AppCompatResources.getDrawable()`">
+        <location
+            file="${:app*debug*sourceProvider*0*javaDir*2}/com/example/helloworld/DragDropActivity.kt"
+            line="249"
+            column="26"
+            startOffset="9008"
+            endLine="249"
+            endColumn="73"
+            endOffset="9055"/>
+    </incident>
+
+    <incident
+        id="UseCompatLoadingForDrawables"
+        severity="warning"
+        message="Use `AppCompatResources.getDrawable()`">
+        <location
+            file="${:app*debug*sourceProvider*0*javaDir*2}/com/example/helloworld/DragDropActivity.kt"
+            line="249"
+            column="26"
+            startOffset="9008"
+            endLine="249"
+            endColumn="73"
+            endOffset="9055"/>
+    </incident>
+
+    <incident
+        id="SetTextI18n"
+        severity="warning"
+        message="Do not concatenate text displayed with `setText`. Use resource string with placeholders.">
+        <location
+            file="${:app*debug*sourceProvider*0*javaDir*2}/com/example/helloworld/DragDropActivity.kt"
+            line="300"
+            column="30"
+            startOffset="10623"
+            endLine="300"
+            endColumn="45"
+            endOffset="10638"/>
+    </incident>
+
+    <incident
+        id="SetTextI18n"
+        severity="warning"
+        message="String literal in `setText` can not be translated. Use Android resources instead.">
+        <location
+            file="${:app*debug*sourceProvider*0*javaDir*2}/com/example/helloworld/DragDropActivity.kt"
+            line="300"
+            column="31"
+            startOffset="10624"
+            endLine="300"
+            endColumn="38"
+            endOffset="10631"/>
+    </incident>
+
+    <incident
+        id="SetTextI18n"
+        severity="warning"
+        message="Do not concatenate text displayed with `setText`. Use resource string with placeholders.">
+        <location
+            file="${:app*debug*sourceProvider*0*javaDir*2}/com/example/helloworld/GenerateErrorsActivity.kt"
+            line="550"
+            column="35"
+            startOffset="20590"
+            endLine="550"
+            endColumn="66"
+            endOffset="20621"/>
+    </incident>
+
+    <incident
+        id="SetTextI18n"
+        severity="warning"
+        message="String literal in `setText` can not be translated. Use Android resources instead.">
+        <location
+            file="${:app*debug*sourceProvider*0*javaDir*2}/com/example/helloworld/GenerateErrorsActivity.kt"
+            line="550"
+            column="36"
+            startOffset="20591"
+            endLine="550"
+            endColumn="54"
+            endOffset="20609"/>
+    </incident>
+
+    <incident
+        id="SetTextI18n"
+        severity="warning"
+        message="Do not concatenate text displayed with `setText`. Use resource string with placeholders.">
+        <location
+            file="${:app*debug*sourceProvider*0*javaDir*2}/com/example/helloworld/HitApisActivity.kt"
+            line="45"
+            column="31"
+            startOffset="1482"
+            endLine="45"
+            endColumn="49"
+            endOffset="1500"/>
+    </incident>
+
+    <incident
+        id="SetTextI18n"
+        severity="warning"
+        message="String literal in `setText` can not be translated. Use Android resources instead.">
+        <location
+            file="${:app*debug*sourceProvider*0*javaDir*2}/com/example/helloworld/HitApisActivity.kt"
+            line="45"
+            column="32"
+            startOffset="1483"
+            endLine="45"
+            endColumn="41"
+            endOffset="1492"/>
+    </incident>
+
+    <incident
+        id="SetTextI18n"
+        severity="warning"
+        message="Do not concatenate text displayed with `setText`. Use resource string with placeholders.">
+        <location
+            file="${:app*debug*sourceProvider*0*javaDir*2}/com/example/helloworld/ScrollActivity.kt"
+            line="190"
+            column="38"
+            startOffset="7044"
+            endLine="190"
+            endColumn="59"
+            endOffset="7065"/>
+    </incident>
+
+    <incident
+        id="OldTargetApi"
+        severity="warning"
+        message="Not targeting the latest versions of Android; compatibility modes apply. Consider testing and updating this version. Consult the android.os.Build.VERSION_CODES javadoc for details.">
+        <fix-replace
+            description="Update targetSdkVersion to 35"
+            oldString="34"
+            replacement="35"/>
+        <location
+            file="${:app*projectDir}/build.gradle"
+            line="13"
+            column="9"
+            startOffset="231"
+            endLine="13"
+            endColumn="21"
+            endOffset="243"/>
+    </incident>
+
+    <incident
+        id="GradleDependency"
+        severity="warning"
+        message="A newer version of androidx.core:core-ktx than 1.10.1 is available: 1.16.0">
+        <fix-replace
+            description="Change to 1.16.0"
+            family="Update versions"
+            oldString="1.10.1"
+            replacement="1.16.0"/>
+        <location
+            file="${:app*projectDir}/build.gradle"
+            line="42"
+            column="20"
+            startOffset="849"
+            endLine="42"
+            endColumn="51"
+            endOffset="880"/>
+    </incident>
+
+    <incident
+        id="GradleDependency"
+        severity="warning"
+        message="A newer version of androidx.appcompat:appcompat than 1.6.1 is available: 1.7.1">
+        <fix-replace
+            description="Change to 1.7.1"
+            family="Update versions"
+            oldString="1.6.1"
+            replacement="1.7.1"/>
+        <location
+            file="${:app*projectDir}/build.gradle"
+            line="43"
+            column="20"
+            startOffset="900"
+            endLine="43"
+            endColumn="56"
+            endOffset="936"/>
+    </incident>
+
+    <incident
+        id="GradleDependency"
+        severity="warning"
+        message="A newer version of com.google.android.material:material than 1.9.0 is available: 1.12.0">
+        <fix-replace
+            description="Change to 1.12.0"
+            family="Update versions"
+            oldString="1.9.0"
+            replacement="1.12.0"/>
+        <location
+            file="${:app*projectDir}/build.gradle"
+            line="44"
+            column="20"
+            startOffset="956"
+            endLine="44"
+            endColumn="64"
+            endOffset="1000"/>
+    </incident>
+
+    <incident
+        id="GradleDependency"
+        severity="warning"
+        message="A newer version of androidx.constraintlayout:constraintlayout than 2.1.4 is available: 2.2.1">
+        <fix-replace
+            description="Change to 2.2.1"
+            family="Update versions"
+            oldString="2.1.4"
+            replacement="2.2.1"/>
+        <location
+            file="${:app*projectDir}/build.gradle"
+            line="45"
+            column="20"
+            startOffset="1020"
+            endLine="45"
+            endColumn="70"
+            endOffset="1070"/>
+    </incident>
+
+    <incident
+        id="GradleDependency"
+        severity="warning"
+        message="A newer version of com.squareup.okhttp3:okhttp than 4.11.0 is available: 4.12.0">
+        <fix-replace
+            description="Change to 4.12.0"
+            family="Update versions"
+            oldString="4.11.0"
+            replacement="4.12.0"/>
+        <location
+            file="${:app*projectDir}/build.gradle"
+            line="48"
+            column="20"
+            startOffset="1114"
+            endLine="48"
+            endColumn="56"
+            endOffset="1150"/>
+    </incident>
+
+    <incident
+        id="GradleDependency"
+        severity="warning"
+        message="A newer version of androidx.test.ext:junit than 1.1.5 is available: 1.2.1">
+        <fix-replace
+            description="Change to 1.2.1"
+            family="Update versions"
+            oldString="1.1.5"
+            replacement="1.2.1"/>
+        <location
+            file="${:app*projectDir}/build.gradle"
+            line="55"
+            column="31"
+            startOffset="1402"
+            endLine="55"
+            endColumn="62"
+            endOffset="1433"/>
+    </incident>
+
+    <incident
+        id="GradleDependency"
+        severity="warning"
+        message="A newer version of androidx.test.espresso:espresso-core than 3.5.1 is available: 3.6.1">
+        <fix-replace
+            description="Change to 3.6.1"
+            family="Update versions"
+            oldString="3.5.1"
+            replacement="3.6.1"/>
+        <location
+            file="${:app*projectDir}/build.gradle"
+            line="56"
+            column="31"
+            startOffset="1464"
+            endLine="56"
+            endColumn="75"
+            endOffset="1508"/>
+    </incident>
+
+    <incident
+        id="Overdraw"
+        severity="warning"
+        message="Possible overdraw: Root element paints background `@color/white` with a theme that also paints a background (inferred theme is `@style/Theme_HelloWorld`)">
+        <location
+            file="${:app*debug*sourceProvider*0*resDir*0}/layout/activity_animations.xml"
+            line="7"
+            column="5"
+            startOffset="341"
+            endLine="7"
+            endColumn="38"
+            endOffset="374"/>
+    </incident>
+
+    <incident
+        id="Overdraw"
+        severity="warning"
+        message="Possible overdraw: Root element paints background `@color/white` with a theme that also paints a background (inferred theme is `@style/Theme_HelloWorld`)">
+        <location
+            file="${:app*debug*sourceProvider*0*resDir*0}/layout/activity_api_key.xml"
+            line="8"
+            column="5"
+            startOffset="334"
+            endLine="8"
+            endColumn="38"
+            endOffset="367"/>
+    </incident>
+
+    <incident
+        id="Overdraw"
+        severity="warning"
+        message="Possible overdraw: Root element paints background `@color/white` with a theme that also paints a background (inferred theme is `@style/Theme_HelloWorld`)">
+        <location
+            file="${:app*debug*sourceProvider*0*resDir*0}/layout/activity_dashboard.xml"
+            line="8"
+            column="5"
+            startOffset="334"
+            endLine="8"
+            endColumn="38"
+            endOffset="367"/>
+    </incident>
+
+    <incident
+        id="Overdraw"
+        severity="warning"
+        message="Possible overdraw: Root element paints background `@color/white` with a theme that also paints a background (inferred theme is `@style/Theme_HelloWorld`)">
+        <location
+            file="${:app*debug*sourceProvider*0*resDir*0}/layout/activity_drag_drop.xml"
+            line="7"
+            column="5"
+            startOffset="341"
+            endLine="7"
+            endColumn="38"
+            endOffset="374"/>
+    </incident>
+
+    <incident
+        id="Overdraw"
+        severity="warning"
+        message="Possible overdraw: Root element paints background `@color/white` with a theme that also paints a background (inferred theme is `@style/Theme_HelloWorld`)">
+        <location
+            file="${:app*debug*sourceProvider*0*resDir*0}/layout/activity_generate_errors.xml"
+            line="7"
+            column="5"
+            startOffset="341"
+            endLine="7"
+            endColumn="38"
+            endOffset="374"/>
+    </incident>
+
+    <incident
+        id="Overdraw"
+        severity="warning"
+        message="Possible overdraw: Root element paints background `@color/white` with a theme that also paints a background (inferred theme is `@style/Theme_HelloWorld`)">
+        <location
+            file="${:app*debug*sourceProvider*0*resDir*0}/layout/activity_hit_apis.xml"
+            line="8"
+            column="5"
+            startOffset="334"
+            endLine="8"
+            endColumn="38"
+            endOffset="367"/>
+    </incident>
+
+    <incident
+        id="Overdraw"
+        severity="warning"
+        message="Possible overdraw: Root element paints background `@color/white` with a theme that also paints a background (inferred theme is `@style/Theme_HelloWorld`)">
+        <location
+            file="${:app*debug*sourceProvider*0*resDir*0}/layout/activity_main.xml"
+            line="8"
+            column="5"
+            startOffset="334"
+            endLine="8"
+            endColumn="38"
+            endOffset="367"/>
+    </incident>
+
+    <incident
+        id="Overdraw"
+        severity="warning"
+        message="Possible overdraw: Root element paints background `@color/white` with a theme that also paints a background (inferred theme is `@style/Theme_HelloWorld`)">
+        <location
+            file="${:app*debug*sourceProvider*0*resDir*0}/layout/activity_profile.xml"
+            line="8"
+            column="5"
+            startOffset="334"
+            endLine="8"
+            endColumn="38"
+            endOffset="367"/>
+    </incident>
+
+    <incident
+        id="Overdraw"
+        severity="warning"
+        message="Possible overdraw: Root element paints background `@color/white` with a theme that also paints a background (inferred theme is `@style/Theme_HelloWorld`)">
+        <location
+            file="${:app*debug*sourceProvider*0*resDir*0}/layout/activity_scroll.xml"
+            line="7"
+            column="5"
+            startOffset="341"
+            endLine="7"
+            endColumn="38"
+            endOffset="374"/>
+    </incident>
+
+</incidents>

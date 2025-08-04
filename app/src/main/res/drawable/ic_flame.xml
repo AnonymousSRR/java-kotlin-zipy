@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="utf-8"?>
+<vector xmlns:android="http://schemas.android.com/apk/res/android"
+    android:width="64dp"
+    android:height="64dp"
+    android:viewportWidth="64"
+    android:viewportHeight="64">
+
+    <!-- Main flame body -->
+    <path
+        android:fillColor="#FF5722"
+        android:pathData="M32,8 C28,8 24,12 24,20 C24,28 32,40 32,40 C32,40 40,28 40,20 C40,12 36,8 32,8 Z" />
+
+    <!-- Inner flame -->
+    <path
+        android:fillColor="#FF9800"
+        android:pathData="M32,12 C30,12 28,15 28,20 C28,25 32,32 32,32 C32,32 36,25 36,20 C36,15 34,12 32,12 Z" />
+
+    <!-- Flame tip -->
+    <path
+        android:fillColor="#FFEB3B"
+        android:pathData="M32,16 C31,16 30,18 30,20 C30,22 32,24 32,24 C32,24 34,22 34,20 C34,18 33,16 32,16 Z" />
+
+    <!-- Flame base -->
+    <path
+        android:fillColor="#795548"
+        android:pathData="M30,40 L34,40 L34,44 C34,45 33,46 32,46 C31,46 30,45 30,44 Z" />
+
+</vector> 

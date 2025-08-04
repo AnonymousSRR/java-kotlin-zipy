@@ -1,0 +1,50 @@
+[
+    {
+        "merged": "/Users/sahil/.gradle/daemon/8.0/com.example.helloworld.app-mergeDebugResources-27:/layout/activity_profile.xml",
+        "source": "/Users/sahil/.gradle/daemon/8.0/com.example.helloworld.app-main-30:/layout/activity_profile.xml"
+    },
+    {
+        "merged": "/Users/sahil/.gradle/daemon/8.0/com.example.helloworld.app-mergeDebugResources-27:/layout/activity_drag_drop.xml",
+        "source": "/Users/sahil/.gradle/daemon/8.0/com.example.helloworld.app-main-30:/layout/activity_drag_drop.xml"
+    },
+    {
+        "merged": "/Users/sahil/.gradle/daemon/8.0/com.example.helloworld.app-mergeDebugResources-27:/layout/activity_hit_apis.xml",
+        "source": "/Users/sahil/.gradle/daemon/8.0/com.example.helloworld.app-main-30:/layout/activity_hit_apis.xml"
+    },
+    {
+        "merged": "/Users/sahil/.gradle/daemon/8.0/com.example.helloworld.app-mergeDebugResources-27:/layout/activity_dashboard.xml",
+        "source": "/Users/sahil/.gradle/daemon/8.0/com.example.helloworld.app-main-30:/layout/activity_dashboard.xml"
+    },
+    {
+        "merged": "/Users/sahil/.gradle/daemon/8.0/com.example.helloworld.app-mergeDebugResources-27:/layout/activity_scroll.xml",
+        "source": "/Users/sahil/.gradle/daemon/8.0/com.example.helloworld.app-main-30:/layout/activity_scroll.xml"
+    },
+    {
+        "merged": "/Users/sahil/.gradle/daemon/8.0/com.example.helloworld.app-mergeDebugResources-27:/layout/activity_main.xml",
+        "source": "/Users/sahil/.gradle/daemon/8.0/com.example.helloworld.app-main-30:/layout/activity_main.xml"
+    },
+    {
+        "merged": "/Users/sahil/.gradle/daemon/8.0/com.example.helloworld.app-mergeDebugResources-27:/layout/item_scroll_row.xml",
+        "source": "/Users/sahil/.gradle/daemon/8.0/com.example.helloworld.app-main-30:/layout/item_scroll_row.xml"
+    },
+    {
+        "merged": "/Users/sahil/.gradle/daemon/8.0/com.example.helloworld.app-mergeDebugResources-27:/layout/item_scroll_card.xml",
+        "source": "/Users/sahil/.gradle/daemon/8.0/com.example.helloworld.app-main-30:/layout/item_scroll_card.xml"
+    },
+    {
+        "merged": "com.example.helloworld.app-mergeDebugResources-27:/layout/activity_animations.xml",
+        "source": "com.example.helloworld.app-main-30:/layout/activity_animations.xml"
+    },
+    {
+        "merged": "/Users/sahil/.gradle/daemon/8.0/com.example.helloworld.app-mergeDebugResources-27:/layout/activity_generate_errors.xml",
+        "source": "/Users/sahil/.gradle/daemon/8.0/com.example.helloworld.app-main-30:/layout/activity_generate_errors.xml"
+    },
+    {
+        "merged": "/Users/sahil/.gradle/daemon/8.0/com.example.helloworld.app-mergeDebugResources-27:/layout/activity_animations.xml",
+        "source": "/Users/sahil/.gradle/daemon/8.0/com.example.helloworld.app-main-30:/layout/activity_animations.xml"
+    },
+    {
+        "merged": "/Users/sahil/.gradle/daemon/8.0/com.example.helloworld.app-mergeDebugResources-27:/layout/activity_api_key.xml",
+        "source": "/Users/sahil/.gradle/daemon/8.0/com.example.helloworld.app-main-30:/layout/activity_api_key.xml"
+    }
+]

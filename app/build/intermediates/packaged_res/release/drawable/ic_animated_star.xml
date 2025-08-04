@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="utf-8"?>
+<vector xmlns:android="http://schemas.android.com/apk/res/android"
+    android:width="64dp"
+    android:height="64dp"
+    android:viewportWidth="64"
+    android:viewportHeight="64">
+
+    <!-- Star shape -->
+    <path
+        android:fillColor="#FFD700"
+        android:pathData="M32,4 L39.5,22.5 L58,22.5 L43.5,35.5 L51,53 L32,40 L13,53 L20.5,35.5 L6,22.5 L24.5,22.5 Z" />
+
+    <!-- Inner star highlight -->
+    <path
+        android:fillColor="#FFEB3B"
+        android:pathData="M32,12 L36.5,24 L48,24 L38.5,32 L42,44 L32,36 L22,44 L25.5,32 L16,24 L27.5,24 Z" />
+
+    <!-- Sparkle effects -->
+    <path
+        android:fillColor="#FFFFFF"
+        android:pathData="M32,2 L34,6 L38,6 L35,10 L37,14 L32,12 L27,14 L29,10 L26,6 L30,6 Z" />
+
+    <path
+        android:fillColor="#FFFFFF"
+        android:pathData="M50,20 L51,22 L53,22 L52,24 L53,26 L50,25 L47,26 L48,24 L47,22 L49,22 Z" />
+
+    <path
+        android:fillColor="#FFFFFF"
+        android:pathData="M14,20 L15,22 L17,22 L16,24 L17,26 L14,25 L11,26 L12,24 L11,22 L13,22 Z" />
+
+</vector> 
